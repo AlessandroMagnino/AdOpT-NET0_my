@@ -5,7 +5,7 @@ from adopt_net0.modelhub import ModelHub
 from adopt_net0.result_management.read_results import add_values_to_summary
 
 # Specify the path to your input data
-path = "specify path to input data"
+path = "input"
 
 # Create template files (comment these lines if already defined)
 dp.create_optimization_templates(path)
