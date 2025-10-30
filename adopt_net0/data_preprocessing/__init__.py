@@ -12,3 +12,8 @@ from .data_loading import (
     fill_carrier_pressure_data,
     load_climate_data_from_api,
 )
+
+from .model_definition import (
+    topology_definition,
+    node_locations_definition,
+)
