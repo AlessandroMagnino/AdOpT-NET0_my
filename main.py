@@ -19,6 +19,9 @@ dp.create_input_data_folder_template(input_path)
 # Define nodes locations (comment these lines if already defined)
 dp.node_locations_definition(input_path)
 
+# Define networks (comment these lines if already defined)
+dp.networks_definition(input_path)
+
 # # Copy technology and network data into folder (comment these lines if already defined)
 # dp.copy_technology_data(input_path, "path to tec data")
 # dp.copy_network_data(input_path, "path to network data")

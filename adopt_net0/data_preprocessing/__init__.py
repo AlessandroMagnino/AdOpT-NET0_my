@@ -16,4 +16,5 @@ from .data_loading import (
 from .model_definition import (
     topology_definition,
     node_locations_definition,
+    networks_definition,
 )
