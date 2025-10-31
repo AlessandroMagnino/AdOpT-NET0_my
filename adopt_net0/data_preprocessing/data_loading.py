@@ -335,6 +335,7 @@ def copy_compressor_data(folder_path: str | Path, compr_data_path: str | Path = 
     empty, standard folder is used).
     :return: None
     """
+    folder_path = Path(folder_path)
     config_file_path = folder_path / "ConfigModel.json"
     with open(config_file_path, "r") as json_file:
         config = json.load(json_file)
