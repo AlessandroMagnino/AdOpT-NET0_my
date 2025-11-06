@@ -1,0 +1,100 @@
+
+Gurobi 12.0.3 (win64) logging started Thu Nov  6 15:45:47 2025
+
+Set parameter LogFile to value "output\20251106154518-1\solver_log.txt"
+Set parameter TimeLimit to value 36000
+Set parameter MIPGap to value 0.001
+Set parameter MIPFocus to value 0
+Set parameter Threads to value 0
+Set parameter NodefileStart to value 60
+Set parameter Method to value -1
+Set parameter Heuristics to value 0.05
+Set parameter Presolve to value -1
+Set parameter BranchDir to value 0
+Set parameter LPWarmStart to value 0
+Set parameter IntFeasTol to value 1e-05
+Set parameter FeasibilityTol to value 1e-06
+Set parameter Cuts to value -1
+Set parameter NumericFocus to value 0
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  36000
+MIPGap  0.001
+LPWarmStart  0
+NodefileStart  60
+
+Optimize a model with 326409 rows, 260728 columns and 725559 nonzeros
+Model fingerprint: 0x255542f9
+Variable types: 223493 continuous, 37235 integer (26280 binary)
+Coefficient statistics:
+  Matrix range     [2e-06, 3e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-03, 8e+11]
+  RHS range        [1e+00, 3e+06]
+Warning: Model contains large matrix coefficient range
+Warning: Model contains large bounds
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 247259 rows and 203768 columns
+Presolve time: 0.84s
+Presolved: 79150 rows, 56960 columns, 215251 nonzeros
+Variable types: 34732 continuous, 22228 integer (14801 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   12883    6.3318990e+07   0.000000e+00   3.711135e+09      5s
+   22634    2.3187764e+07   0.000000e+00   1.498294e+09     10s
+   30773    1.4110228e+07   0.000000e+00   1.682704e+08     15s
+Concurrent spin time: 0.00s
+
+Solved with dual simplex
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   64029    1.0261279e+07   0.000000e+00   0.000000e+00     15s
+Extra simplex iterations after uncrush: 1
+
+Root relaxation: objective 1.026128e+07, 64029 iterations, 13.78 seconds (12.20 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.0261e+07    0 3816          - 1.0261e+07      -     -   15s
+H    0     0                    3.822615e+12 1.0274e+07   100%     -   17s
+     0     0 1.0274e+07    0 3806 3.8226e+12 1.0274e+07   100%     -   18s
+H    0     0                    3.301939e+12 1.0275e+07   100%     -   18s
+     0     0 1.0275e+07    0 3806 3.3019e+12 1.0275e+07   100%     -   19s
+     0     0 1.0275e+07    0 3966 3.3019e+12 1.0275e+07   100%     -   20s
+H    0     0                    2.608669e+11 1.0275e+07   100%     -   57s
+     0     0 1.0276e+07    0 3970 2.6087e+11 1.0276e+07   100%     -   63s
+     0     0 1.0276e+07    0 3970 2.6087e+11 1.0276e+07   100%     -   65s
+     0     0 1.0276e+07    0 3970 2.6087e+11 1.0276e+07   100%     -   66s
+     0     0 1.0276e+07    0 3956 2.6087e+11 1.0276e+07   100%     -   69s
+     0     0 1.0276e+07    0 3956 2.6087e+11 1.0276e+07   100%     -   70s
+     0     2 1.0276e+07    0 3956 2.6087e+11 1.0276e+07   100%     -   74s
+     1     4 1.0276e+07    1 2242 2.6087e+11 1.0276e+07   100%  2393   75s
+     7    16 1.0317e+07    3 2130 2.6087e+11 1.0276e+07   100%  3177   81s
+    67    92 1.0479e+07    6  196 2.6087e+11 1.0276e+07   100%   485   86s
+   192   225 1.0479e+07   16  188 2.6087e+11 1.0276e+07   100%   171   90s
+   339   359 1.0479e+07   26  184 2.6087e+11 1.0276e+07   100%  97.7   95s
+   358   409 1.0479e+07   27  184 2.6087e+11 1.0276e+07   100%  92.7  104s
+   408   483 1.0479e+07   34  183 2.6087e+11 1.0276e+07   100%  81.9  106s
+   594   734 1.0479e+07   59  180 2.6087e+11 1.0276e+07   100%  57.0  112s
+   733   908 1.0479e+07   73  179 2.6087e+11 1.0276e+07   100%  46.6  116s
+   907  1170 1.0479e+07   87  178 2.6087e+11 1.0276e+07   100%  38.1  121s
+  1169  1510 1.0479e+07  113  173 2.6087e+11 1.0276e+07   100%  30.3  128s
+  1509  1921 1.0479e+07  144  168 2.6087e+11 1.0276e+07   100%  24.3  137s
+  1920  2432 1.0479e+07  177  163 2.6087e+11 1.0276e+07   100%  20.1  149s
+  2431  3022 1.0479e+07  216  158 2.6087e+11 1.0276e+07   100%  16.7  163s
+  3021  3661 1.0479e+07  266  152 2.6087e+11 1.0276e+07   100%  14.3  177s
+  3660  3724 1.0479e+07  325  151 2.6087e+11 1.0276e+07   100%  12.7  195s
+  3723  3798 1.0479e+07  326  150 2.6087e+11 1.0276e+07   100%  12.6  217s

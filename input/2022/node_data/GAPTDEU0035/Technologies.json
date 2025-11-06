@@ -1,0 +1,11 @@
+{
+  "existing": {
+    "Photovoltaic": 2,
+    "WindTurbine_Onshore_1500": 1
+  },
+  "new": [
+    "Photovoltaic",
+    "WindTurbine_Onshore_1500",
+    "Storage_Battery"
+  ]
+}

@@ -78,6 +78,7 @@ def topology_definition(input_path: Path | str):
     end_date = f"{periods[0]}-12-31 23:00"
     topology['start_date'] = start_date
     topology['end_date'] = end_date
+    topology['resolution'] = '4h'
 
     # Save the updated topology back to the file
     topology_path.write_text(json.dumps(topology, indent=2))
