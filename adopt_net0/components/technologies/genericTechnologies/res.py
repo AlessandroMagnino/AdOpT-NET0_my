@@ -198,7 +198,7 @@ class Res(Technology):
 
         # match WT with data
         wt_data = wt_data_full[wt_data_full["TurbineName"] == self.name]
-
+        
         if len(wt_data) == 0:
             wt_data = wt_data_full[
                 wt_data_full["TurbineName"] == "WindTurbine_Onshore_1500"

@@ -1,6 +1,7 @@
 # from adopt_net0.model_configuration import ModelConfiguration
 from pathlib import Path
 import adopt_net0.data_preprocessing as dp
+import adopt_net0.database as db
 from adopt_net0.modelhub import ModelHub
 from adopt_net0.result_management.read_results import add_values_to_summary
 
