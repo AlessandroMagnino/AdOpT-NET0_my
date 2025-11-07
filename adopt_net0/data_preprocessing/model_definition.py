@@ -28,7 +28,7 @@ def input_parameters():
     carriers_data = {}
     carriers_data = {
         'electricity': {
-            'Demand': 1, # Mw
+            'Demand': 1, # MW
             'Import limit': 0,
             'Export limit': [pd.NA],
             'Import price': [pd.NA],
@@ -78,7 +78,6 @@ def topology_definition(input_path: Path | str):
     end_date = f"{periods[0]}-12-31 23:00"
     topology['start_date'] = start_date
     topology['end_date'] = end_date
-    topology['resolution'] = '4h'
 
     # Save the updated topology back to the file
     topology_path.write_text(json.dumps(topology, indent=2))
@@ -249,6 +248,10 @@ def config_model_correction(input_path: Path | str, output_path: Path | str):
     config = json.loads((config_file_path).read_text())
     config['reporting']['save_summary_path']['value'] = './' + str(output_path) + '/'
     config['reporting']['save_path']['value'] = './' + str(output_path) + '/'
+
+    config['optimization']['typicaldays']['N']['value'] = 30
+    config['optimization']['typicaldays']['method']['value'] = 1
+    config['solveroptions']['mipgap']['value'] = 0.01
 
     config_file_path.write_text(json.dumps(config, indent=4))
 

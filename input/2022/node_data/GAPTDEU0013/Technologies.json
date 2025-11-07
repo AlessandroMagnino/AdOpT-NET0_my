@@ -1,7 +1,7 @@
 {
   "existing": {
-    "Photovoltaic": 0,
-    "WindTurbine_Onshore_1500": 2
+    "Photovoltaic": 2,
+    "WindTurbine_Onshore_1500": 0
   },
   "new": [
     "Photovoltaic",
