@@ -14,20 +14,31 @@ def input_parameters():
 
     periods = ['2022']
 
-    carriers = ['electricity']
+    carriers = ['electricity', 'hydrogen']
 
-    existing_networks = ['electricityOnshore']
+    existing_networks = ['electricitySimple', 'hydrogenSimple']
     new_networks = []
 
     connections_possible = {}
-    connections_possible['electricityOnshore'] = 1
+    connections_possible['electricitySimple'] = 1
+    connections_possible['hydrogenSimple'] = 1
 
     existing_technologies = ['Photovoltaic', 'WindTurbine_Onshore_1500']
-    new_technologies = ['Photovoltaic', 'WindTurbine_Onshore_1500', 'Storage_Battery']
+    new_technologies = ['Photovoltaic', 'WindTurbine_Onshore_1500', 'Storage_Battery', 'Electrolyzer']
 
     carriers_data = {}
     carriers_data = {
         'electricity': {
+            'Demand': 1, # MW
+            'Import limit': 0,
+            'Export limit': [pd.NA],
+            'Import price': [pd.NA],
+            'Export price': [pd.NA],
+            'Import emission factor': [pd.NA],
+            'Export emission factor': [pd.NA],
+            'Generic production': [pd.NA]
+        },
+        'hydrogen': {
             'Demand': 1, # MW
             'Import limit': 0,
             'Export limit': [pd.NA],
@@ -233,6 +244,21 @@ def carrier_data_definition(input_path: Path | str):
                 carrier_data_df[param] = pd.NA
 
         carrier_data_df.to_csv(carrier_data_path / "electricity.csv", sep=';')
+
+    carrier_params = input_parameters()['carriers_data']['hydrogen']
+
+    for node in nodes:
+        carrier_data_path = Path(f"{input_path}/{period}/node_data/{node}/carrier_data")
+        carrier_data_df = pd.read_csv(carrier_data_path / "hydrogen.csv", sep=';', index_col=0)
+
+        for param, value in carrier_params.items():
+            if value:
+                carrier_data_df[param] = np.full(len(carrier_data_df), value)
+            else:
+                # leave column empty if None
+                carrier_data_df[param] = pd.NA
+
+        carrier_data_df.to_csv(carrier_data_path / "hydrogen.csv", sep=';')
 
     return
 
