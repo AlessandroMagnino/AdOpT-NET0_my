@@ -2,6 +2,7 @@
 from pathlib import Path
 import adopt_net0.data_preprocessing as dp
 import adopt_net0.database as db
+import adopt_net0.data_preprocessing.model_definition as model
 from adopt_net0.modelhub import ModelHub
 from adopt_net0.result_management.read_results import add_values_to_summary
 
@@ -13,17 +14,16 @@ output_path = "output"
 dp.create_optimization_templates(input_path)
 
 # Topology definition
-dp.topology_definition(input_path)
+model.topology_definition(input_path)
 
 # Create folder structure (comment these lines if already defined)
 dp.create_input_data_folder_template(input_path)
 
 # Define nodes locations (comment these lines if already defined)
-dp.node_locations_definition(input_path)
+model.nodes_location_definition(input_path)
 
 # Define networks (comment these lines if already defined)
-dp.networks_definition(input_path)
-dp.networks_topology_definition(input_path)
+model.networks_definition(input_path)
 
 # Define technologies on each node (comment these lines if already defined)
 dp.technologies_definition(input_path)
@@ -49,5 +49,5 @@ pyhub = ModelHub()
 pyhub.read_data(input_path)
 pyhub.quick_solve()
 
-# # Add values of (part of) the parameters and variables to the summary file
-# add_values_to_summary(Path("path to summary file"))
+# Add values of (part of) the parameters and variables to the summary file
+add_values_to_summary(Path("output/Summary.xlsx"))

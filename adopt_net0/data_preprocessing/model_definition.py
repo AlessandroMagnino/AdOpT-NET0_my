@@ -9,7 +9,9 @@ def input_parameters():
     # Define input parameters here
     
     nodes_df = pd.read_csv(f"plants_data/europe_filtered_plants.csv")
-    nodes_df = nodes_df.sample(n=3, random_state=42)
+    # Select a subset of nodes for the example
+    uids = ['GAPTBEL0007', 'GAPTNLD0015', 'GAPTDEU0015']
+    nodes_df = nodes_df[nodes_df['uid'].isin(uids)]
     nodes = nodes_df['uid'].tolist()
 
     periods = ['2022']
@@ -30,9 +32,9 @@ def input_parameters():
     carriers_data = {
         'electricity': {
             'Demand': 1, # MW
-            'Import limit': 0,
+            'Import limit': 1000,
             'Export limit': [pd.NA],
-            'Import price': [pd.NA],
+            'Import price': 'plants_data/electricity_prices_2024.csv',
             'Export price': [pd.NA],
             'Import emission factor': [pd.NA],
             'Export emission factor': [pd.NA],
@@ -65,139 +67,139 @@ def input_parameters():
     return parameters
 
 
-def topology_definition(input_path: Path | str):
-    # Define the network topology here
+# def topology_definition(input_path: Path | str):
+#     # Define the network topology here
 
-    topology_path = Path(f"{input_path}/Topology.json")
-    topology = json.loads((topology_path).read_text())
+#     topology_path = Path(f"{input_path}/Topology.json")
+#     topology = json.loads((topology_path).read_text())
     
-    # plants nodes
-    nodes = input_parameters()['nodes']
+#     # plants nodes
+#     nodes = input_parameters()['nodes']
 
-    topology['nodes'] = nodes
+#     topology['nodes'] = nodes
 
-    # define carriers
-    carriers = input_parameters()['carriers']
-    topology['carriers'] = carriers
+#     # define carriers
+#     carriers = input_parameters()['carriers']
+#     topology['carriers'] = carriers
 
-    # define periods
-    periods = input_parameters()['periods']
-    topology['investment_periods'] = periods
+#     # define periods
+#     periods = input_parameters()['periods']
+#     topology['investment_periods'] = periods
 
-    # simulation dates
-    start_date = f"{periods[0]}-01-01 00:00"
-    end_date = f"{periods[0]}-12-31 23:00"
-    topology['start_date'] = start_date
-    topology['end_date'] = end_date
+#     # simulation dates
+#     start_date = f"{periods[0]}-01-01 00:00"
+#     end_date = f"{periods[0]}-12-31 23:00"
+#     topology['start_date'] = start_date
+#     topology['end_date'] = end_date
 
-    # Save the updated topology back to the file
-    topology_path.write_text(json.dumps(topology, indent=2))
+#     # Save the updated topology back to the file
+#     topology_path.write_text(json.dumps(topology, indent=8))
 
-    return
-
-
-def node_locations_definition(input_path: Path | str):
-    # Define the node locations here
-
-    node_locations_path = Path(f"{input_path}/NodeLocations.csv")
-    node_locations_df = pd.read_csv(node_locations_path, sep=';', index_col=0)
-
-    # plants nodes
-    nodes_df = pd.read_csv(f"plants_data/europe_filtered_plants.csv")
-
-    # Topology nodes
-    topology_path = Path(f"{input_path}/Topology.json")
-    topology = json.loads((topology_path).read_text())
-    topology_nodes = topology['nodes']
-
-    for node in topology_nodes:
-        if node not in nodes_df['uid'].values:
-            raise ValueError(f"Node {node} not found in NodeLocations.csv")
-        else:
-            node_locations_df.loc[node, 'lat'] = nodes_df.loc[nodes_df['uid'] == node, 'latitude'].values[0]
-            node_locations_df.loc[node, 'lon'] = nodes_df.loc[nodes_df['uid'] == node, 'longitude'].values[0]
-            node_locations_df.loc[node, 'alt'] = nodes_df.loc[nodes_df['uid'] == node, 'altitude'].values[0]
-
-    node_locations_df.to_csv(node_locations_path, sep=';')
-
-    return
+#     return
 
 
-def networks_definition(input_path: Path | str):
-    # Define the networks here
+# def node_locations_definition(input_path: Path | str):
+#     # Define the node locations here
 
-    period = input_parameters()['periods'][0]
-    networks_path = Path(f"{input_path}/{period}/Networks.json")
+#     node_locations_path = Path(f"{input_path}/NodeLocations.csv")
+#     node_locations_df = pd.read_csv(node_locations_path, sep=';', index_col=0)
 
-    networks = json.loads((networks_path).read_text())
-    networks['existing'] = input_parameters()['existing_networks']
-    networks['new'] = input_parameters()['new_networks']
+#     # plants nodes
+#     nodes_df = pd.read_csv(f"plants_data/europe_filtered_plants.csv")
 
-    networks_path.write_text(json.dumps(networks, indent=2))
+#     # Topology nodes
+#     topology_path = Path(f"{input_path}/Topology.json")
+#     topology = json.loads((topology_path).read_text())
+#     topology_nodes = topology['nodes']
 
-    # Creating needed folders for network topology
-    ntw_top_path = Path(f"{input_path}/{period}/network_topology")
-    for nwt in input_parameters()['existing_networks']:
-        (ntw_top_path / 'existing' / nwt).mkdir(parents=True, exist_ok=True)
-    for nwt in input_parameters()['new_networks']:
-        (ntw_top_path / 'new' / nwt).mkdir(parents=True, exist_ok=True)
+#     for node in topology_nodes:
+#         if node not in nodes_df['uid'].values:
+#             raise ValueError(f"Node {node} not found in NodeLocations.csv")
+#         else:
+#             node_locations_df.loc[node, 'lat'] = nodes_df.loc[nodes_df['uid'] == node, 'latitude'].values[0]
+#             node_locations_df.loc[node, 'lon'] = nodes_df.loc[nodes_df['uid'] == node, 'longitude'].values[0]
+#             node_locations_df.loc[node, 'alt'] = nodes_df.loc[nodes_df['uid'] == node, 'altitude'].values[0]
 
-    return
+#     node_locations_df.to_csv(node_locations_path, sep=';')
+
+#     return
 
 
-def networks_topology_definition(input_path: Path | str):
-    # Define the network topology here
+# def networks_definition(input_path: Path | str):
+#     # Define the networks here
 
-    nodes = input_parameters()['nodes']
-    existing_networks = input_parameters()['existing_networks']
-    new_networks = input_parameters()['new_networks']
-    dist_data_df = pd.read_csv(f"plants_data/plants_distance_matrix.csv", sep=';', index_col=0)
+#     period = input_parameters()['periods'][0]
+#     networks_path = Path(f"{input_path}/{period}/Networks.json")
 
-    for nwt in existing_networks:
-        conn_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/existing/{nwt}/connection.csv")
-        dist_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/existing/{nwt}/distance.csv")
-        size_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/existing/{nwt}/size.csv")
-        connection = input_parameters()['connections_possible'][nwt]
-        conn_df = pd.DataFrame(index=nodes, columns=nodes)
-        dist_df = pd.DataFrame(index=nodes, columns=nodes)
-        size_df = pd.DataFrame(index=nodes, columns=nodes)
-        for i in nodes:
-            for j in nodes:
-                if i != j:
-                    conn_df.loc[i, j] = connection
-                    dist_df.loc[i, j] = dist_data_df.loc[i, j] * connection
-                    size_df.loc[i, j] = 1000  # [MW] Example fixed size, modify as needed
-                else:
-                    conn_df.loc[i, j] = 0
-                    dist_df.loc[i, j] = 0
-                    size_df.loc[i, j] = 0
-        conn_df.to_csv(conn_path, sep=';')
-        dist_df.to_csv(dist_path, sep=';')
-        size_df.to_csv(size_path, sep=';')
+#     networks = json.loads((networks_path).read_text())
+#     networks['existing'] = input_parameters()['existing_networks']
+#     networks['new'] = input_parameters()['new_networks']
 
-    for nwt in new_networks:
-        conn_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/new/{nwt}/connection.csv")
-        dist_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/new/{nwt}/distance.csv")
-        size_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/new/{nwt}/size_max_arcs.csv")
-        connection = input_parameters()['connections_possible'][nwt]
-        conn_df = pd.DataFrame(index=nodes, columns=nodes)
-        dist_df = pd.DataFrame(index=nodes, columns=nodes)
-        size_df = pd.DataFrame(index=nodes, columns=nodes)
-        for i in nodes:
-            for j in nodes:
-                if i != j:
-                    conn_df.loc[i, j] = connection
-                    dist_df.loc[i, j] = dist_data_df.loc[i, j] * connection
-                    size_df.loc[i, j] = 10000  # [MW] Example fixed size, modify as needed
-                else:
-                    conn_df.loc[i, j] = 0
-                    dist_df.loc[i, j] = 0
-                    size_df.loc[i, j] = 0
-        conn_df.to_csv(conn_path, sep=';')
-        dist_df.to_csv(dist_path, sep=';')
-        size_df.to_csv(size_path, sep=';')
+#     networks_path.write_text(json.dumps(networks, indent=2))
 
-    return
+#     # Creating needed folders for network topology
+#     ntw_top_path = Path(f"{input_path}/{period}/network_topology")
+#     for nwt in input_parameters()['existing_networks']:
+#         (ntw_top_path / 'existing' / nwt).mkdir(parents=True, exist_ok=True)
+#     for nwt in input_parameters()['new_networks']:
+#         (ntw_top_path / 'new' / nwt).mkdir(parents=True, exist_ok=True)
+
+#     return
+
+
+# def networks_topology_definition(input_path: Path | str):
+#     # Define the network topology here
+
+#     nodes = input_parameters()['nodes']
+#     existing_networks = input_parameters()['existing_networks']
+#     new_networks = input_parameters()['new_networks']
+#     dist_data_df = pd.read_csv(f"plants_data/plants_distance_matrix.csv", sep=';', index_col=0)
+
+#     for nwt in existing_networks:
+#         conn_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/existing/{nwt}/connection.csv")
+#         dist_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/existing/{nwt}/distance.csv")
+#         size_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/existing/{nwt}/size.csv")
+#         connection = input_parameters()['connections_possible'][nwt]
+#         conn_df = pd.DataFrame(index=nodes, columns=nodes)
+#         dist_df = pd.DataFrame(index=nodes, columns=nodes)
+#         size_df = pd.DataFrame(index=nodes, columns=nodes)
+#         for i in nodes:
+#             for j in nodes:
+#                 if i != j:
+#                     conn_df.loc[i, j] = connection
+#                     dist_df.loc[i, j] = dist_data_df.loc[i, j] * connection
+#                     size_df.loc[i, j] = 1000  # [MW] Example fixed size, modify as needed
+#                 else:
+#                     conn_df.loc[i, j] = 0
+#                     dist_df.loc[i, j] = 0
+#                     size_df.loc[i, j] = 0
+#         conn_df.to_csv(conn_path, sep=';')
+#         dist_df.to_csv(dist_path, sep=';')
+#         size_df.to_csv(size_path, sep=';')
+
+#     for nwt in new_networks:
+#         conn_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/new/{nwt}/connection.csv")
+#         dist_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/new/{nwt}/distance.csv")
+#         size_path = Path(f"{input_path}/{input_parameters()['periods'][0]}/network_topology/new/{nwt}/size_max_arcs.csv")
+#         connection = input_parameters()['connections_possible'][nwt]
+#         conn_df = pd.DataFrame(index=nodes, columns=nodes)
+#         dist_df = pd.DataFrame(index=nodes, columns=nodes)
+#         size_df = pd.DataFrame(index=nodes, columns=nodes)
+#         for i in nodes:
+#             for j in nodes:
+#                 if i != j:
+#                     conn_df.loc[i, j] = connection
+#                     dist_df.loc[i, j] = dist_data_df.loc[i, j] * connection
+#                     size_df.loc[i, j] = 10000  # [MW] Example fixed size, modify as needed
+#                 else:
+#                     conn_df.loc[i, j] = 0
+#                     dist_df.loc[i, j] = 0
+#                     size_df.loc[i, j] = 0
+#         conn_df.to_csv(conn_path, sep=';')
+#         dist_df.to_csv(dist_path, sep=';')
+#         size_df.to_csv(size_path, sep=';')
+
+#     return
 
 
 def technologies_definition(input_path: Path | str):
@@ -237,7 +239,10 @@ def carrier_data_definition(input_path: Path | str):
         carrier_data_df = pd.read_csv(carrier_data_path / "electricity.csv", sep=';', index_col=0)
 
         for param, value in carrier_params.items():
-            if value:
+            if param == 'Import price' and value is str:
+                price_df = pd.read_csv(value, sep=';', index_col=0)
+                carrier_data_df[param] = price_df['Netherlands (EUR/MWh)'].values
+            elif param != 'Import price' and value:
                 carrier_data_df[param] = np.full(len(carrier_data_df), value)
             else:
                 # leave column empty if None
