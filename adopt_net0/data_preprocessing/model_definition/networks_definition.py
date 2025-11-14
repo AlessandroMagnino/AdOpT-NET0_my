@@ -135,8 +135,7 @@ def networks_list():
     Define networks list
     '''
     existing_networks = [
-        'electricitySimple',
-        'heat'
+        'electricitySimple'
     ]
 
     new_networks = [

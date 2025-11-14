@@ -1,0 +1,11 @@
+{
+  "existing": [],
+  "new": [],
+  "existing_networks": [
+    "electricitySimple"
+  ],
+  "new_networks": [
+    "CO2_Pipeline",
+    "hydrogenSimple"
+  ]
+}

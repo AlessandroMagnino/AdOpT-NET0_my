@@ -26,7 +26,7 @@ model.nodes_location_definition(input_path)
 model.networks_definition(input_path)
 
 # Define technologies on each node (comment these lines if already defined)
-dp.technologies_definition(input_path)
+model.technologies_definition(input_path)
 
 # Copy technology and network data into folder (comment these lines if already defined)
 dp.copy_technology_data(input_path)
@@ -39,7 +39,7 @@ dp.fill_carrier_data(input_path, value_or_data=0)
 dp.fill_carrier_pressure_data(input_path, pressure_value_bar=0)
 
 # Impose carriers data (comment these lines if already defined)
-dp.carrier_data_definition(input_path)
+model.carrier_data_definition(input_path)
 
 # Output path definition
 dp.config_model_correction(input_path, output_path)

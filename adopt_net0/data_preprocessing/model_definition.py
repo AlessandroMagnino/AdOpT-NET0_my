@@ -202,29 +202,29 @@ def input_parameters():
 #     return
 
 
-def technologies_definition(input_path: Path | str):
+# def technologies_definition(input_path: Path | str):
 
-    period = input_parameters()['periods'][0]
-    nodes = input_parameters()['nodes']
-    existing_technologies = input_parameters()['existing_technologies']
-    new_technologies = input_parameters()['new_technologies']
+#     period = input_parameters()['periods'][0]
+#     nodes = input_parameters()['nodes']
+#     existing_technologies = input_parameters()['existing_technologies']
+#     new_technologies = input_parameters()['new_technologies']
 
-    for node in nodes[:-1]:
-        tech_path = Path(f"{input_path}/{period}/node_data/{node}/Technologies.json")
-        technologies = json.loads((tech_path).read_text())
-        technologies['existing'] = {tec: random.randint(0, 2) for tec in existing_technologies}
-        technologies['new'] = list(new_technologies)
-        tech_path.write_text(json.dumps(technologies, indent=2))
+#     for node in nodes[:-1]:
+#         tech_path = Path(f"{input_path}/{period}/node_data/{node}/Technologies.json")
+#         technologies = json.loads((tech_path).read_text())
+#         technologies['existing'] = {tec: random.randint(0, 2) for tec in existing_technologies}
+#         technologies['new'] = list(new_technologies)
+#         tech_path.write_text(json.dumps(technologies, indent=2))
 
-    # Last node with only new technologies
-    node = nodes[-1]
-    tech_path = Path(f"{input_path}/{period}/node_data/{node}/Technologies.json")
-    technologies = json.loads((tech_path).read_text())
-    technologies['existing'] = {}
-    technologies['new'] = new_technologies
-    tech_path.write_text(json.dumps(technologies, indent=2))
+#     # Last node with only new technologies
+#     node = nodes[-1]
+#     tech_path = Path(f"{input_path}/{period}/node_data/{node}/Technologies.json")
+#     technologies = json.loads((tech_path).read_text())
+#     technologies['existing'] = {}
+#     technologies['new'] = new_technologies
+#     tech_path.write_text(json.dumps(technologies, indent=2))
 
-    return
+#     return
 
 
 def carrier_data_definition(input_path: Path | str):

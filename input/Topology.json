@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    "GAPTBEL0007",
+    "GAPTDEU0015",
+    "GAPTNLD0015"
+  ],
+  "carriers": [
+    "electricity",
+    "hydrogen",
+    "gas",
+    "heat",
+    "CO2",
+    "ammonia",
+    "steam"
+  ],
+  "investment_periods": [
+    "2022"
+  ],
+  "start_date": "2022-01-01 00:00",
+  "end_date": "2022-12-31 23:00",
+  "resolution": "1h",
+  "investment_period_length": 1
+}

@@ -1,0 +1,10 @@
+{
+    "existing": {},
+    "new": [
+        "Electrolyzer",
+        "FuelCell",
+        "HaberBosch",
+        "Storage_Battery",
+        "Storage_H2"
+    ]
+}
