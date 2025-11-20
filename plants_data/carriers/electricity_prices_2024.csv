@@ -1,4 +1,4 @@
-datetime,Belgium Day-ahead Price (EUR/MWh),Germany Day-ahead Price (EUR/MWh),Netherlands Day-ahead Price (EUR/MWh)
+datetime,Belgium (EUR/MWh),Germany (EUR/MWh),Netherlands (EUR/MWh)
 2024-01-01 00:00:00,0.1,0.1,0.1
 2024-01-01 01:00:00,0.01,0.01,0.01
 2024-01-01 02:00:00,0.0,0.0,0.0

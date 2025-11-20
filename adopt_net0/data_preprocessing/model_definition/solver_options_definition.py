@@ -16,7 +16,7 @@ def solver_options_definition(input_path: Path |str):
 
     config['solveroptions']['solver']['value'] = solver
     config['solveroptions']['mipgap']['value'] = MIPGap / 100  # Convert percentage to fraction
-    config['solveroptions']['timelimit']['value'] = time_lim
+    config['solveroptions']['timelim']['value'] = time_lim
 
     # Save config file
     config_path.write_text(json.dumps(config, indent=2))

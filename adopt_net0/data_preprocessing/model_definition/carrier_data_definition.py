@@ -20,7 +20,7 @@ def carrier_data_definition(input_path: Path | str):
         for node in nodes:
             for carrier in carriers:
                 # Open carrier data file
-                carrier_file_path = Path('plants_data') / f"{carrier}.xlsx"
+                carrier_file_path = Path('plants_data/carriers') / f"{carrier}.xlsx"
                 carrier_data = pd.read_excel(carrier_file_path, sheet_name=node, index_col=0)
                 # convert index to datetime
                 carrier_data.index = pd.to_datetime(carrier_data.index)

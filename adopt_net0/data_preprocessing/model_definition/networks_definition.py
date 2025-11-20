@@ -36,9 +36,9 @@ def networks_file_definition(input_path: Path | str, periods: list, existing_net
         networks = json.loads(networks_path.read_text())
 
         # Write existing networks
-        networks['existing_networks'] = existing_networks
+        networks['existing'] = existing_networks
         # Write new networks
-        networks['new_networks'] = new_networks
+        networks['new'] = new_networks
 
         # Save Networks file
         networks_path.write_text(json.dumps(networks, indent=2))
@@ -63,8 +63,8 @@ def network_topology_definition(input_path: Path | str, periods: list, existing_
 
     for period in periods:
         for ntw in existing_networks:
-            conn_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'connections.csv'
-            dist_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'distances.csv'
+            conn_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'connection.csv'
+            dist_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'distance.csv'
             exist_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'size.csv'
             max_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'size_max_arcs.csv'
 
@@ -100,8 +100,8 @@ def network_topology_definition(input_path: Path | str, periods: list, existing_
             max_size_df.to_csv(max_size_file_path, sep=';')
 
         for ntw in new_networks:
-            conn_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'connections.csv'
-            dist_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'distances.csv'
+            conn_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'connection.csv'
+            dist_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'distance.csv'
             max_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'size_max_arcs.csv'
 
             dfs_path = 'plants_data'

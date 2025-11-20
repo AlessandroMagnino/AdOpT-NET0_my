@@ -268,22 +268,22 @@ def carrier_data_definition(input_path: Path | str):
     return
 
 
-def config_model_correction(input_path: Path | str, output_path: Path | str):
-    """
-    Correct the output path in ConfigModel.json file.
-    :param folder_path: Path to the folder where ConfigModel.json is located (if not provided, an
-    :return: None
-    """
+# def config_model_correction(input_path: Path | str, output_path: Path | str):
+#     """
+#     Correct the output path in ConfigModel.json file.
+#     :param folder_path: Path to the folder where ConfigModel.json is located (if not provided, an
+#     :return: None
+#     """
 
-    config_file_path = Path(f"{input_path}/ConfigModel.json")
-    config = json.loads((config_file_path).read_text())
-    config['reporting']['save_summary_path']['value'] = './' + str(output_path) + '/'
-    config['reporting']['save_path']['value'] = './' + str(output_path) + '/'
+#     config_file_path = Path(f"{input_path}/ConfigModel.json")
+#     config = json.loads((config_file_path).read_text())
+#     config['reporting']['save_summary_path']['value'] = './' + str(output_path) + '/'
+#     config['reporting']['save_path']['value'] = './' + str(output_path) + '/'
 
-    config['optimization']['typicaldays']['N']['value'] = 30
-    config['optimization']['typicaldays']['method']['value'] = 1
-    config['solveroptions']['mipgap']['value'] = 0.01
+#     config['optimization']['typicaldays']['N']['value'] = 30
+#     config['optimization']['typicaldays']['method']['value'] = 1
+#     config['solveroptions']['mipgap']['value'] = 0.01
 
-    config_file_path.write_text(json.dumps(config, indent=4))
+#     config_file_path.write_text(json.dumps(config, indent=4))
 
-    return
+#     return

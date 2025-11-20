@@ -1,10 +1,8 @@
 {
-  "existing": [],
-  "new": [],
-  "existing_networks": [
+  "existing": [
     "electricitySimple"
   ],
-  "new_networks": [
+  "new": [
     "CO2_Pipeline",
     "hydrogenSimple"
   ]
