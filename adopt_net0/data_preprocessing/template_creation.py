@@ -510,7 +510,7 @@ def create_optimization_templates(input_path: Path | str, output_path: Path | st
         output_path = Path(output_path)
 
     topology_file = input_path / "Topology.json"
-    config_file = output_path / "ConfigModel.json"
+    config_file = input_path / "ConfigModel.json"
 
     # Check if the files already exist
     if topology_file.exists() or config_file.exists():

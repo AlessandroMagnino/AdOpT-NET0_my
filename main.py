@@ -41,8 +41,10 @@ dp.fill_carrier_pressure_data(input_path, pressure_value_bar=0)
 # Impose carriers data (comment these lines if already defined)
 model.carrier_data_definition(input_path)
 
-# Output path definition
-dp.config_model_correction(input_path, output_path)
+# Solver options definition
+model.solver_options_definition(input_path)
+# Optimization options definition
+model.optimization_options_definition(input_path)
 
 # Construct and solve the model
 pyhub = ModelHub()
