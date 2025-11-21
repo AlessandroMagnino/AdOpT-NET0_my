@@ -1,0 +1,75 @@
+
+Gurobi 12.0.3 (win64) logging started Fri Nov 21 18:03:22 2025
+
+Set parameter LogFile to value "output\20251121180310-1\solver_log.txt"
+Set parameter TimeLimit to value 2592000
+Set parameter MIPGap to value 0.01
+Set parameter MIPFocus to value 0
+Set parameter Threads to value 0
+Set parameter NodefileStart to value 60
+Set parameter Method to value -1
+Set parameter Heuristics to value 0.05
+Set parameter Presolve to value -1
+Set parameter BranchDir to value 0
+Set parameter LPWarmStart to value 0
+Set parameter IntFeasTol to value 1e-05
+Set parameter FeasibilityTol to value 1e-06
+Set parameter Cuts to value -1
+Set parameter NumericFocus to value 0
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  2592000
+MIPGap  0.01
+LPWarmStart  0
+NodefileStart  60
+
+Optimize a model with 298912 rows, 235575 columns and 738239 nonzeros
+Model fingerprint: 0xb868d6a2
+Variable types: 231255 continuous, 4320 integer (4320 binary)
+Coefficient statistics:
+  Matrix range     [6e-05, 1e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+11]
+  RHS range        [1e+00, 1e+05]
+Warning: Model contains large bounds
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 172912 rows and 155644 columns
+Presolve time: 0.58s
+Presolved: 126000 rows, 79931 columns, 388080 nonzeros
+Variable types: 77771 continuous, 2160 integer (2160 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing primal log only...
+
+Root relaxation presolved: 121680 rows, 77771 columns, 379440 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+    4177   -3.6413297e+11   6.758968e+01   1.341287e+08      5s
+    4349    4.4927187e+12   0.000000e+00   3.383120e+07      5s
+   13502    3.0432438e+12   0.000000e+00   8.902980e+08     10s
+   17507    4.1417854e+09   0.000000e+00   3.481041e+09     15s
+   21086    3.4125248e+09   0.000000e+00   2.286693e+10     20s
+   23226    2.4867333e+09   0.000000e+00   2.029744e+11     25s
+   25348    2.0753678e+09   0.000000e+00   2.386214e+08     30s
+   27678    1.6364768e+09   0.000000e+00   3.866621e+09     36s
+   29421    1.3524819e+09   0.000000e+00   1.028728e+10     40s
+   31116    1.2736897e+09   0.000000e+00   9.540378e+09     45s
+   32772    1.2170940e+09   0.000000e+00   1.190573e+10     50s
+   34305    1.1735064e+09   0.000000e+00   8.686417e+08     55s
+   35555    1.1099800e+09   0.000000e+00   1.096858e+10     60s
+   36818    1.0581788e+09   0.000000e+00   5.279481e+09     65s
+   38245    9.8953263e+08   0.000000e+00   9.029889e+08     70s
+   40266    9.1217757e+08   0.000000e+00   5.049528e+09     75s
+   41573    8.6126690e+08   0.000000e+00   6.575779e+08     80s
+   42939    7.8847584e+08   0.000000e+00   5.703580e+08     85s
+   44799    7.2990192e+08   0.000000e+00   5.979182e+08     90s
+   46493    6.7541147e+08   0.000000e+00   7.399095e+08     96s
+   48062    6.3445834e+08   0.000000e+00   1.785235e+09    100s

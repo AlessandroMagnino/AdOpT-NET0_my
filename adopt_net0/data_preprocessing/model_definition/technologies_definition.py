@@ -79,3 +79,5 @@ def new_techs_map(new_techs_df: pd.DataFrame, nodes: list[str]):
     }
 
     return techs_mapping
+
+

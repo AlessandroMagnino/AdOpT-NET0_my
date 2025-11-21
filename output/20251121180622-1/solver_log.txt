@@ -1,0 +1,95 @@
+
+Gurobi 12.0.3 (win64) logging started Fri Nov 21 18:06:32 2025
+
+Set parameter LogFile to value "output\20251121180622-1\solver_log.txt"
+Set parameter TimeLimit to value 2592000
+Set parameter MIPGap to value 0.01
+Set parameter MIPFocus to value 0
+Set parameter Threads to value 0
+Set parameter NodefileStart to value 60
+Set parameter Method to value -1
+Set parameter Heuristics to value 0.05
+Set parameter Presolve to value -1
+Set parameter BranchDir to value 0
+Set parameter LPWarmStart to value 0
+Set parameter IntFeasTol to value 1e-05
+Set parameter FeasibilityTol to value 1e-06
+Set parameter Cuts to value -1
+Set parameter NumericFocus to value 0
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  2592000
+MIPGap  0.01
+LPWarmStart  0
+NodefileStart  60
+
+Optimize a model with 294592 rows, 235575 columns and 727439 nonzeros
+Model fingerprint: 0x9c9eb149
+Variable types: 231255 continuous, 4320 integer (4320 binary)
+Coefficient statistics:
+  Matrix range     [6e-05, 1e+05]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+11]
+  RHS range        [1e+00, 1e+05]
+Warning: Model contains large bounds
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 170752 rows and 157804 columns
+Presolve time: 0.44s
+Presolved: 123840 rows, 77771 columns, 353160 nonzeros
+Variable types: 75611 continuous, 2160 integer (2160 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex (primal and dual model)
+Showing primal log only...
+
+Root relaxation presolved: 119520 rows, 75611 columns, 344520 nonzeros
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+   17219    3.0688478e+12   0.000000e+00   3.881403e+07      5s
+   21134    4.8627057e+10   0.000000e+00   4.799355e+08     10s
+   25584    5.4467531e+09   0.000000e+00   6.989850e+08     15s
+   27900    3.9106231e+09   0.000000e+00   3.007054e+08     20s
+   30020    2.8770315e+09   0.000000e+00   3.265548e+09     25s
+   32160    2.3394760e+09   0.000000e+00   1.923113e+10     30s
+   34256    1.6598422e+09   0.000000e+00   9.966632e+10     35s
+   35987    1.3512877e+09   0.000000e+00   1.516940e+09     41s
+   37422    1.2410706e+09   0.000000e+00   1.775870e+09     45s
+   38943    1.2022401e+09   0.000000e+00   1.086852e+09     50s
+   40773    1.0823022e+09   0.000000e+00   1.567912e+09     56s
+   42223    9.7174884e+08   0.000000e+00   7.403065e+09     60s
+   43692    9.2730192e+08   0.000000e+00   1.478621e+09     65s
+   45485    8.6281090e+08   0.000000e+00   2.359778e+09     70s
+   46913    8.0526803e+08   0.000000e+00   1.216979e+09     75s
+   48477    7.1168363e+08   0.000000e+00   2.906108e+09     80s
+   49916    6.4798865e+08   0.000000e+00   9.040410e+08     86s
+   51077    6.0949687e+08   0.000000e+00   3.294009e+08     90s
+   52609    5.7446946e+08   0.000000e+00   7.147573e+08     95s
+   54258    5.5123168e+08   0.000000e+00   7.724387e+08    101s
+   55428    5.2589193e+08   0.000000e+00   3.044178e+08    106s
+   56752    4.8616957e+08   0.000000e+00   3.386336e+08    110s
+   58141    4.6319057e+08   0.000000e+00   9.745548e+08    115s
+Concurrent spin time: 0.02s
+
+Solved with primal simplex
+
+Root relaxation: objective 3.098098e+07, 43825 iterations, 117.34 seconds (64.57 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    3.098098e+07 3.0981e+07  0.00%     -  118s
+
+Explored 1 nodes (43825 simplex iterations) in 118.32 seconds (65.86 work units)
+Thread count was 12 (of 12 available processors)
+
+Solution count 1: 3.0981e+07 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 3.098097820867e+07, best bound 3.098097820867e+07, gap 0.0000%

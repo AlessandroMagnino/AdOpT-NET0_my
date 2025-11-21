@@ -5,3 +5,4 @@ from .technologies_definition import technologies_definition
 from .carrier_data_definition import carrier_data_definition
 from .solver_options_definition import solver_options_definition
 from .optimization_options_definition import optimization_options_definition
+from .technologies_data_correction import technologies_data_correction
