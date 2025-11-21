@@ -139,7 +139,6 @@ def networks_list():
     ]
 
     new_networks = [
-        'CO2_Pipeline',
         'hydrogenSimple'
     ]
 

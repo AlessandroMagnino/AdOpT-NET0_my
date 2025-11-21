@@ -1,9 +1,9 @@
 {
-    "existing": {},
+    "existing": {
+        "Electrolyzer": 10
+    },
     "new": [
         "Electrolyzer",
-        "FuelCell",
-        "HaberBosch",
         "Storage_Battery",
         "Storage_H2"
     ]

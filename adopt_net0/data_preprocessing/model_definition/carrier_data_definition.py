@@ -29,7 +29,7 @@ def carrier_data_definition(input_path: Path | str):
                 
                 # CSV path
                 output_csv_path = Path(input_path) / f"{period}/node_data/{node}/carrier_data/{carrier}.csv"
-                output_df = pd.read_csv(output_csv_path, index_col=0)
+                output_df = pd.read_csv(output_csv_path, index_col=0, sep=';')
 
                 # Fill df
                 output_df['Demand'] = carrier_data['demand'].values
@@ -39,6 +39,6 @@ def carrier_data_definition(input_path: Path | str):
                 output_df['Export price'] = carrier_data['export_price'].values
                 
                 # Save csv
-                output_df.to_csv(output_csv_path)
+                output_df.to_csv(output_csv_path, sep=';')
 
     return

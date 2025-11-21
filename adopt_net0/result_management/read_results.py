@@ -78,6 +78,14 @@ def add_values_to_summary(summary_path: Path, component_set: list = None):
     if component_set is None:
         component_set = ["Technologies", "Networks", "Import", "Export"]
 
+    summary_path = Path(summary_path)
+
+    if not summary_path.exists():
+        # Colonna minima
+        df = pd.DataFrame(columns=["time_stamp"])
+        summary_path.parent.mkdir(parents=True, exist_ok=True)
+        df.to_excel(summary_path, index=False)
+
     summary_results = pd.read_excel(summary_path)
 
     # paths to results

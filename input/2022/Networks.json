@@ -3,7 +3,6 @@
     "electricitySimple"
   ],
   "new": [
-    "CO2_Pipeline",
     "hydrogenSimple"
   ]
 }

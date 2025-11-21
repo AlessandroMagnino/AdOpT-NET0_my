@@ -51,5 +51,5 @@ pyhub = ModelHub()
 pyhub.read_data(input_path)
 pyhub.quick_solve()
 
-# Add values of (part of) the parameters and variables to the summary file
-add_values_to_summary(Path("output/Summary.xlsx"))
+# # Add values of (part of) the parameters and variables to the summary file
+# add_values_to_summary(Path("output/Summary.xlsx"))

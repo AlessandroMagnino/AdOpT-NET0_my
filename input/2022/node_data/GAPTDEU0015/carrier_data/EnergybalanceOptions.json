@@ -13,11 +13,5 @@
     },
     "CO2": {
         "curtailment_possible": 0
-    },
-    "ammonia": {
-        "curtailment_possible": 0
-    },
-    "steam": {
-        "curtailment_possible": 0
     }
 }

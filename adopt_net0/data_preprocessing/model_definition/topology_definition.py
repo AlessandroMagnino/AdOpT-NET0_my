@@ -61,9 +61,7 @@ def carriers_list():
         'hydrogen',
         'gas',
         'heat',
-        'CO2',
-        'ammonia',
-        'steam'
+        'CO2'
         ]
     
     return carriers
