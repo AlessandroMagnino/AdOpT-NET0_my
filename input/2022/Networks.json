@@ -1,6 +1,6 @@
 {
   "existing": [
-    "electricitySimple"
+    "electricityOnshore"
   ],
   "new": [
     "hydrogenSimple"

@@ -430,8 +430,63 @@ class ModelHub:
         - :func:`~adopt_net0.modelhub.construct_balances`
         - :func:`~adopt_net0.modelhub.solve`
         """
+
+        # from collections import Counter
+        # from pyomo.environ import Var, ConcreteModel
+
+        # def _iter_pyomo_models(obj):
+        #     """
+        #     Generator ricorsivo che estrae tutti i ConcreteModel da una struttura annidata
+        #     (dict, list, tuple, ecc.).
+        #     """
+        #     if isinstance(obj, ConcreteModel):
+        #         yield obj
+        #     elif isinstance(obj, dict):
+        #         for v in obj.values():
+        #             yield from _iter_pyomo_models(v)
+        #     elif isinstance(obj, (list, tuple, set)):
+        #         for v in obj:
+        #             yield from _iter_pyomo_models(v)
+        #     # altrimenti: ignora (non è un model e non è una collezione)
+
+
+        # def debug_binary_vars(root_obj, max_examples=20):
+        #     """
+        #     Stampa un riepilogo delle variabili binarie trovate in tutti i ConcreteModel
+        #     contenuti in root_obj (che può essere un dict, lista, ecc.).
+        #     """
+        #     all_bin_vars = []
+        #     models = list(_iter_pyomo_models(root_obj))
+
+        #     print("\n=== DEBUG BINARIE ===")
+        #     print(f"Trovati {len(models)} ConcreteModel annidati.\n")
+
+        #     for i, m in enumerate(models):
+        #         bin_vars = [v for v in m.component_data_objects(Var) if v.is_binary()]
+        #         all_bin_vars.extend(bin_vars)
+
+        #         comp_counts = Counter(v.parent_component().name for v in bin_vars)
+
+        #         print(f"[Model #{i}]  Nome: {getattr(m, 'name', '(senza nome)')}")
+        #         print(f"  Binarie totali in questo model: {len(bin_vars)}")
+        #         print("  Binarie per componente:")
+        #         for name, count in comp_counts.most_common():
+        #             print(f"    {name}: {count}")
+        #         print()
+
+        #     print(f"==> Binarie totali su TUTTI i model: {len(all_bin_vars)}")
+
+        #     # stampiamo qualche esempio di nome completo
+        #     print("\nEsempi di variabili binarie (prime max_examples):")
+        #     for v in all_bin_vars[:max_examples]:
+        #         print("  ", v.name)
+
+        #     print("=== FINE DEBUG BINARIE ===\n")
+
+
         self.construct_model()
         self.construct_balances()
+        # debug_binary_vars(self.model)
         self.solve()
 
     def write_results(self):

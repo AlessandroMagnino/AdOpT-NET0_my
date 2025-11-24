@@ -5,6 +5,7 @@ import adopt_net0.database as db
 import adopt_net0.data_preprocessing.model_definition as model
 from adopt_net0.modelhub import ModelHub
 from adopt_net0.result_management.read_results import add_values_to_summary
+import time
 
 # Specify the path to your input data
 input_path = "input"
@@ -36,6 +37,9 @@ dp.copy_compressor_data(input_path)
 # Correct data on technologies and networks if needed (comment these lines if already defined)
 model.technologies_data_correction(input_path)
 
+# Correct data on networks if needed (comment these lines if already defined)
+model.networks_data_correction(input_path)
+
 # Read climate data and fill carried data (comment these lines if already defined)
 dp.load_climate_data_from_api(input_path)
 dp.fill_carrier_data(input_path, value_or_data=0)
@@ -52,7 +56,15 @@ model.optimization_options_definition(input_path)
 # Construct and solve the model
 pyhub = ModelHub()
 pyhub.read_data(input_path)
+
+# Check time to solve
+
+start_time = time.time()
+
 pyhub.quick_solve()
+
+end_time = time.time()
+print(f"\n\nTime to solve: {end_time - start_time} seconds")
 
 # # Add values of (part of) the parameters and variables to the summary file
 # add_values_to_summary(Path("output/Summary.xlsx"))

@@ -1,0 +1,47 @@
+Problem:
+- Name: Full
+  Lower bound: 30987652.864850603
+  Upper bound: 30987652.864850603
+  Number of objectives: 1
+  Number of constraints: 311872
+  Number of variables: 239895
+  Number of binary variables: 8640
+  Number of integer variables: 8640
+  Number of continuous variables: 222615
+  Number of nonzeros: 761999
+  Sense: minimize
+  Number of solutions: 1
+
+Time to solve: 154.28745245933533 seconds
+
+Problem:
+- Name: Battery modified
+  Lower bound: 30959129.28237454
+  Upper bound: 30959129.28237454
+  Number of objectives: 1
+  Number of constraints: 294592
+  Number of variables: 235575
+  Number of binary variables: 4320
+  Number of integer variables: 4320
+  Number of continuous variables: 226935
+  Number of nonzeros: 727439
+  Sense: minimize
+  Number of solutions: 1
+
+Time to solve: 125.30240726470947 seconds
+
+Problem:
+- Name: Bidirectional network
+  Lower bound: 30918737.302883796
+  Upper bound: 30918737.302883796
+  Number of objectives: 1
+  Number of constraints: 283792
+  Number of variables: 231255
+  Number of binary variables: 0
+  Number of integer variables: 0
+  Number of continuous variables: 231255
+  Number of nonzeros: 710159
+  Sense: minimize
+  Number of solutions: 1
+
+Time to solve: 29.929287672042847 seconds
