@@ -25,7 +25,8 @@
         "min_transport": 0,
         "loss2emissions": 0,
         "emissionfactor": 0,
-        "energyconsumption": []
+        "energyconsumption": [],
+        "bidirectional_network_precise": 0
     },
     "Units": {
         "size": "MW",
