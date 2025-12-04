@@ -30,24 +30,26 @@ def topology_definition(input_path: Path |str):
     # Save topology file
     topology_path.write_text(json.dumps(topology, indent=2))
 
+    return
+
 
 
 def nodes_list():
     '''
-    Take nodes list from europe_filtered_plants.csv
+    Take nodes list from plants_clusters_summary.csv
     In case, select a subset of nodes for the example
     '''
     
     # all nodes df upload
-    nodes_df = pd.read_csv(f"plants_data/europe_filtered_plants.csv")
+    nodes_df = pd.read_csv(f"plants_data/plants_clusters_summary.csv")
 
-    # ------- Remove these lines to use all nodes -------
-    # Select a subset of nodes for the example
-    uids = ['GAPTBEL0007', 'GAPTNLD0015', 'GAPTDEU0015']
-    nodes_df = nodes_df[nodes_df['uid'].isin(uids)]
+    # # ------- Remove these lines to use all nodes -------
+    # # Select a subset of nodes for the example
+    # uids = ['GAPTBEL0007', 'GAPTNLD0015', 'GAPTDEU0015']
+    # nodes_df = nodes_df[nodes_df['uid'].isin(uids)]
 
     # Create nodes list from dataframe
-    nodes = nodes_df['uid'].tolist()
+    nodes = nodes_df['cluster'].tolist()
 
     return nodes
 

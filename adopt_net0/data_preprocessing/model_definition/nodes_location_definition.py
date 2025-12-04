@@ -19,17 +19,17 @@ def nodes_location_definition(input_path: Path | str):
     nodes = topology['nodes']
 
     # nodes_df
-    nodes_df_path = Path("plants_data/europe_filtered_plants.csv")
+    nodes_df_path = Path("plants_data/plants_clusters_summary.csv")
     nodes_df = pd.read_csv(nodes_df_path)
 
     # Get lat, lon, alt for each node
     for node in nodes:
-        if not node in nodes_df['uid'].values:
+        if not node in nodes_df['cluster'].values:
             raise ValueError(f"Node {node} not found in plants data.")
         else:
-            node_locations.loc[node, 'lat'] = nodes_df.loc[nodes_df['uid'] == node, 'latitude'].values[0]
-            node_locations.loc[node, 'lon'] = nodes_df.loc[nodes_df['uid'] == node, 'longitude'].values[0]
-            node_locations.loc[node, 'alt'] = nodes_df.loc[nodes_df['uid'] == node, 'altitude'].values[0]
+            node_locations.loc[node, 'lat'] = nodes_df.loc[nodes_df['cluster'] == node, 'latitude'].values[0]
+            node_locations.loc[node, 'lon'] = nodes_df.loc[nodes_df['cluster'] == node, 'longitude'].values[0]
+            node_locations.loc[node, 'alt'] = nodes_df.loc[nodes_df['cluster'] == node, 'altitude'].values[0]
 
     # Save NodeLocations file
     node_locations.to_csv(node_locations_path, sep=';')
