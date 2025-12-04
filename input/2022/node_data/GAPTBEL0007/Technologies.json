@@ -1,8 +1,0 @@
-{
-    "existing": {},
-    "new": [
-        "Electrolyzer",
-        "Storage_Battery",
-        "Storage_H2"
-    ]
-}
