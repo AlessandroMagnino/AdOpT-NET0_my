@@ -1,0 +1,53 @@
+
+Gurobi 12.0.3 (win64) logging started Fri Dec  5 15:42:46 2025
+
+Set parameter LogFile to value "output\20251205154134-1\solver_log.txt"
+Set parameter TimeLimit to value 2592000
+Set parameter MIPGap to value 0.01
+Set parameter MIPFocus to value 0
+Set parameter Threads to value 0
+Set parameter NodefileStart to value 60
+Set parameter Method to value -1
+Set parameter Heuristics to value 0.05
+Set parameter Presolve to value -1
+Set parameter BranchDir to value 0
+Set parameter LPWarmStart to value 0
+Set parameter IntFeasTol to value 1e-05
+Set parameter FeasibilityTol to value 1e-06
+Set parameter Cuts to value -1
+Set parameter NumericFocus to value 0
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  2592000
+MIPGap  0.01
+LPWarmStart  0
+NodefileStart  60
+
+Optimize a model with 1429649 rows, 976112 columns and 3428885 nonzeros
+Model fingerprint: 0xd73617fa
+Variable types: 937208 continuous, 38904 integer (38904 binary)
+Coefficient statistics:
+  Matrix range     [2e-06, 1e+08]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+11]
+  RHS range        [1e+00, 1e+08]
+Warning: Model contains large matrix coefficient range
+Warning: Model contains large bounds
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 0.0000000
+Presolve removed 1110917 rows and 769421 columns (presolve time = 5s)...
+Presolve removed 1110917 rows and 769421 columns
+Presolve time: 5.43s
+Presolved: 318732 rows, 206691 columns, 951126 nonzeros
+Variable types: 191559 continuous, 15132 integer (15132 binary)
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+

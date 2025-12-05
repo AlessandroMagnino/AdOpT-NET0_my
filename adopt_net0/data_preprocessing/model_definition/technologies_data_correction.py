@@ -61,4 +61,28 @@ def additional_technologies_spec():
         }
     }
 
+    # ASU
+    additional_tech_spec['ASU'] = {
+        'Performance': {
+            'min_part_load': 0 # ASU can operate from 0% to 100% of its capacity if 0
+        }
+    }
+
+    # # HB
+    # additional_tech_spec['HaberBosch'] = {
+    #     'Performance': {
+    #         'min_part_load': 0 # HB can operate from 0% to 100% of its capacity if 0
+    #     }
+    # }
+
+    # SteamReformer
+    additional_tech_spec['SteamReformer'] = {
+        'Performance': {
+            # 'min_part_load': 0, # SteamReformer can operate from 0% to 100% of its capacity if 0
+            'input_carrier': ['methane', 'steam'], # not feedgas+steam as default
+            'main_input_carrier': 'methane'
+        }
+    }
+
+
     return additional_tech_spec
