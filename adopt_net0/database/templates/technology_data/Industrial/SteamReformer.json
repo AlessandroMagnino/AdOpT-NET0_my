@@ -23,10 +23,10 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "performance_function_type": 1,
     "input_carrier": [
-      "feedgas",
+      "methane",
       "steam"
     ],
-    "main_input_carrier": "feedgas",
+    "main_input_carrier": "methane",
     "output_carrier": [
       "HBfeed",
       "electricity",

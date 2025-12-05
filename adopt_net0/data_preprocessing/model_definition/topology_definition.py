@@ -61,7 +61,7 @@ def carriers_list():
     carriers = [
         'electricity',
         'hydrogen',
-        'gas',
+        'methane',
         'heat',
         'CO2',
         'nitrogen',
