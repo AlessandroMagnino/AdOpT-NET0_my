@@ -134,9 +134,7 @@ def networks_list():
     '''
     Define networks list
     '''
-    existing_networks = [
-        'electricityOnshore'
-    ]
+    existing_networks = []
 
     new_networks = [
         'hydrogenSimple'
