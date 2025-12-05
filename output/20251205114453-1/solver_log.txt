@@ -1,0 +1,47 @@
+
+Gurobi 12.0.3 (win64) logging started Fri Dec  5 11:45:24 2025
+
+Set parameter LogFile to value "output\20251205114453-1\solver_log.txt"
+Set parameter TimeLimit to value 2592000
+Set parameter MIPGap to value 0.01
+Set parameter MIPFocus to value 0
+Set parameter Threads to value 0
+Set parameter NodefileStart to value 60
+Set parameter Method to value -1
+Set parameter Heuristics to value 0.05
+Set parameter Presolve to value -1
+Set parameter BranchDir to value 0
+Set parameter LPWarmStart to value 0
+Set parameter IntFeasTol to value 1e-05
+Set parameter FeasibilityTol to value 1e-06
+Set parameter Cuts to value -1
+Set parameter NumericFocus to value 0
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  2592000
+MIPGap  0.01
+LPWarmStart  0
+NodefileStart  60
+
+Optimize a model with 600701 rows, 553226 columns and 1298615 nonzeros
+Model fingerprint: 0x238cf13b
+Variable types: 531626 continuous, 21600 integer (21600 binary)
+Coefficient statistics:
+  Matrix range     [2e-06, 1e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+06]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 86465 rows and 43295 columns
+Presolve time: 0.10s
+
+Explored 0 nodes (0 simplex iterations) in 0.34 seconds (0.33 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -

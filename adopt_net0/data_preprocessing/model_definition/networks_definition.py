@@ -134,10 +134,12 @@ def networks_list():
     '''
     Define networks list
     '''
-    existing_networks = []
+    existing_networks = [
+    ]
 
     new_networks = [
-        'hydrogenSimple'
+        'hydrogenSimple',
+        'electricitySimple'
     ]
 
     return existing_networks, new_networks
