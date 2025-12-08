@@ -1,43 +1,43 @@
 {
   "tec_type": "CONV2",
   "size_min": 0,
-  "size_max": 500,
+  "size_max": 3250,
   "size_is_int": 0,
   "decommission": "impossible",
   "Economics": {
-    "comment": "CAPEX in EUR/MW or as a piecewise function, opex_variable in EUR/MWh total output, opex_fixed in % of up-front CAPEX",
-    "capex_model": 1,
-    "unit_capex": 114430,
-    "fix_capex": 1e6,
-    "piecewise_capex": {
+    "comment": "CAPEX in EUR/MW or as a piecewise function, OPEX_variable in EUR/MWh total output, OPEX_fixed in % of CAPEX_annual",
+    "CAPEX_model": 1,
+    "unit_CAPEX": 153704,
+    "fix_CAPEX": 0,
+    "piecewise_CAPEX": {
       "bp_x": "not defined",
       "bp_y": "not defined"
     },
-    "opex_variable": 0.5,
-    "opex_fixed": 0.01,
+    "OPEX_variable": 0,
+    "OPEX_fixed": 0.01,
     "discount_rate": 0.1,
     "lifetime": 25,
     "decommission_cost": 0
   },
   "Performance": {
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
-    "performance_function_type": 2,
+    "performance_function_type": 1,
     "input_carrier": [
       "electricity"
     ],
     "main_input_carrier": "electricity",
     "output_carrier": [
-      "heat"
+      "steam"
     ],
     "emission_factor": 0,
-    "min_part_load": 0.02,
+    "min_part_load": 0,
     "performance": {
       "in": [
         0,
         1
       ],
       "out": {
-        "heat": [
+        "steam": [
           0,
           0.99
         ]
@@ -61,7 +61,7 @@
       "electricity": "MW"
     },
     "output_carrier": {
-      "heat": "MW"
+      "steam": "MW"
     }
   }
 }
