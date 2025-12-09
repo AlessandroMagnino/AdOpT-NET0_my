@@ -80,7 +80,17 @@ def additional_technologies_spec():
         'Performance': {
             # 'min_part_load': 0, # SteamReformer can operate from 0% to 100% of its capacity if 0
             'input_carrier': ['methane', 'steam'], # not feedgas+steam as default
-            'main_input_carrier': 'methane'
+            'main_input_carrier': 'methane',
+            'input_ratios': {
+                'methane': 1.0,
+                'steam': 0.087
+            }  # methane:steam ratio
+        },
+        'Units': {
+            'input_carrier': {
+                'methane': 'tonne/hr',
+                'steam': 'MW'
+            }  # specify that input_ratios are in fraction
         }
     }
 

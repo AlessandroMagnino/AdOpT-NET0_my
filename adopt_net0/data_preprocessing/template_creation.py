@@ -285,7 +285,7 @@ def initialize_topology_templates() -> dict:
     return topology_template
 
 
-def initialize_configuration_templates() -> dict:
+def initialize_configuration_templates(output_path) -> dict:
     """
     Creates a configuration template and returns it as a dict
 
@@ -415,11 +415,11 @@ def initialize_configuration_templates() -> dict:
             },
             "save_summary_path": {
                 "description": "Path to save the summary file path to.",
-                "value": "./userData/",
+                "value": "./" + str(output_path) + "/",
             },
             "save_path": {
                 "description": "Option to define the save path.",
-                "value": "./userData/",
+                "value": "./" + str(output_path) + "/",
             },
             "case_name": {
                 "description": "Option to define a case study name that is added to the results folder name.",
@@ -497,19 +497,21 @@ def initialize_configuration_templates() -> dict:
     return configuration_template
 
 
-def create_optimization_templates(path: Path | str):
+def create_optimization_templates(input_path: Path | str, output_path: Path | str):
     """
     Creates an examplary topology and model configuration json file in the specified
     path.
 
     :param str/Path path: path to folder to create Topology.json
     """
-    if isinstance(path, str):
-        path = Path(path)
+    if isinstance(input_path, str):
+        input_path = Path(input_path)
 
-    topology_file = path / "Topology.json"
-    config_file = path / "ConfigModel.json"
+    if isinstance(output_path, str):
+        output_path = Path(output_path)
 
+    topology_file = input_path / "Topology.json"
+    config_file = input_path / "ConfigModel.json"
     # Check if the files already exist
     if topology_file.exists() or config_file.exists():
         print(
@@ -518,7 +520,7 @@ def create_optimization_templates(path: Path | str):
         return
 
     topology_template = initialize_topology_templates()
-    configuration_template = initialize_configuration_templates()
+    configuration_template = initialize_configuration_templates(output_path)
 
     with open(topology_file, "w") as f:
         json.dump(topology_template, f, indent=4)
