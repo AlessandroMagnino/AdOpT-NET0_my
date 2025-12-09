@@ -487,7 +487,15 @@ class ModelHub:
         self.construct_model()
         self.construct_balances()
         # debug_binary_vars(self.model)
-        self.solve()
+        results = self.solve()
+
+        from pyomo.opt import TerminationCondition
+
+        tc = results.solver.termination_condition
+        if tc == TerminationCondition.infeasible:
+            print("Model is infeasible")
+        elif tc == TerminationCondition.unbounded:
+            print("Model is unbounded")
 
     def write_results(self):
         """

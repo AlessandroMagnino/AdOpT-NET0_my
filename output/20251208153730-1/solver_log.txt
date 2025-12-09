@@ -1,0 +1,116 @@
+
+Gurobi 12.0.3 (win64) logging started Mon Dec  8 15:38:32 2025
+
+Set parameter LogFile to value "output\20251208153730-1\solver_log.txt"
+Set parameter TimeLimit to value 2592000
+Set parameter MIPGap to value 0.01
+Set parameter MIPFocus to value 0
+Set parameter Threads to value 0
+Set parameter NodefileStart to value 60
+Set parameter Method to value -1
+Set parameter Heuristics to value 0.05
+Set parameter Presolve to value -1
+Set parameter BranchDir to value 0
+Set parameter LPWarmStart to value 0
+Set parameter IntFeasTol to value 1e-05
+Set parameter FeasibilityTol to value 1e-06
+Set parameter Cuts to value -1
+Set parameter NumericFocus to value 0
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (win64 - Windows 11.0 (26100.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-1355U, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 12 logical processors, using up to 12 threads
+
+Non-default parameters:
+TimeLimit  2592000
+MIPGap  0.01
+LPWarmStart  0
+NodefileStart  60
+
+Optimize a model with 1531877 rows, 1029323 columns and 3736280 nonzeros
+Model fingerprint: 0xdcd9af41
+Variable types: 1011995 continuous, 17328 integer (17328 binary)
+Coefficient statistics:
+  Matrix range     [2e-06, 1e+08]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+11]
+  RHS range        [4e-02, 1e+08]
+Warning: Model contains large matrix coefficient range
+Warning: Model contains large bounds
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 1230527 rows and 852857 columns
+Presolve time: 1.71s
+Presolved: 301350 rows, 176466 columns, 864420 nonzeros
+Variable types: 172134 continuous, 4332 integer (4332 binary)
+Performing another presolve...
+Presolve removed 21648 rows and 8664 columns
+Presolve time: 2.40s
+
+Deterministic concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Root barrier log...
+
+Ordering time: 4.08s
+
+Barrier statistics:
+ Dense cols : 36
+ AA' NZ     : 1.974e+06
+ Factor NZ  : 1.268e+07 (roughly 300 MB of memory)
+ Factor Ops : 4.487e+09 (less than 1 second per iteration)
+ Threads    : 7
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.48451329e+13 -2.86848029e+16  4.03e+05 1.51e+03  9.79e+10    13s
+   1   1.40776281e+13 -1.00714946e+16  2.45e+05 9.46e+04  3.65e+10    14s
+   2   1.06671767e+13 -7.99193878e+14  2.30e+05 1.12e+03  1.88e+10    14s
+   3   6.83767211e+12 -2.13289732e+14  6.40e+03 7.63e-06  9.07e+08    15s
+   4   5.00400647e+12 -4.98356624e+13  2.35e+02 4.71e-06  1.23e+08    15s
+   5   2.97864787e+12 -1.21957390e+13  6.48e+01 6.68e-06  3.32e+07    16s
+   6   6.22258898e+11 -1.11076324e+12  9.23e+00 7.15e-06  3.70e+06    16s
+   7   1.71469237e+11 -7.00522814e+10  2.43e+00 4.89e-06  5.18e+05    17s
+   8   5.22001286e+10 -1.86757991e+10  7.06e-01 1.10e-06  1.52e+05    17s
+   9   1.98998042e+10 -1.34727299e+10  2.44e-01 6.78e-07  7.06e+04    18s
+  10   8.55991863e+09 -7.18305575e+09  9.27e-02 6.63e-07  3.31e+04    18s
+  11   6.43622659e+09 -1.62590809e+09  6.69e-02 3.31e-07  1.86e+04    18s
+  12   5.60409575e+09 -5.73943679e+08  5.76e-02 5.49e-07  1.57e+04    19s
+  13   5.19258772e+09  3.01903049e+09  5.34e-02 3.74e-07  1.36e+04    19s
+  14   4.88736474e+09  1.84391379e+10  5.03e-02 4.20e-07  1.20e+04    20s
+  15   4.87561232e+09  7.67895842e+11  5.02e-02 1.45e-05  1.58e+04    21s
+  16   4.82142902e+09  7.39168345e+13  1.90e+01 1.37e-03  1.18e+05    22s
+  17   1.89945329e+09  1.11437245e+14  1.24e+03 1.78e-03  1.04e+05    23s
+  18   5.81374782e+08  1.47502071e+14  1.86e+03 2.44e-03  2.43e+04    24s
+  19   4.58458557e+08  1.64580713e+14  1.94e+03 2.25e-03  7.98e+03    24s
+  20   1.92236515e+08  1.68588693e+14  1.97e+03 2.31e-03  1.58e+03    25s
+  21   1.58043149e+08  1.69936601e+14  1.97e+03 2.13e-03  8.65e+02    26s
+  22   1.25193256e+08  1.72964691e+14  1.97e+03 2.33e-03  2.09e+02    26s
+  23   1.18913991e+08  1.73460186e+14  1.97e+03 2.99e-03  1.45e+02    27s
+  24   1.14403364e+08  1.74348289e+14  1.97e+03 2.00e-03  9.71e+01    27s
+  25   1.13775748e+08  1.75069062e+14  1.97e+03 2.89e-03  8.90e+01    27s
+  26   1.12682833e+08  1.76407281e+14  1.97e+03 2.92e-03  7.49e+01    28s
+  27   1.08831544e+08  1.76826633e+14  1.95e+03 2.92e-03  2.10e+02    29s
+  28   1.08470754e+08  1.79376904e+14  1.94e+03 2.94e-03  4.17e+01    29s
+  29   1.06654248e+08  1.82148432e+14  1.97e+03 3.24e-03  1.71e+01    30s
+  30   1.06423331e+08  1.82697107e+14  1.97e+03 3.42e-03  2.74e+01    31s
+  31   1.06248165e+08  1.82925221e+14  1.97e+03 3.18e-03  3.10e+01    31s
+  32   1.05020563e+08  1.83626592e+14  1.93e+03 3.73e-03  2.63e+01    32s
+  33   1.04816105e+08  1.83722930e+14  1.92e+03 2.93e-03  2.52e+01    32s
+  34   1.04640705e+08  1.83808940e+14  1.92e+03 2.88e-03  2.46e+01    33s
+  35   1.04179174e+08  1.84257460e+14  1.90e+03 3.75e-03  2.22e+01    34s
+  36   1.04142873e+08  1.84321462e+14  1.90e+03 2.93e-03  9.18e+01    34s
+
+Barrier performed 36 iterations in 34.32 seconds (14.21 work units)
+Numerical trouble encountered
+
+Model may be infeasible or unbounded.  Consider using the
+homogeneous algorithm (through parameter 'BarHomogeneous')
+
+Waiting for other threads to finish...         179s
+Waiting for other threads to finish...         319s
+Waiting for other threads to finish...         477s
+Waiting for other threads to finish...         634s
+Waiting for other threads to finish...         798s
+Waiting for other threads to finish...         955s
+Waiting for other threads to finish...        1123s
