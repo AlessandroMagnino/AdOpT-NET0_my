@@ -94,5 +94,33 @@ def additional_technologies_spec():
         }
     }
 
+    # Boiler_El
+    additional_tech_spec['Boiler_El'] = {
+        'Economics': {
+            'fix_capex': 0,
+            'unit_capex': 150000
+        },
+        'Performance': {
+            'output_carrier': ['steam'],
+            'performance': {
+                'in': [
+                    0,
+                    1
+                ],
+                'out': {
+                    'steam': [
+                    0,
+                    0.99
+                ]}
+            }
+        },
+        'Units': {
+            'output_carrier': {
+                'steam': 'MW'
+            }
+        }
+    }
+
+
 
     return additional_tech_spec
