@@ -12,7 +12,7 @@ input_path = "input"
 output_path = "output"
 
 # Create template files (comment these lines if already defined)
-dp.create_optimization_templates(input_path, output_path)
+dp.create_optimization_templates(input_path)
 
 # Topology definition
 model.topology_definition(input_path)
