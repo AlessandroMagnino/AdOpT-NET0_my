@@ -487,15 +487,23 @@ class ModelHub:
         self.construct_model()
         self.construct_balances()
         # debug_binary_vars(self.model)
-        results = self.solve()
+        self.solve()
 
         from pyomo.opt import TerminationCondition
 
-        tc = results.solver.termination_condition
-        if tc == TerminationCondition.infeasible:
-            print("Model is infeasible")
-        elif tc == TerminationCondition.unbounded:
-            print("Model is unbounded")
+        if hasattr(self, "solution") and hasattr(self.solution, "solver"):
+            tc = self.solution.solver.termination_condition
+
+            if tc == TerminationCondition.infeasible:
+                print("Model is infeasible")
+            elif tc == TerminationCondition.unbounded:
+                print("Model is unbounded")
+            elif tc == TerminationCondition.infeasibleOrUnbounded:
+                print("Model is infeasible OR unbounded (il solver non distingue)")
+            else:
+                print(f"Solver termination condition: {tc}")
+        else:
+            print("Attenzione: self.solution non contiene risultati del solver.")
 
     def write_results(self):
         """
