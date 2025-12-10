@@ -67,7 +67,12 @@ def carriers_list():
         'nitrogen',
         'HBfeed',
         'steam',
-        'ammonia'
+        'ammonia',
+        'naphtha',
+        'olefins',
+        'ethylene',
+        'propylene',
+        'crackergas'
         ]
     
     return carriers
