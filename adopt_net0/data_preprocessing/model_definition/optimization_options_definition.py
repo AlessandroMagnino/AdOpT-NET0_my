@@ -9,7 +9,7 @@ def optimization_options_definition(input_path: Path |str):
     config_path = Path(input_path) / "ConfigModel.json"
     config = json.loads(config_path.read_text())
 
-    typical_days = 3
+    typical_days = 8
     typical_days_method = 1
 
     # Set optimization options
