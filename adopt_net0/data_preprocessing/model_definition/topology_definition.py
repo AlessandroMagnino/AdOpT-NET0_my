@@ -72,7 +72,8 @@ def carriers_list():
         'olefins',
         'ethylene',
         'propylene',
-        'crackergas'
+        'crackergas',
+        'syngas'
         ]
     
     return carriers
