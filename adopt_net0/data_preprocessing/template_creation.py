@@ -507,6 +507,12 @@ def create_optimization_templates(input_path: Path | str, output_path: Path | st
     if isinstance(input_path, str):
         input_path = Path(input_path)
 
+    # if input_path already exists, delete it and create new one
+    if input_path.exists():
+        print(f"Folder {input_path} already exists. Deleting and recreating.")
+        return
+    input_path.mkdir(parents=True, exist_ok=True)
+
     if isinstance(output_path, str):
         output_path = Path(output_path)
 
