@@ -121,6 +121,24 @@ def additional_technologies_spec():
         }
     }
 
+    # eSMR_H2
+    additional_tech_spec['eSMR_H2'] = {
+        'Performance': {
+            'input_carrier': ['methane', 'electricity'], # not feedgas+electricity as default
+            'main_input_carrier': 'methane',
+            'input_ratios': {
+                'methane': 1.0,
+                'electricity': 0.272
+            }  # methane:electricity ratio
+        },
+        'Units': {
+            'input_carrier': {
+                'methane': 'tonne/hr',
+                'electricity': 'MW'
+            }  # specify that input_ratios are in fraction
+        }
+    }
+
 
 
     return additional_tech_spec
