@@ -60,21 +60,22 @@ def carriers_list():
     '''
     carriers = [
         'electricity',
-        # 'hydrogen',
+        'hydrogen',
         'methane',
-        # 'heat',
-        # 'CO2',
-        # 'nitrogen',
-        # 'HBfeed',
+        'heat',
+        'CO2',
+        'nitrogen',
+        'HBfeed',
         'steam',
-        # 'ammonia',
-        # 'naphtha',
-        # 'olefins',
-        # 'ethylene',
-        # 'propylene',
-        # 'crackergas',
+        'ammonia',
+        'naphtha',
+        'olefins',
+        'ethylene',
+        'propylene',
+        'crackergas',
         'syngas',
-        'methanol'
+        'methanol',
+        'MPW'
         ]
     
     return carriers
