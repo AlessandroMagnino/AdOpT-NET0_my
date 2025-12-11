@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
+import shutil
 
 
 def create_empty_network_matrix(nodes: list) -> pd.DataFrame:
@@ -510,7 +511,7 @@ def create_optimization_templates(input_path: Path | str, output_path: Path | st
     # if input_path already exists, delete it and create new one
     if input_path.exists():
         print(f"Folder {input_path} already exists. Deleting and recreating.")
-        return
+        shutil.rmtree(input_path)
     input_path.mkdir(parents=True, exist_ok=True)
 
     if isinstance(output_path, str):
