@@ -75,7 +75,9 @@ def carriers_list():
         'crackergas',
         'syngas',
         'methanol',
-        'MPW'
+        'MPW',
+        'ethanol',
+        # 'propane'
         ]
     
     return carriers
