@@ -3,6 +3,7 @@ output/
 input/
 results
 /adopt_net0/test/test_data
+plants_data/electricity_data/*.nc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
