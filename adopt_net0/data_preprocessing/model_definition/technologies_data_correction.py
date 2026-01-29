@@ -63,20 +63,37 @@ def additional_technologies_spec():
 
     # ASU
     additional_tech_spec['ASU'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 4000000,
+            'fix_capex': 0
+        },
         'Performance': {
+            'performance_function_type': 1,
             'min_part_load': 0 # ASU can operate from 0% to 100% of its capacity if 0
         }
     }
 
-    # # HB
-    # additional_tech_spec['HaberBosch'] = {
-    #     'Performance': {
-    #         'min_part_load': 0 # HB can operate from 0% to 100% of its capacity if 0
-    #     }
-    # }
+    # HB
+    additional_tech_spec['HaberBosch'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 1200000,
+            'fix_capex': 0
+        },
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0.8 # HB can operate from 0% to 100% of its capacity if 0
+        }
+    }
 
     # SteamReformer
     additional_tech_spec['SteamReformer'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 800000,
+            'fix_capex': 0
+        },
         'Performance': {
             # 'min_part_load': 0, # SteamReformer can operate from 0% to 100% of its capacity if 0
             'input_carrier': ['methane', 'steam'], # not feedgas+steam as default
@@ -101,7 +118,9 @@ def additional_technologies_spec():
             'unit_capex': 150000
         },
         'Performance': {
+            'performance_function_type': 1,
             'output_carrier': ['steam'],
+            'min_part_load': 0,
             'performance': {
                 'in': [
                     0,
@@ -141,6 +160,11 @@ def additional_technologies_spec():
 
     # eSMR_syngas
     additional_tech_spec['eSMR_syngas'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 3000000,
+            'fix_capex': 0
+        },
         'Performance': {
             'input_carrier': ['methane', 'electricity'], # not feedgas+electricity as default
             'main_input_carrier': 'methane',
@@ -157,5 +181,67 @@ def additional_technologies_spec():
         }
     }
 
+    # CrackerFurnace
+    additional_tech_spec['CrackerFurnace'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 800000,
+            'fix_capex': 0
+        }
+    }
+
+    # eCrackerFurnace
+    additional_tech_spec['eCrackerFurnace'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 800000,
+            'fix_capex': 0
+        }
+    }
+
+    # MeOHsynthesis
+    additional_tech_spec['MeOHsynthesis'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 1000000,
+            'fix_capex': 0
+        }
+    }
+
+    # MethanolToOlefins
+    additional_tech_spec['MethanolToOlefins'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 1200000,
+            'fix_capex': 0
+        }
+    }
+
+    # OlefinSeparation
+    additional_tech_spec['OlefinSeparation'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 1200000,
+            'fix_capex': 0
+        }
+    }
+
+    # Plastic2methanol
+    additional_tech_spec['Plastic2methanol'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 1500000,
+            'fix_capex': 0
+        }
+    }
+
+    # rWGS
+    additional_tech_spec['rWGS'] = {
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 500000,
+            'fix_capex': 0
+        }
+    }
 
     return additional_tech_spec

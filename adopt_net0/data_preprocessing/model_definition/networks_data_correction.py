@@ -52,27 +52,34 @@ def additional_networks_spec():
     #     }
     # }
 
-    # electricityOnshore
-    additional_networks_spec['electricityOnshore'] = {
-        'Performance': {
-            'bidirectional_network': 1, #https://adopt-net0.readthedocs.io/en/latest/src_code/model_components/networks.html
-            'bidirectional_network_precise': 0 # Allow flow reversal if 1
-        }
-    }
+    # # electricityOnshore
+    # additional_networks_spec['electricityOnshore'] = {
+    #     'Performance': {
+    #         'bidirectional_network': 1, #https://adopt-net0.readthedocs.io/en/latest/src_code/model_components/networks.html
+    #         'bidirectional_network_precise': 0 # Allow flow reversal if 1
+    #     }
+    # }
 
-    # hydrogenSimple
-    additional_networks_spec['hydrogenSimple'] = {
-        'Performance': {
-            'bidirectional_network': 0, #https://adopt-net0.readthedocs.io/en/latest/src_code/model_components/networks.html
-            'bidirectional_network_precise': 0 # Allow flow reversal if 1
-        }
-    }
+    # # hydrogenSimple
+    # additional_networks_spec['hydrogenSimple'] = {
+    #     'Performance': {
+    #         'bidirectional_network': 0, #https://adopt-net0.readthedocs.io/en/latest/src_code/model_components/networks.html
+    #         'bidirectional_network_precise': 0 # Allow flow reversal if 1
+    #     }
+    # }
 
     # hydrogenPipelineOnshore
     additional_networks_spec['hydrogenPipelineOnshore'] = {
         'Performance': {
             'bidirectional_network': 0, #https://adopt-net0.readthedocs.io/en/latest/src_code/model_components/networks.html
-            'bidirectional_network_precise': 0 # Allow flow reversal if 1
+            'bidirectional_network_precise': 0, # Allow flow reversal if 1
+            'min_transport': 0 # Minimum transport activity of the network
+        },
+        'Economics': {
+            'gamma1': 0,  # no CAPEX constant term
+            'gamma2': 0,   # no size dependency
+            'gamma3': 1000, # EUR/km
+            'gamma4': 0    # no size*distance dependency
         }
     }
 
