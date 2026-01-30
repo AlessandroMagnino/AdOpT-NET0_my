@@ -65,8 +65,9 @@ def additional_technologies_spec():
     additional_tech_spec['ASU'] = {
         'Economics': {
             'capex_model': 1,
-            'unit_capex': 4000000,
-            'fix_capex': 0
+            'unit_capex': 13820000,
+            'fix_capex': 0,
+            'opex_fixed': 0.02
         },
         'Performance': {
             'performance_function_type': 1,
@@ -79,7 +80,8 @@ def additional_technologies_spec():
         'Economics': {
             'capex_model': 1,
             'unit_capex': 1200000,
-            'fix_capex': 0
+            'fix_capex': 0,
+            'opex_fixed': 0.02
         },
         'Performance': {
             'performance_function_type': 1,
@@ -115,7 +117,7 @@ def additional_technologies_spec():
     additional_tech_spec['Boiler_El'] = {
         'Economics': {
             'fix_capex': 0,
-            'unit_capex': 150000
+            'unit_capex': 153704
         },
         'Performance': {
             'performance_function_type': 1,
@@ -181,6 +183,25 @@ def additional_technologies_spec():
         }
     }
 
+    # Electrolyzer
+    additional_tech_spec['Electrolyzer'] = {
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0 # Electrolyzer can operate from 0% to 100% of its capacity if 0
+        },
+        'Performance': {
+            'performance': {
+                'in': [
+                    0,
+                    1
+                ],
+                'out':
+                    [0, 
+                     0.6]
+            }
+        }
+    }
+
     # CrackerFurnace
     additional_tech_spec['CrackerFurnace'] = {
         'Economics': {
@@ -205,6 +226,10 @@ def additional_technologies_spec():
             'capex_model': 1,
             'unit_capex': 1000000,
             'fix_capex': 0
+        },
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0.4
         }
     }
 
@@ -223,6 +248,10 @@ def additional_technologies_spec():
             'capex_model': 1,
             'unit_capex': 1200000,
             'fix_capex': 0
+        },
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0.4
         }
     }
 
@@ -237,6 +266,10 @@ def additional_technologies_spec():
 
     # rWGS
     additional_tech_spec['rWGS'] = {
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0
+        },
         'Economics': {
             'capex_model': 1,
             'unit_capex': 500000,
