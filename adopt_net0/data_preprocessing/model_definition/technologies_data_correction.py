@@ -162,12 +162,19 @@ def additional_technologies_spec():
 
     # eSMR_syngas
     additional_tech_spec['eSMR_syngas'] = {
+        # 'Economics': {
+        #     'capex_model': 3,
+        #     'unit_capex': 524673,
+        #     'fix_capex': 126718694
+        # },
         'Economics': {
             'capex_model': 1,
-            'unit_capex': 3000000,
+            'unit_capex': 800000,
             'fix_capex': 0
         },
         'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0.4,
             'input_carrier': ['methane', 'electricity'], # not feedgas+electricity as default
             'main_input_carrier': 'methane',
             'input_ratios': {
@@ -206,18 +213,40 @@ def additional_technologies_spec():
     additional_tech_spec['CrackerFurnace'] = {
         'Economics': {
             'capex_model': 1,
-            'unit_capex': 800000,
+            'unit_capex': 458000,
             'fix_capex': 0
-        }
+        },
+        # 'Performance': {
+        #     'min_part_load': 0.4
+        # },
+        # 'Units': {
+        #     'size': 'tonne/hr',
+        #     'input_carrier': {
+        #         'naphtha': 'tonne/hr',
+        #         'steam': 'MW',
+        #         'electricity': 'MW'
+        #     }
+        # }
     }
 
     # eCrackerFurnace
     additional_tech_spec['eCrackerFurnace'] = {
         'Economics': {
             'capex_model': 1,
-            'unit_capex': 800000,
+            'unit_capex': 458000,
             'fix_capex': 0
-        }
+        },
+        # 'Performance': {
+        #     'performance_function_type': 1,
+        #     'min_part_load': 0.4 # eCrackerFurnace can operate from 0% to 100% of its capacity if 0
+        # },
+        # 'Units': {
+        #     'size': 'tonne/hr',
+        #     'input_carrier': {
+        #         'naphtha': 'tonne/hr',
+        #         'electricity': 'MW'
+        #     }
+        # }
     }
 
     # MeOHsynthesis
@@ -239,6 +268,10 @@ def additional_technologies_spec():
             'capex_model': 1,
             'unit_capex': 1200000,
             'fix_capex': 0
+        },
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0.4
         }
     }
 
@@ -248,10 +281,6 @@ def additional_technologies_spec():
             'capex_model': 1,
             'unit_capex': 1200000,
             'fix_capex': 0
-        },
-        'Performance': {
-            'performance_function_type': 1,
-            'min_part_load': 0.4
         }
     }
 
