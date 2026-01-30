@@ -61,31 +61,49 @@ def additional_technologies_spec():
         }
     }
 
-    # ASU
-    additional_tech_spec['ASU'] = {
-        'Economics': {
-            'capex_model': 1,
-            'unit_capex': 13820000,
-            'fix_capex': 0,
-            'opex_fixed': 0.02
-        },
-        'Performance': {
-            'performance_function_type': 1,
-            'min_part_load': 0 # ASU can operate from 0% to 100% of its capacity if 0
+    # # ASU
+    # additional_tech_spec['ASU'] = {
+    #     'Economics': {
+    #         'capex_model': 1,
+    #         'unit_capex': 1300000,
+    #         'fix_capex': 0,
+    #         'opex_fixed': 0.02
+    #     },
+    #     'Performance': {
+    #         'performance_function_type': 1,
+    #         'min_part_load': 0 # ASU can operate from 0% to 100% of its capacity if 0
+    #     }
+    # }
+
+    # HBfeed_mixer
+    additional_tech_spec['HBfeed_mixer'] = {
+        "Units": {
+            "size": "MW",
+            "input_carrier": {
+                "hydrogen": "MW",
+                "nitrogen": "tonne/hr"
+                },
+                "output_carrier": {
+                    "HBfeed": "MW"
+                }
         }
     }
+
 
     # HB
     additional_tech_spec['HaberBosch'] = {
         'Economics': {
             'capex_model': 1,
-            'unit_capex': 1200000,
+            'unit_capex': 3400000,
             'fix_capex': 0,
             'opex_fixed': 0.02
         },
         'Performance': {
             'performance_function_type': 1,
             'min_part_load': 0.8 # HB can operate from 0% to 100% of its capacity if 0
+        },
+        'Units': {
+            'size': 'tonne/hr'
         }
     }
 
@@ -113,34 +131,34 @@ def additional_technologies_spec():
         }
     }
 
-    # Boiler_El
-    additional_tech_spec['Boiler_El'] = {
-        'Economics': {
-            'fix_capex': 0,
-            'unit_capex': 153704
-        },
-        'Performance': {
-            'performance_function_type': 1,
-            'output_carrier': ['steam'],
-            'min_part_load': 0,
-            'performance': {
-                'in': [
-                    0,
-                    1
-                ],
-                'out': {
-                    'steam': [
-                    0,
-                    0.99
-                ]}
-            }
-        },
-        'Units': {
-            'output_carrier': {
-                'steam': 'MW'
-            }
-        }
-    }
+    # # Boiler_El
+    # additional_tech_spec['Boiler_El'] = {
+    #     'Economics': {
+    #         'fix_capex': 0,
+    #         'unit_capex': 153704
+    #     },
+    #     'Performance': {
+    #         'performance_function_type': 1,
+    #         'output_carrier': ['steam'],
+    #         'min_part_load': 0,
+    #         'performance': {
+    #             'in': [
+    #                 0,
+    #                 1
+    #             ],
+    #             'out': {
+    #                 'steam': [
+    #                 0,
+    #                 0.99
+    #             ]}
+    #         }
+    #     },
+    #     'Units': {
+    #         'output_carrier': {
+    #             'steam': 'MW'
+    #         }
+    #     }
+    # }
 
     # eSMR_H2
     additional_tech_spec['eSMR_H2'] = {
@@ -192,20 +210,23 @@ def additional_technologies_spec():
 
     # Electrolyzer
     additional_tech_spec['Electrolyzer'] = {
-        'Performance': {
-            'performance_function_type': 1,
-            'min_part_load': 0 # Electrolyzer can operate from 0% to 100% of its capacity if 0
+        'Economics': {
+            'capex_model': 1,
+            'unit_capex': 1200000,
+            'fix_capex': 0
         },
         'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0, # Electrolyzer can operate from 0% to 100% of its capacity if 0
             'performance': {
-                'in': [
-                    0,
-                    1
-                ],
-                'out':
-                    [0, 
-                     0.6]
-            }
+                        'in': [
+                            0,
+                            1
+                        ],
+                        'out':
+                            [0, 
+                            0.6]
+                    }
         }
     }
 
@@ -216,17 +237,17 @@ def additional_technologies_spec():
             'unit_capex': 458000,
             'fix_capex': 0
         },
-        # 'Performance': {
-        #     'min_part_load': 0.4
-        # },
-        # 'Units': {
-        #     'size': 'tonne/hr',
-        #     'input_carrier': {
-        #         'naphtha': 'tonne/hr',
-        #         'steam': 'MW',
-        #         'electricity': 'MW'
-        #     }
-        # }
+        'Performance': {
+            'min_part_load': 0.4
+        },
+        'Units': {
+            'size': 'tonne/hr',
+            'input_carrier': {
+                'naphtha': 'tonne/hr',
+                'steam': 'MW',
+                'electricity': 'MW'
+            }
+        }
     }
 
     # eCrackerFurnace
@@ -236,17 +257,17 @@ def additional_technologies_spec():
             'unit_capex': 458000,
             'fix_capex': 0
         },
-        # 'Performance': {
-        #     'performance_function_type': 1,
-        #     'min_part_load': 0.4 # eCrackerFurnace can operate from 0% to 100% of its capacity if 0
-        # },
-        # 'Units': {
-        #     'size': 'tonne/hr',
-        #     'input_carrier': {
-        #         'naphtha': 'tonne/hr',
-        #         'electricity': 'MW'
-        #     }
-        # }
+        'Performance': {
+            'performance_function_type': 1,
+            'min_part_load': 0.4 # eCrackerFurnace can operate from 0% to 100% of its capacity if 0
+        },
+        'Units': {
+            'size': 'tonne/hr',
+            'input_carrier': {
+                'naphtha': 'tonne/hr',
+                'electricity': 'MW'
+            }
+        }
     }
 
     # MeOHsynthesis

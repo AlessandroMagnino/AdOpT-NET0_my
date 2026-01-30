@@ -491,7 +491,7 @@ class ModelHub:
 
         self.construct_model()
         self.construct_balances()
-        debug_binary_vars(self.model)
+        # debug_binary_vars(self.model)
         self.solve()
 
     def write_results(self):

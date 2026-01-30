@@ -1,14 +1,14 @@
 {
   "tec_type": "CONV3",
   "size_min": 0,
-  "size_max": 1006,
+  "size_max": 5006,
   "size_is_int": 0,
   "decommission": "only_complete",
   "Economics": {
-    "comment": "capex in EUR/unit or as a piecewise function, opex_variable in EUR/unit total output, opex_fixed in % of capex_annual",
+    "comment": "capex in EUR/(tonne_naphtha/h), opex_fixed in % of capex_annual",
     "capex_model": 3,
-    "unit_capex": 1411834,
-    "fix_capex": 368370729,
+    "unit_capex": 2620264,
+    "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
       "bp_y": "not defined"
@@ -32,7 +32,7 @@
       "olefins"
     ],
     "emission_factor": 0.327,
-    "min_part_load": 0.95,
+    "min_part_load": 0.4,
     "performance": {
       "in": [
         0,
@@ -75,7 +75,7 @@
     "const_opex_fixed": 1
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "input_carrier": {
       "naphtha": "tonne/hr",
       "steam": "MW",
