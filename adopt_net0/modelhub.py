@@ -431,7 +431,8 @@ class ModelHub:
         - :func:`~adopt_net0.modelhub.solve`
         """
 
-        from collections import Counter
+        import re
+        from collections import Counter, defaultdict
         from pyomo.environ import Var, ConcreteModel
 
         def _iter_pyomo_models(obj):
@@ -470,8 +471,13 @@ class ModelHub:
                 print(f"[Model #{i}]  Nome: {getattr(m, 'name', '(senza nome)')}")
                 print(f"  Binarie totali in questo model: {len(bin_vars)}")
                 print("  Binarie per componente:")
+                last_pattern = None
                 for name, count in comp_counts.most_common():
-                    print(f"    {name}: {count}")
+                    name_str = str(name)
+                    pattern = re.sub(r'\[\d+,\d+\]', '[...]', name_str)
+                    if pattern != last_pattern:
+                        print(f"    {pattern}: {count}")
+                        last_pattern = pattern
                 print()
 
             print(f"==> Binarie totali su TUTTI i model: {len(all_bin_vars)}")
