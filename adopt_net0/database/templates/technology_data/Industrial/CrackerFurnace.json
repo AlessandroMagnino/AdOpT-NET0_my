@@ -6,7 +6,7 @@
   "decommission": "only_complete",
   "Economics": {
     "comment": "capex in EUR/(tonne_naphtha/h), opex_fixed in % of capex_annual",
-    "capex_model": 3,
+    "capex_model": 1,
     "unit_capex": 2620264,
     "fix_capex": 0,
     "piecewise_capex": {

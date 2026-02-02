@@ -250,25 +250,25 @@ def additional_technologies_spec():
         }
     }
 
-    # eCrackerFurnace
-    additional_tech_spec['eCrackerFurnace'] = {
-        'Economics': {
-            'capex_model': 1,
-            'unit_capex': 458000,
-            'fix_capex': 0
-        },
-        'Performance': {
-            'performance_function_type': 1,
-            'min_part_load': 0.4 # eCrackerFurnace can operate from 0% to 100% of its capacity if 0
-        },
-        'Units': {
-            'size': 'tonne/hr',
-            'input_carrier': {
-                'naphtha': 'tonne/hr',
-                'electricity': 'MW'
-            }
-        }
-    }
+    # # eCrackerFurnace
+    # additional_tech_spec['eCrackerFurnace'] = {
+    #     'Economics': {
+    #         'capex_model': 1,
+    #         'unit_capex': 458000,
+    #         'fix_capex': 0
+    #     },
+    #     'Performance': {
+    #         'performance_function_type': 1,
+    #         'min_part_load': 0.4 # eCrackerFurnace can operate from 0% to 100% of its capacity if 0
+    #     },
+    #     'Units': {
+    #         'size': 'tonne/hr',
+    #         'input_carrier': {
+    #             'naphtha': 'tonne/hr',
+    #             'electricity': 'MW'
+    #         }
+    #     }
+    # }
 
     # MeOHsynthesis
     additional_tech_spec['MeOHsynthesis'] = {
