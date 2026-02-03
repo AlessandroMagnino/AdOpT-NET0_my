@@ -270,31 +270,31 @@ def additional_technologies_spec():
     #     }
     # }
 
-    # MeOHsynthesis
-    additional_tech_spec['MeOHsynthesis'] = {
-        'Economics': {
-            'capex_model': 1,
-            'unit_capex': 1000000,
-            'fix_capex': 0
-        },
-        'Performance': {
-            'performance_function_type': 1,
-            'min_part_load': 0.4
-        }
-    }
+    # # MeOHsynthesis
+    # additional_tech_spec['MeOHsynthesis'] = {
+    #     'Economics': {
+    #         'capex_model': 1,
+    #         'unit_capex': 1000000,
+    #         'fix_capex': 0
+    #     },
+    #     'Performance': {
+    #         'performance_function_type': 1,
+    #         'min_part_load': 0.4
+    #     }
+    # }
 
-    # MethanolToOlefins
-    additional_tech_spec['MethanolToOlefins'] = {
-        'Economics': {
-            'capex_model': 1,
-            'unit_capex': 1200000,
-            'fix_capex': 0
-        },
-        'Performance': {
-            'performance_function_type': 1,
-            'min_part_load': 0.4
-        }
-    }
+    # # MethanolToOlefins
+    # additional_tech_spec['MethanolToOlefins'] = {
+    #     'Economics': {
+    #         'capex_model': 1,
+    #         'unit_capex': 1200000,
+    #         'fix_capex': 0
+    #     },
+    #     'Performance': {
+    #         'performance_function_type': 1,
+    #         'min_part_load': 0.4
+    #     }
+    # }
 
     # OlefinSeparation
     additional_tech_spec['OlefinSeparation'] = {

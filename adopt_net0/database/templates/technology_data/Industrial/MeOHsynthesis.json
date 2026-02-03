@@ -7,7 +7,7 @@
   "Economics": {
     "comment": "capex in EUR/(tMeOH/h), opex_fixed in % of capex_annual",
     "capex_model": 1,
-    "unit_capex": 2818142,
+    "unit_capex": 3514110,
     "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
@@ -21,7 +21,7 @@
   },
   "Performance": {
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
-    "performance_function_type": 2,
+    "performance_function_type": 1,
     "input_carrier": [
       "syngas",
       "electricity",
