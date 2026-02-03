@@ -6,9 +6,9 @@
   "decommission": "impossible",
   "Economics": {
     "comment": "capex in EUR/unit or as a piecewise function, opex_variable in EUR/unit total output, opex_fixed in % of capex_annual",
-    "capex_model": 3,
-    "unit_capex": 1051253,
-    "fix_capex": 66367831,
+    "capex_model": 1,
+    "unit_capex": 2821206,
+    "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
       "bp_y": "not defined"
@@ -21,7 +21,7 @@
   },
   "Performance": {
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
-    "performance_function_type": 2,
+    "performance_function_type": 1,
     "input_carrier": [
       "methanol",
       "electricity"
@@ -66,7 +66,7 @@
     "max_startups": -1
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "input_carrier": {
       "methanol": "tonne/hr",
       "electricity": "MW"
