@@ -35,10 +35,10 @@ dp.copy_network_data(input_path)
 dp.copy_compressor_data(input_path)
 
 # Correct data on technologies and networks if needed (comment these lines if already defined)
-model.technologies_data_correction(input_path)
+# model.technologies_data_correction(input_path)
 
 # Correct data on networks if needed (comment these lines if already defined)
-model.networks_data_correction(input_path)
+# model.networks_data_correction(input_path)
 
 # Read climate data and fill carried data (comment these lines if already defined)
 dp.load_climate_data_from_api(input_path)

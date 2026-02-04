@@ -8,10 +8,10 @@
   "size_max": 10000,
   "Economics": {
     "comment": "CAPEX coefficients are in EUR, EUR/MW or EUR/MW/km, opex_variable in EUR/MWh total output, opex_fixed in % of up-front CAPEX",
-    "gamma1": -1.206081200526E+7,
-    "gamma2": 354.07318,
-    "gamma3": 0,
-    "gamma4": 0.44584,
+    "gamma1": 0,
+    "gamma2": 0,
+    "gamma3": 1000,
+    "gamma4": 0,
     "opex_variable": 1.6E-6,
     "opex_fixed": 0,
     "discount_rate": 0.1,
@@ -21,8 +21,9 @@
   "Performance": {
     "carrier": "hydrogen",
     "bidirectional_network": 0,
+    "bidirectional_network_precise": 0,
     "loss": 1.25E-7,
-    "min_transport": 0.1429,
+    "min_transport": 0,
     "loss2emissions": 0,
     "emissionfactor": 0,
     "energyconsumption": {

@@ -78,7 +78,7 @@ def carriers_list():
         'MPW',
         'ethanol',
         'feedgas',
-        'bio-methane'
+        'methane-bio'
         ]
     
     return carriers

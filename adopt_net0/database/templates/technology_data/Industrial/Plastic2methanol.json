@@ -1,14 +1,14 @@
 {
   "tec_type": "CONV3",
   "size_min": 0,
-  "size_max": 1370,
+  "size_max": 2370,
   "size_is_int": 0,
   "decommission": "impossible",
   "Economics": {
-    "comment": "capex in EUR/unit or as a piecewise function, opex_variable in EUR/unit total output, opex_fixed in % of capex_annual",
-    "capex_model": 3,
-    "unit_capex": 3726555,
-    "fix_capex": 245620223,
+    "comment": "capex in EUR/(tMPW/h), opex_fixed in % of capex_annual",
+    "capex_model": 1,
+    "unit_capex": 4470859,
+    "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
       "bp_y": "not defined"
@@ -64,9 +64,9 @@
     "max_startups": -1
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "input_carrier": {
-      "plastic": "tonne/hr"
+      "MPW": "tonne/hr"
     },
     "output_carrier": {
       "methanol": "tonne/hr"

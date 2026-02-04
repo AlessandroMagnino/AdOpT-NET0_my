@@ -5,10 +5,10 @@
   "size_is_int": 0,
   "decommission": "impossible",
   "Economics": {
-    "comment": "capex in EUR/unit or as a piecewise function, opex_variable in EUR/unit total output, opex_fixed in % of capex_annual",
-    "capex_model": 3,
-    "unit_capex": 2017410,
-    "fix_capex": 135182226,
+    "comment": "capex in EUR/(tCO2/h), opex_fixed in % of capex_annual",
+    "capex_model": 1,
+    "unit_capex": 921141,
+    "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
       "bp_y": "not defined"
@@ -21,7 +21,7 @@
   },
   "Performance": {
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
-    "performance_function_type": 2,
+    "performance_function_type": 1,
     "input_carrier": [
       "CO2",
       "hydrogen"
@@ -31,7 +31,7 @@
       "syngas"
     ],
     "emission_factor": 0,
-    "min_part_load": 0.4,
+    "min_part_load": 0,
     "performance": {
       "in": [
         0,
@@ -61,10 +61,10 @@
     "max_startups": -1
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "input_carrier": {
       "CO2": "tonne/hr",
-      "hydrogen": "MW"
+      "hydrogen": "tonne/hr"
     },
     "output_carrier": {
       "syngas": "tonne/hr"
