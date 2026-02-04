@@ -39,9 +39,9 @@
     }
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "transport_carrier": {
-      "hydrogen": "MW"
+      "hydrogen": "tonne/hr"
     }
   }
 }
