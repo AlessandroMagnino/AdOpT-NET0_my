@@ -40,13 +40,13 @@
       "out": {
         "HBfeed": [
           0,
-          1
+          5.66667
         ]
       }
     },
     "input_ratios": {
-      "hydrogen": 1,
-      "nitrogen": 0.139
+      "hydrogen": 0.17647,
+      "nitrogen": 0.82353
     },
     "ramping_time": -1,
     "ref_size": -1,
