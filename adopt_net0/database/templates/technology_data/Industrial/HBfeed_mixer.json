@@ -45,8 +45,8 @@
       }
     },
     "input_ratios": {
-      "hydrogen": 0.17647,
-      "nitrogen": 0.82353
+      "hydrogen": 1,
+      "nitrogen": 4.6667
     },
     "ramping_time": -1,
     "ref_size": -1,
