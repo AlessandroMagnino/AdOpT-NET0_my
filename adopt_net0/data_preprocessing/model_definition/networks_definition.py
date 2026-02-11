@@ -138,7 +138,7 @@ def networks_list():
     ]
 
     new_networks = [
-        'hydrogenPipelineOnshore'
+        # 'hydrogenPipelineOnshore'
     ]
 
     return existing_networks, new_networks
