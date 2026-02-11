@@ -8,26 +8,27 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-input_path = "input"
+case_study = "case_1"
+input_path = 'input'
 output_path = "output"
 
 # Create template files (comment these lines if already defined)
 dp.create_optimization_templates(input_path, output_path)
 
 # Topology definition
-model.topology_definition(input_path)
+model.topology_definition(case_study, input_path)
 
 # Create folder structure (comment these lines if already defined)
 dp.create_input_data_folder_template(input_path)
 
 # Define nodes locations (comment these lines if already defined)
-model.nodes_location_definition(input_path)
+model.nodes_location_definition(case_study, input_path)
 
 # Define networks (comment these lines if already defined)
-model.networks_definition(input_path)
+model.networks_definition(case_study, input_path)
 
 # Define technologies on each node (comment these lines if already defined)
-model.technologies_definition(input_path)
+model.technologies_definition(case_study, input_path)
 
 # Copy technology and network data into folder (comment these lines if already defined)
 dp.copy_technology_data(input_path)
@@ -46,7 +47,7 @@ dp.fill_carrier_data(input_path, value_or_data=0)
 dp.fill_carrier_pressure_data(input_path, pressure_value_bar=0)
 
 # Impose carriers data (comment these lines if already defined)
-model.carrier_data_definition(input_path)
+model.carrier_data_definition(case_study, input_path)
 
 # Solver options definition
 model.solver_options_definition(input_path)

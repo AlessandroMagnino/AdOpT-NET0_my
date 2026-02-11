@@ -2,7 +2,8 @@ from pathlib import Path
 import pandas as pd
 import json
 
-def carrier_data_definition(input_path: Path | str):
+def carrier_data_definition(case_study: Path | str,
+                            input_path: Path | str):
     '''
     Define carrier data files
     '''
@@ -20,7 +21,7 @@ def carrier_data_definition(input_path: Path | str):
         for node in nodes:
             for carrier in carriers:
                 # Open carrier data file
-                carrier_file_path = Path('plants_data/carriers') / f"{carrier}.xlsx"
+                carrier_file_path = Path('case_studies') / case_study / 'carriers' / f"{carrier}.xlsx"
                 carrier_data = pd.read_excel(carrier_file_path, sheet_name=node, index_col=0)
                 # convert index to datetime
                 carrier_data.index = pd.to_datetime(carrier_data.index)

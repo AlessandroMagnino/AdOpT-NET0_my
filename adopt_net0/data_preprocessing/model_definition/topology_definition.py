@@ -2,7 +2,8 @@ from pathlib import Path
 import pandas as pd
 import json
 
-def topology_definition(input_path: Path |str):
+def topology_definition(case_study: Path |str,
+                        input_path: Path | str):
     '''
     Fill Topology.json with nodes, carriers, and periods'''
 
@@ -11,12 +12,12 @@ def topology_definition(input_path: Path |str):
     topology = json.loads(topology_path.read_text())
 
     # Get nodes list
-    nodes = nodes_list()
+    nodes = nodes_list(case_study)
     # Write nodes to topology
     topology['nodes'] = nodes
 
     # Get carriers list
-    carriers = carriers_list()
+    carriers = carriers_list(case_study)
     # Write carriers to topology
     topology['carriers'] = carriers
 
@@ -34,19 +35,14 @@ def topology_definition(input_path: Path |str):
 
 
 
-def nodes_list():
+def nodes_list(case_study: Path | str):
     '''
     Take nodes list from plants_clusters_summary.csv
     In case, select a subset of nodes for the example
     '''
     
     # all nodes df upload
-    nodes_df = pd.read_csv(f"plants_data/plants_clusters_summary.csv")
-
-    # # ------- Remove these lines to use all nodes -------
-    # # Select a subset of nodes for the example
-    # uids = ['GAPTBEL0007', 'GAPTNLD0015', 'GAPTDEU0015']
-    # nodes_df = nodes_df[nodes_df['uid'].isin(uids)]
+    nodes_df = pd.read_csv(f"case_studies/{case_study}/plants_clusters_summary.csv")
 
     # Create nodes list from dataframe
     nodes = nodes_df['cluster'].tolist()
@@ -54,32 +50,11 @@ def nodes_list():
     return nodes
 
 
-def carriers_list():
+def carriers_list(case_study: Path | str):
     '''
     Define carriers list
     '''
-    carriers = [
-        'electricity',
-        'hydrogen',
-        'methane',
-        'heat',
-        'CO2',
-        'nitrogen',
-        'HBfeed',
-        'steam',
-        'ammonia',
-        'naphtha',
-        'olefins',
-        'ethylene',
-        'propylene',
-        'crackergas',
-        'syngas',
-        'methanol',
-        'MPW',
-        'ethanol',
-        'feedgas',
-        'methane-bio'
-        ]
+    carriers = pd.read_excel(f"case_studies/{case_study}/carriers_list.xlsx")['CARRIERS'].tolist()
     
     return carriers
 

@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd
 import json
 
-def technologies_definition(input_path: Path | str):
+def technologies_definition(case_study: Path | str, input_path: Path | str):
     '''
     Fill for each node the Technologies.json file with existing and new technologies
     '''
@@ -14,7 +14,7 @@ def technologies_definition(input_path: Path | str):
     periods = topology['investment_periods']
 
     # existing technologies file reading
-    techs_file_path = Path("plants_data/technologies.xlsx")
+    techs_file_path = Path("case_studies") / case_study / "technologies.xlsx"
 
     # Techs dataframes
     exist_techs_df = pd.read_excel(techs_file_path, sheet_name='existing', index_col=0)

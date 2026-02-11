@@ -2,7 +2,9 @@ from pathlib import Path
 import pandas as pd
 import json
 
-def nodes_location_definition(input_path: Path | str):
+def nodes_location_definition(
+        case_study: Path | str,
+        input_path: Path | str):
     '''
     Fill NodeLocations.csv with node locations
     '''
@@ -19,7 +21,7 @@ def nodes_location_definition(input_path: Path | str):
     nodes = topology['nodes']
 
     # nodes_df
-    nodes_df_path = Path("plants_data/plants_clusters_summary.csv")
+    nodes_df_path = Path(f"case_studies/{case_study}/plants_clusters_summary.csv")
     nodes_df = pd.read_csv(nodes_df_path)
 
     # Get lat, lon, alt for each node

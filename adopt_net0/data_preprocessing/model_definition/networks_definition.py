@@ -2,7 +2,9 @@ from pathlib import Path
 import pandas as pd
 import json
 
-def networks_definition(input_path: Path | str):
+def networks_definition(
+        case_study: Path | str,
+        input_path: Path | str):
     '''
     Fill Networks.json for each investment period
     '''
@@ -13,13 +15,13 @@ def networks_definition(input_path: Path | str):
     periods = topology['investment_periods']
 
     # Networks
-    existing_networks, new_networks = networks_list()
+    existing_networks, new_networks = networks_list(case_study)
 
     # Fill Networks.json for each period
     networks_file_definition(input_path, periods, existing_networks, new_networks)
 
     # Network topology definition
-    network_topology_definition(input_path, periods, existing_networks, new_networks)
+    network_topology_definition(case_study, input_path, periods, existing_networks, new_networks)
 
     return
 
@@ -53,7 +55,7 @@ def networks_file_definition(input_path: Path | str, periods: list, existing_net
     return
 
 
-def network_topology_definition(input_path: Path | str, periods: list, existing_networks: list, new_networks: list):
+def network_topology_definition(case_study: Path | str, input_path: Path | str, periods: list, existing_networks: list, new_networks: list):
     '''
     Fill network topology for each network in each investment period, creating needed matrix files
     '''
@@ -66,18 +68,17 @@ def network_topology_definition(input_path: Path | str, periods: list, existing_
             conn_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'connection.csv'
             dist_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'distance.csv'
             exist_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'size.csv'
-            max_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'size_max_arcs.csv'
+            # max_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'existing' / ntw / 'size_max_arcs.csv'
 
-            dfs_path = 'plants_data'
+            dfs_path = Path('case_studies') / case_study / 'networks' / 'existing'
             conn_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='connection', index_col=0)
             dist_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='distances', index_col=0)
             exist_size_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='existing_sizes', index_col=0)
-            max_size_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='maximum_sizes', index_col=0)
 
             conn_df = pd.DataFrame(0, index=nodes, columns=nodes)
             dist_df = pd.DataFrame(0, index=nodes, columns=nodes)
             exist_size_df = pd.DataFrame(0, index=nodes, columns=nodes)
-            max_size_df = pd.DataFrame(0, index=nodes, columns=nodes)
+            # max_size_df = pd.DataFrame(0, index=nodes, columns=nodes)
 
             for node_i in nodes:
                 for node_j in nodes:
@@ -90,21 +91,21 @@ def network_topology_definition(input_path: Path | str, periods: list, existing_
                     if node_i not in exist_size_data.index or node_j not in exist_size_data.columns:
                         raise ValueError(f"Existing size matrix for network {ntw} is missing node {node_i} or {node_j}. Please update the existing size matrix.")
                     exist_size_df.loc[node_i, node_j] = exist_size_data.loc[node_i, node_j]
-                    if node_i not in max_size_data.index or node_j not in max_size_data.columns:
-                        raise ValueError(f"Max size matrix for network {ntw} is missing node {node_i} or {node_j}. Please update the max size matrix.")
-                    max_size_df.loc[node_i, node_j] = max_size_data.loc[node_i, node_j]
+                    # if node_i not in max_size_data.index or node_j not in max_size_data.columns:
+                    #     raise ValueError(f"Max size matrix for network {ntw} is missing node {node_i} or {node_j}. Please update the max size matrix.")
+                    # max_size_df.loc[node_i, node_j] = max_size_data.loc[node_i, node_j]
 
             conn_df.to_csv(conn_file_path, sep=';')
             dist_df.to_csv(dist_file_path, sep=';')
             exist_size_df.to_csv(exist_size_file_path, sep=';')
-            max_size_df.to_csv(max_size_file_path, sep=';')
+            # max_size_df.to_csv(max_size_file_path, sep=';')
 
         for ntw in new_networks:
             conn_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'connection.csv'
             dist_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'distance.csv'
             max_size_file_path = Path(input_path) / f"{period}" / 'network_topology' / 'new' / ntw / 'size_max_arcs.csv'
 
-            dfs_path = 'plants_data'
+            dfs_path = Path('case_studies') / case_study / 'networks' / 'new'
             conn_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='connection', index_col=0)
             dist_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='distances', index_col=0)
             max_size_data = pd.read_excel(Path(dfs_path) / f'{ntw}.xlsx', sheet_name='maximum_sizes', index_col=0)
@@ -130,15 +131,15 @@ def network_topology_definition(input_path: Path | str, periods: list, existing_
             max_size_df.to_csv(max_size_file_path, sep=';')
 
 
-def networks_list():
+def networks_list(case_study: Path | str):
     '''
     Define networks list
     '''
-    existing_networks = [
-    ]
+    # Read all the xlsx files in case_studies\case_1\networks\new and convert into a list
+    existing_ntw_path = Path('case_studies') / case_study / 'networks' / 'existing'
+    existing_networks = [f.stem for f in existing_ntw_path.glob('*.xlsx')]
 
-    new_networks = [
-        'hydrogenPipelineOnshore'
-    ]
+    new_ntw_path = Path('case_studies') / case_study / 'networks' / 'new'
+    new_networks = [f.stem for f in new_ntw_path.glob('*.xlsx')]
 
     return existing_networks, new_networks
