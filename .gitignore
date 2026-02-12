@@ -2,6 +2,7 @@
 output/
 input/
 results
+case_studies
 /adopt_net0/test/test_data
 plants_data/electricity_data/*.nc
 
