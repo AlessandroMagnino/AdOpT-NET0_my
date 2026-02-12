@@ -819,7 +819,7 @@ class Network(ModelComponent):
 
         def init_opex_variable(const):
             return b_arc.var_opex_variable == sum(
-                (b_arc.var_flow[t] * nr_timesteps_averaged * hour_factors[t - 1])
+                (b_arc.var_flow[t] * nr_timesteps_averaged * hour_factors[t - 1] * b_arc.distance)
                 * b_netw.para_opex_variable
                 for t in self.set_t
             )

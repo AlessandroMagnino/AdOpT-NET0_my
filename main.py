@@ -8,7 +8,7 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-case_study = "case_1"
+case_study = "backbone"
 input_path = 'input'
 output_path = "output"
 

@@ -7,7 +7,7 @@
   "size_min": 0,
   "size_max": 10000,
   "Economics": {
-    "comment": "CAPEX coefficients are in EUR, EUR/(t/h) or EUR/(t/h)/km, opex_variable in EUR/t total output, opex_fixed in % of up-front CAPEX",
+    "comment": "CAPEX coefficients are in EUR, EUR/(t/h) or EUR/(t/h)/km, opex_variable in EUR/t/km total output, opex_fixed in % of up-front CAPEX",
     "gamma1": 0,
     "gamma2": 0,
     "gamma3": 0,
