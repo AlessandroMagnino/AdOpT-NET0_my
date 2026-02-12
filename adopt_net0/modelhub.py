@@ -56,6 +56,7 @@ class ModelHub:
         self.info_solving_algorithms["aggregation_model"] = "Full"
         self.info_solving_algorithms["aggregation_data"] = "Full"
         self.info_solving_algorithms["time_stage"] = 1
+        self.case_study = None
 
     def read_data(
         self, data_path: Path | str, start_period: int = None, end_period: int = None
@@ -406,10 +407,13 @@ class ModelHub:
         print(log_msg)
         log.info(log_msg)
 
-    def solve(self):
+    def solve(self, case_study: str | None = None):
         """
         Defines objective and solves model
         """
+        if case_study is not None:
+            self.case_study = case_study
+
         config = self.data.model_config
 
         objective = config["optimization"]["objective"]["value"]
@@ -421,7 +425,7 @@ class ModelHub:
         else:
             self._optimize(objective)
 
-    def quick_solve(self):
+    def quick_solve(self, case_study: str | None = None):
         """
         Quick-solves the model (constructs model and balances and solves model).
 
@@ -430,6 +434,9 @@ class ModelHub:
         - :func:`~adopt_net0.modelhub.construct_balances`
         - :func:`~adopt_net0.modelhub.solve`
         """
+
+        if case_study is not None:
+            self.case_study = case_study
 
         import re
         from collections import Counter, defaultdict
@@ -937,7 +944,7 @@ class ModelHub:
             "core.scale_model"
         ).create_using(model_full)
 
-    def _call_solver(self):
+    def _call_solver(self, case_study: str | None = None):
         """
         Calls the solver and solves the model
         """
@@ -950,12 +957,17 @@ class ModelHub:
         time_stamp = datetime.datetime.fromtimestamp(start).strftime("%Y%m%d%H%M%S")
         save_path = Path(config["reporting"]["save_path"]["value"])
 
+        if case_study is None:
+            case_study = self.case_study
+
         if config["reporting"]["case_name"]["value"] == -1:
-            folder_name = str(time_stamp)
+            # folder_name = str(time_stamp)
+            folder_name = case_study + "_" + str(time_stamp)
         else:
-            folder_name = (
-                str(time_stamp) + "_" + config["reporting"]["case_name"]["value"]
-            )
+            # folder_name = (
+            #     str(time_stamp) + "_" + config["reporting"]["case_name"]["value"]
+            # )
+            folder_name = case_study + "_" + str(time_stamp) + "_" + config["reporting"]["case_name"]["value"]
         if self.info_pareto["pareto_point"]:
             folder_name = folder_name + str(self.info_pareto["pareto_point"])
 

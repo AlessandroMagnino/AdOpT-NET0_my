@@ -62,7 +62,7 @@ pyhub.read_data(input_path)
 
 start_time = time.time()
 
-pyhub.quick_solve()
+pyhub.quick_solve(case_study=case_study)
 
 end_time = time.time()
 print(f"\n\nTime to solve: {end_time - start_time} seconds")
