@@ -167,7 +167,7 @@ class Fluid(Network):
                     temp["c"]
                     * temp["T"]
                     / temp["eta"]
-                    / temp["LHV"]
+                    # / temp["LHV"]
                     * ((temp["p"] / 30) ** ((temp["gam"] - 1) / temp["gam"]) - 1),
                     4,
                 )

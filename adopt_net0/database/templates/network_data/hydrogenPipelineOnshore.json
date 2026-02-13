@@ -12,7 +12,7 @@
     "gamma2": 0,
     "gamma3": 0,
     "gamma4": 20000,
-    "opex_variable": 1.6E-6,
+    "opex_variable": 2,
     "opex_fixed": 0,
     "discount_rate": 0.1,
     "lifetime": 30,
@@ -29,7 +29,7 @@
     "energyconsumption": {
       "electricity": {
         "cons_model": 2,
-        "p": 85,
+        "p": 40,
         "c": 0.00398,
         "T": 300,
         "eta": 0.65,
