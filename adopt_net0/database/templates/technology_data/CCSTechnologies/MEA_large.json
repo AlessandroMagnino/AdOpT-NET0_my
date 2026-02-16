@@ -41,11 +41,11 @@
   "Units": {
     "size": "tonne/hr",
     "input_carrier": {
-      "electricity": "",
-      "heat": ""
+      "electricity": "MW",
+      "heat": "MW"
     },
     "output_carrier": {
-      "CO2captured": ""
+      "CO2captured": "tonne/hr"
     }
   }
 }
