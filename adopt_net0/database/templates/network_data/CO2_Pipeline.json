@@ -12,21 +12,21 @@
     "gamma2": 0.91603,
     "gamma3": 0,
     "gamma4": 0,
-    "opex_variable": 0,
+    "opex_variable": 100,
     "opex_fixed": 0,
     "discount_rate": 0.1,
     "lifetime": 50,
     "decommission_cost": 0
   },
   "Performance": {
-    "carrier": "CO2captured",
+    "carrier": "CO2",
     "bidirectional_network": 0,
     "loss": 1.25E-7,
     "min_transport": 0,
     "loss2emissions": 1,
     "emissionfactor": 0,
     "energyconsumption": {
-      "CO2captured": {
+      "CO2": {
         "cons_model": 1,
         "k_flow": 0,
         "k_flowDistance": 0
@@ -44,7 +44,7 @@
       "electricity": "MW"
     },
     "transport_carrier": {
-      "CO2captured": "t/h"
+      "CO2": "t/h"
     }
   }
 }

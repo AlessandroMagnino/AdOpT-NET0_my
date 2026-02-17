@@ -69,7 +69,7 @@
     "max_startups": -1
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "input_carrier": {
       "biomass": "tonne/hr"
     },
