@@ -8,7 +8,7 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-case_study = "CO2_transport_no_fossil_limited_MPW"  # "CO2_transport_no_fossil"  # "CO2_transport"
+case_study = "backbone"  # "CO2_transport_no_fossil"  # "CO2_transport"
 input_path = 'input'
 output_path = "output"
 

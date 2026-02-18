@@ -24,7 +24,7 @@
     "performance_function_type": 1,
     "input_carrier": [
       "methane",
-      "methane-bio",
+      "methane_bio",
       "crackergas"
     ],
     "main_input_carrier": "methane",
