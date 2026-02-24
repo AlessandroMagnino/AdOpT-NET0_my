@@ -4,7 +4,7 @@ input/
 results
 case_studies
 /adopt_net0/test/test_data
-plants_data/carriers_data/electricity/*.nc
+data/carriers_data/electricity/*.nc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
