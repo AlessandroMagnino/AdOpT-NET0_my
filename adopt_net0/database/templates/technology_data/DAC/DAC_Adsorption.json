@@ -27,7 +27,7 @@
     ],
     "main_output_carrier": "CO2_DAC",
     "output_carrier": [
-      "CO2_DAC"
+      "CO2captured"
     ],
     "nr_segments": 1,
     "ohmic_heating": 1,

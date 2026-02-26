@@ -6,15 +6,15 @@
   "decommission": "impossible",
   "Economics": {
     "comment": "CAPEX in EUR/unit or as a piecewise function, OPEX_variable in EUR/unit total output, OPEX_fixed in % of CAPEX_annual",
-    "CAPEX_model": 1,
-    "unit_CAPEX": 1,
-    "fix_CAPEX": 0,
+    "capex_model": 1,
+    "unit_capex": 1,
+    "fix_capex": 0,
     "piecewise_CAPEX": {
       "bp_x": "not defined",
       "bp_y": "not defined"
     },
-    "OPEX_variable": 0,
-    "OPEX_fixed": 0,
+    "opex_variable": 0,
+    "opex_fixed": 0,
     "discount_rate": 0.08,
     "lifetime": 25,
     "decommission_cost": 0

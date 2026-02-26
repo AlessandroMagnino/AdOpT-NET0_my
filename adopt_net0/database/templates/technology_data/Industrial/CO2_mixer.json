@@ -23,10 +23,9 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "performance_function_type": 1,
     "input_carrier": [
-      "CO2captured",
-      "CO2_DAC"
+      "CO2captured"
     ],
-    "main_input_carrier": "CO2_DAC",
+    "main_input_carrier": "CO2captured",
     "output_carrier": [
       "CO2"
     ],
