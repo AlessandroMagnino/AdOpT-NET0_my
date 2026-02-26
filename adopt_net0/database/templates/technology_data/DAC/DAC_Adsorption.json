@@ -25,9 +25,9 @@
       "electricity",
       "heat"
     ],
-    "main_output_carrier": "CO2captured",
+    "main_output_carrier": "CO2_DAC",
     "output_carrier": [
-      "CO2captured"
+      "CO2_DAC"
     ],
     "nr_segments": 1,
     "ohmic_heating": 1,
@@ -44,7 +44,7 @@
       "heat": "MW"
     },
     "output_carrier": {
-      "CO2captured": "tonne/hr"
+      "CO2_DAC": "tonne/hr"
     }
   }
 }
