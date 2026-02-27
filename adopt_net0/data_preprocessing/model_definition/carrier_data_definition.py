@@ -38,6 +38,7 @@ def carrier_data_definition(case_study: Path | str,
                 output_df['Export limit'] = carrier_data['export_limit'].values
                 output_df['Import price'] = carrier_data['import_price'].values
                 output_df['Export price'] = carrier_data['export_price'].values
+                output_df['Export emission factor'] = carrier_data['export_emission_factor'].values if 'export_emission_factor' in carrier_data.columns else 0
                 
                 # Save csv
                 output_df.to_csv(output_csv_path, sep=';')

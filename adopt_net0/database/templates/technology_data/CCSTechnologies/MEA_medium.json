@@ -1,7 +1,7 @@
 {
   "ccs_type": "MEA",
   "comment": "Note that size_min and max are in terms of t/h of flue gas, but in the model everything is converted to t/h CO2 out",
-  "size_min": 158.436,
+  "size_min": 0.1,
   "size_max": 792.18,
   "size_is_int": 0,
   "decommission": "impossible",
