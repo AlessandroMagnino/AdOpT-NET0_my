@@ -8,7 +8,7 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-case_study = "test"
+case_study = "backbone"
 input_path = 'input'
 output_path = "output"
 
@@ -50,9 +50,9 @@ dp.fill_carrier_pressure_data(input_path, pressure_value_bar=0)
 model.carrier_data_definition(case_study, input_path)
 
 # Solver options definition
-model.solver_options_definition(input_path)
+# model.solver_options_definition(input_path)
 # Optimization options definition
-model.optimization_options_definition(input_path)
+model.optimization_options_definition(case_study, input_path)
 
 # Construct and solve the model
 pyhub = ModelHub()

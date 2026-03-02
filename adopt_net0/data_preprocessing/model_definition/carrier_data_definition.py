@@ -33,12 +33,14 @@ def carrier_data_definition(case_study: Path | str,
                 output_df = pd.read_csv(output_csv_path, index_col=0, sep=';')
 
                 # Fill df
-                output_df['Demand'] = carrier_data['demand'].values
-                output_df['Import limit'] = carrier_data['import_limit'].values
-                output_df['Export limit'] = carrier_data['export_limit'].values
-                output_df['Import price'] = carrier_data['import_price'].values
-                output_df['Export price'] = carrier_data['export_price'].values
+                output_df['Demand'] = carrier_data['demand'].values if 'demand' in carrier_data.columns else 0
+                output_df['Import limit'] = carrier_data['import_limit'].values if 'import_limit' in carrier_data.columns else 0
+                output_df['Export limit'] = carrier_data['export_limit'].values if 'export_limit' in carrier_data.columns else 1e6
+                output_df['Import price'] = carrier_data['import_price'].values if 'import_price' in carrier_data.columns else 0
+                output_df['Export price'] = carrier_data['export_price'].values if 'export_price' in carrier_data.columns else 0
+                output_df['Import emission factor'] = carrier_data['import_emission_factor'].values if 'import_emission_factor' in carrier_data.columns else 0
                 output_df['Export emission factor'] = carrier_data['export_emission_factor'].values if 'export_emission_factor' in carrier_data.columns else 0
+                output_df['Generic production'] = carrier_data['generic_production'].values if 'generic_production' in carrier_data.columns else 0
                 
                 # Save csv
                 output_df.to_csv(output_csv_path, sep=';')

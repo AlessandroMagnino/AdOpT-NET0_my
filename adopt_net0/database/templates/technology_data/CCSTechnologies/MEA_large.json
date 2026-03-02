@@ -23,7 +23,7 @@
     "plant_size": "small",
     "input_carrier": [
       "electricity",
-      "heat"
+      "steam"
     ],
     "output_carrier": [
       "CO2captured"
@@ -31,18 +31,18 @@
     "capture_rate": 0.9,
     "eta" : {
       "electricity": 0.0958,
-      "heat": 0.2684
+      "steam": 0.2684
     },
     "omega" : {
       "electricity": 0.2885,
-      "heat": 150.22
+      "steam": 150.22
     }
   },
   "Units": {
     "size": "tonne/hr",
     "input_carrier": {
       "electricity": "MW",
-      "heat": "MW"
+      "steam": "MW"
     },
     "output_carrier": {
       "CO2captured": "tonne/hr"
