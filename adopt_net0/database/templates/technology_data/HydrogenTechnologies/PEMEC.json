@@ -8,7 +8,7 @@
   "Economics": {
     "comment": "capex in EUR/MW, opex_fixed in % of capex_annual",
     "capex_model": 1,
-    "unit_capex": 2250000,
+    "unit_capex": 1200000,
     "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": [
@@ -23,7 +23,7 @@
       ]
     },
     "opex_variable": 0,
-    "opex_fixed": 0.07,
+    "opex_fixed": 0.03,
     "discount_rate": 0.1,
     "lifetime": 25,
     "decommission_cost": 0
@@ -32,8 +32,7 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "performance_function_type": 1,
     "input_carrier": [
-      "electricity",
-      "steam"
+      "electricity"
     ],
     "main_input_carrier": "electricity",
     "output_carrier": [
@@ -48,16 +47,15 @@
       ],
       "out": [
         0,
-        0.025
+        0.018
       ]
     },
     "input_ratios": {
-      "electricity": 1,
-      "steam": 0.2
+      "electricity": 1
     },
     "pressure": {
       "hydrogen": {
-        "outlet": 10
+        "outlet": 30
       }
     },
     "ramping_time": -1,
