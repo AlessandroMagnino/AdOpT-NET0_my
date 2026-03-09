@@ -42,6 +42,11 @@ class DacAdsorption(Technology):
         self.emissions_based_on = "output"
         self.main_output_carrier = "CO2captured"
 
+        if "steam" in self.input_carrier and "heat" not in self.input_carrier:
+            self.th_carrier = "steam"
+        else:
+            self.th_carrier = "heat"
+
     def fit_technology_performance(self, climate_data: pd.DataFrame, location: dict):
         """
         Fits the technology performance
@@ -193,7 +198,7 @@ class DacAdsorption(Technology):
                 / self.performance_data["performance"]["eta_elth"],
             )
         )
-        self.bounds["input"]["heat"] = np.column_stack(
+        self.bounds["input"][self.th_carrier] = np.column_stack(
             (
                 np.zeros(shape=(time_steps)),
                 self.processed_coeff.time_dependent_used["th_in_max"],
@@ -275,7 +280,7 @@ class DacAdsorption(Technology):
         )
 
         def init_input_th_bounds(bds, t):
-            return tuple(bounds["input"]["heat"][t - 1] * b_tec.para_size_max)
+            return tuple(bounds["input"][self.th_carrier][t - 1] * b_tec.para_size_max)
 
         b_tec.var_input_th = pyo.Var(
             self.set_t_performance,
@@ -285,7 +290,7 @@ class DacAdsorption(Technology):
 
         def init_input_ohmic_bounds(bds, t):
             return tuple(
-                (bounds["input"]["heat"][t - 1] / eta_elth * b_tec.para_size_max)
+                (bounds["input"][self.th_carrier][t - 1] / eta_elth * b_tec.para_size_max)
             )
 
         b_tec.var_input_ohmic = pyo.Var(
@@ -407,7 +412,7 @@ class DacAdsorption(Technology):
 
         def init_input_th(const, t):
             return (
-                self.input[t, "heat"]
+                self.input[t, self.th_carrier]
                 == b_tec.var_input_th[t] - b_tec.var_input_ohmic[t] * eta_elth
             )
 

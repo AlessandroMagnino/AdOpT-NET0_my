@@ -23,9 +23,9 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "input_carrier": [
       "electricity",
-      "heat"
+      "steam"
     ],
-    "main_output_carrier": "CO2_DAC",
+    "main_output_carrier": "CO2captured",
     "output_carrier": [
       "CO2captured"
     ],
@@ -41,7 +41,7 @@
     "size": "MW",
     "input_carrier": {
       "electricity": "MW",
-      "heat": "MW"
+      "steam": "MW"
     },
     "output_carrier": {
       "CO2_DAC": "tonne/hr"
