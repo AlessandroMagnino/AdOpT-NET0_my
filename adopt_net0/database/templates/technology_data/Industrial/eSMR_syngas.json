@@ -40,13 +40,13 @@
       "out": {
         "syngas": [
           0,
-          0.187
+          2.125
         ]
       }
     },
     "input_ratios": {
       "feedgas": 1,
-      "electricity": 0.272
+      "electricity": 3.808
     },
     "ramping_time": 2.5,
     "ref_size": -1,

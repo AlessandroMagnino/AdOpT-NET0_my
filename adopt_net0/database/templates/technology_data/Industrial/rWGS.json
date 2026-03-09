@@ -40,13 +40,13 @@
       "out": {
         "syngas": [
           0,
-          0.849
+          0.7727
         ]
       }
     },
     "input_ratios": {
       "CO2": 1,
-      "hydrogen": 0.1364
+      "hydrogen": 0.1818
     },
     "ramping_time": 5,
     "ref_size": -1,

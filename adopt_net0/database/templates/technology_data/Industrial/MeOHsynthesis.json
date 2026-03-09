@@ -24,8 +24,7 @@
     "performance_function_type": 1,
     "input_carrier": [
       "syngas",
-      "electricity",
-      "steam"
+      "electricity"
     ],
     "main_input_carrier": "syngas",
     "output_carrier": [
@@ -41,14 +40,13 @@
       "out": {
         "methanol": [
           0,
-          0.823
+          1
         ]
       }
     },
     "input_ratios": {
       "syngas": 1,
-      "electricity": 0.117,
-      "steam": 0.572
+      "electricity": 0.117
     },
     "ramping_time": 5,
     "ref_size": -1,
@@ -66,7 +64,6 @@
     "size": "tonne/hr",
     "input_carrier": {
       "syngas": "tonne/hr",
-      "steam": "MW",
       "electricity": "MW"
     },
     "output_carrier": {

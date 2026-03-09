@@ -28,35 +28,30 @@
     ],
     "main_input_carrier": "feedgas",
     "output_carrier": [
-      "HBfeed",
-      "electricity",
-      "CO2"
+      "syngas",
+      "nitrogen"
     ],
     "emission_factor": 0.067,
-    "min_part_load": 0.9,
+    "min_part_load": 0.6,
     "performance": {
       "in": [
         0,
         1
       ],
       "out": {
-        "HBfeed": [
+        "syngas": [
           0,
-          0.761
+          2.125
         ],
-        "electricity": [
+        "nitrogen": [
           0,
-          0.024
-        ],
-        "CO2": [
-          0,
-          0.154
+          2.117
         ]
       }
     },
     "input_ratios": {
       "feedgas": 1,
-      "steam": 0.087
+      "steam": 1.125
     },
     "ccs": {
       "possible": 1,
@@ -82,10 +77,8 @@
       "steam": "MW"
     },
     "output_carrier": {
-      "HBfeed": "tonne/hr",
-      "electricity": "MW",
-      "CO2": "tonne/hr"
-
+      "syngas": "tonne/hr",
+      "nitrogen": "tonne/hr"
     }
   }
 }

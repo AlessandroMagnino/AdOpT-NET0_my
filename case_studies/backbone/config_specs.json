@@ -14,7 +14,7 @@
     },
     "emission_limit": {
       "description": "emission limit to be enforced if objective function is costs_emissionlimit",
-      "value": 100000000
+      "value": 10000000000
     },
     "typicaldays": {
       "N": {
