@@ -46,7 +46,7 @@
     },
     "input_ratios": {
       "CO2": 1,
-      "hydrogen": 4.814
+      "hydrogen": 0.1364
     },
     "ramping_time": 5,
     "ref_size": -1,
