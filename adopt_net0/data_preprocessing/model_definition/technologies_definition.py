@@ -57,7 +57,7 @@ def existing_techs_map(exist_techs_df: pd.DataFrame, nodes: list[str]):
         node: exist_techs_map.loc[node][exist_techs_map.loc[node] > 0].to_dict()
         for node in exist_techs_map.index
     }
-    
+   
     return techs_mapping
 
 

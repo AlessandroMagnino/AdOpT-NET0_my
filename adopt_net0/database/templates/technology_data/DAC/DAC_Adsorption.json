@@ -31,7 +31,7 @@
     ],
     "nr_segments": 1,
     "ohmic_heating": 1,
-    "emission_factor": -1,
+    "emission_factor": 0,
     "performance": {
       "eta_elth": 0.97
     }

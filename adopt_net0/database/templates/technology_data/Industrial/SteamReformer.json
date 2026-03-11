@@ -1,7 +1,7 @@
 {
   "tec_type": "CONV3",
   "size_min": 0,
-  "size_max": 2196,
+  "size_max": 21960,
   "size_is_int": 0,
   "decommission": "only_complete",
   "Economics": {
