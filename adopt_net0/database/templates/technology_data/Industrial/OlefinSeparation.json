@@ -3,7 +3,7 @@
   "size_min": 0,
   "size_max": 16770,
   "size_is_int": 0,
-  "decommission": "only_complete",
+  "decommission": "impossible",
   "Economics": {
     "comment": "capex in EUR/(tonne_naphtha/h), opex_fixed in % of capex_annual",
     "capex_model": 1,
@@ -49,7 +49,7 @@
         ],
         "crackergas": [
           0,
-          0.781
+          0.056
         ]
       }
     },

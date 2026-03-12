@@ -10,11 +10,11 @@
         "costs_emissionlimit",
         "pareto"
       ],
-      "value": "costs_emissionlimit"
+      "value": "costs"
     },
     "emission_limit": {
       "description": "emission limit to be enforced if objective function is costs_emissionlimit",
-      "value": 10000000000
+      "value": 250000000
     },
     "typicaldays": {
       "N": {

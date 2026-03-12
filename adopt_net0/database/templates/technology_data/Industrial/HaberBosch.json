@@ -3,7 +3,7 @@
   "size_min": 0,
   "size_max": 10000,
   "size_is_int": 0,
-  "decommission": "only_complete",
+  "decommission": "impossible",
   "Economics": {
     "comment": "capex in EUR/(tHBfeed/h), opex_fixed in % of capex_annual",
     "capex_model": 1,
