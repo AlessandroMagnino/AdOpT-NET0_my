@@ -1,20 +1,20 @@
 {
   "tec_type": "CONV2",
   "size_min": 0,
-  "size_max": 60000,
+  "size_max": 50000,
   "size_is_int": 0,
   "decommission": "impossible",
   "Economics": {
-    "comment": "CAPEX in EUR/MW (Julia), opex_fixed in % of up-front CAPEX",
+    "comment": "CAPEX in EUR/MW or as a piecewise function, OPEX_variable in EUR/unit total output, OPEX_fixed in % of CAPEX_annual",
     "capex_model": 1,
-    "unit_capex": 153704,
+    "unit_capex": 145000,
     "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
       "bp_y": "not defined"
     },
     "opex_variable": 0,
-    "opex_fixed": 0.01,
+    "opex_fixed": 0,
     "discount_rate": 0.08,
     "lifetime": 25,
     "decommission_cost": 0
@@ -23,11 +23,11 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "performance_function_type": 1,
     "input_carrier": [
-      "electricity"
+      "electricity_grid"
     ],
-    "main_input_carrier": "electricity",
+    "main_input_carrier": "electricity_grid",
     "output_carrier": [
-      "steam"
+      "electricity"
     ],
     "emission_factor": 0,
     "min_part_load": 0,
@@ -37,9 +37,9 @@
         1
       ],
       "out": {
-        "steam": [
+        "electricity": [
           0,
-          0.99
+          1
         ]
       }
     },
@@ -55,13 +55,11 @@
     "SD_load": -1,
     "max_startups": -1
   },
-  "Units": {
-    "size": "MW",
-    "input_carrier": {
-      "electricity": "MW"
-    },
-    "output_carrier": {
-      "heat": "MW"
-    }
+  "ScalingFactors": {
+    "const_capex_aux": 1e3,
+    "const_input_output": 1,
+    "const_max_input": 1,
+    "const_opex_variable": 1,
+    "const_opex_fixed": 1
   }
 }
