@@ -17,7 +17,7 @@
     "opex_fixed": 0.076,
     "discount_rate": 0.08,
     "lifetime": 25,
-    "decommission_cost": -220108
+    "decommission_cost": 0
   },
   "Performance": {
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
@@ -51,7 +51,7 @@
     },
     "input_ratios": {
       "feedgas": 1,
-      "steam": 1.125
+      "steam": 1.21
     },
     "ccs": {
       "possible": 1,

@@ -5,9 +5,9 @@
   "size_is_int": 0,
   "decommission": "impossible",
   "Economics": {
-    "comment": "capex in EUR/MW or as a piecewise function, opex_variable in EUR/MWh total output, opex_fixed in % of capex_annual",
+    "comment": "capex in EUR/tH2 or as a piecewise function, opex_variable in EUR/MWh total output, opex_fixed in % of capex_annual",
     "capex_model": 1,
-    "unit_capex": 32241,
+    "unit_capex": 470000,
     "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
@@ -47,12 +47,12 @@
     "capex_discharging_power": 0
   },
   "Units": {
-    "size": "MWh",
+    "size": "tonne",
     "input_carrier": {
-      "hydrogen": "MW"
+      "hydrogen": "tonne/hr"
     },
     "output_carrier": {
-      "hydrogen": "MW"
+      "hydrogen": "tonne/hr"
     }
   }
 }
