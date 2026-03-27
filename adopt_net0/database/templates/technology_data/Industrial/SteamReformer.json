@@ -5,7 +5,7 @@
   "size_is_int": 0,
   "decommission": "impossible",
   "Economics": {
-    "comment": "capex in EUR/(tCH4/h), opex_fixed in % of capex_annual",
+    "comment": "capex in EUR/(tCH4/h), opex_fixed in fraction of capex_annual",
     "capex_model": 1,
     "unit_capex": 21600000,
     "fix_capex": 0,
@@ -41,7 +41,7 @@
       "out": {
         "syngas": [
           0,
-          2.125
+          2
         ],
         "nitrogen": [
           0,
@@ -54,7 +54,7 @@
       "steam": 1.21
     },
     "ccs": {
-      "possible": 1,
+      "possible": 0,
       "co2_concentration" : 0.062,
       "ccs_type": "MEA_large"
     },

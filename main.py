@@ -8,7 +8,7 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-case_study = "backbone"
+case_study = "prova_CO2"
 input_path = 'input'
 output_path = "output"
 
@@ -48,6 +48,7 @@ dp.fill_carrier_pressure_data(input_path, pressure_value_bar=0)
 
 # Impose carriers data (comment these lines if already defined)
 model.carrier_data_definition(case_study, input_path)
+model.carbon_costs_definition(case_study, input_path)
 
 # Solver options definition
 # model.solver_options_definition(input_path)
