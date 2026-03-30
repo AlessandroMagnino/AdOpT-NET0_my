@@ -8,8 +8,8 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-case_study = "current_layout"
-input_path = 'input'
+case_study = "current_layout_optimal"
+input_path = 'input' + "/" + case_study
 output_path = "output"
 
 # Create template files (comment these lines if already defined)
