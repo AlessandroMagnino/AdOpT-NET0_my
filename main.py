@@ -8,7 +8,7 @@ from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
 # Specify the path to your input data
-case_study = "2050"
+case_study = "2030"
 input_path = 'input' + "/" + case_study
 output_path = "output"
 
@@ -42,7 +42,7 @@ dp.copy_compressor_data(input_path)
 # model.networks_data_correction(input_path)
 
 # Read climate data and fill carried data (comment these lines if already defined)
-dp.load_climate_data_from_api(input_path)
+# dp.load_climate_data_from_api(input_path)
 dp.fill_carrier_data(input_path, value_or_data=0)
 dp.fill_carrier_pressure_data(input_path, pressure_value_bar=0)
 

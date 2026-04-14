@@ -19,7 +19,7 @@
     "decommission_cost": 0
   },
   "Performance": {
-    "carrier": "hydrogen",
+    "carrier": "hydrogen_transported",
     "bidirectional_network": 0,
     "bidirectional_network_precise": 0,
     "loss": 1.25E-7,
@@ -41,7 +41,7 @@
   "Units": {
     "size": "tonne/hr",
     "transport_carrier": {
-      "hydrogen": "tonne/hr"
+      "hydrogen_transported": "tonne/hr"
     }
   }
 }
