@@ -1265,7 +1265,7 @@ class Technology(ModelComponent):
         if model_block.find_component("set_input_carriers_ccs"):
             for car in model_block.set_input_carriers_ccs:
                 h5_group.create_dataset(
-                    f"{car}_var_input_ccs",
+                    f"{car}_input_ccs",
                     data=[
                         model_block.var_input_ccs[t, car].value
                         for t in self.set_t_performance
@@ -1273,7 +1273,7 @@ class Technology(ModelComponent):
                 )
             for car in model_block.set_output_carriers_ccs:
                 h5_group.create_dataset(
-                    f"{car}_var_output_ccs",
+                    f"{car}_output_ccs",
                     data=[
                         model_block.var_output_ccs[t, car].value
                         for t in self.set_t_performance
