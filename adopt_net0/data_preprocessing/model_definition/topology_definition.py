@@ -28,6 +28,8 @@ def topology_definition(case_study: Path |str,
     topology['start_date'] = f'{periods[0]}-01-01 00:00'
     topology['end_date'] = f'{periods[0]}-12-31 23:00'
 
+    topology['resolution'] = resolution(case_study)
+
     # Save topology file
     topology_path.write_text(json.dumps(topology, indent=2))
 
@@ -66,3 +68,23 @@ def periods_list():
     periods = ['2022']
     
     return periods
+
+def resolution(case_study: Path | str):
+    '''
+    Define resolution for the model
+    '''
+    time_index = pd.read_excel(f"case_studies/{case_study}/carriers/electricity.xlsx")['datetime'].tolist()
+    n_h = len(time_index)
+
+    if n_h == 8760:
+        resolution = '1h'  # hourly
+    elif n_h == 8760/2:
+        resolution = '2h'  # 2-hourly
+    elif n_h == 8760/3:
+        resolution = '3h'  # 3-hourly
+    elif n_h == 8760/4:
+        resolution = '4h'  # 4-hourly
+    else:
+        raise ValueError(f"Unexpected number of time steps: {n_h}. Cannot determine resolution.")
+
+    return resolution
