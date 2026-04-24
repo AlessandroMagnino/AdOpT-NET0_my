@@ -962,12 +962,13 @@ class ModelHub:
 
         if config["reporting"]["case_name"]["value"] == -1:
             # folder_name = str(time_stamp)
-            folder_name = case_study + "_" + str(time_stamp)
+            folder_name = case_study # + "_" + str(time_stamp)
         else:
             # folder_name = (
             #     str(time_stamp) + "_" + config["reporting"]["case_name"]["value"]
             # )
-            folder_name = case_study + "_" + str(time_stamp) + "_" + config["reporting"]["case_name"]["value"]
+            # folder_name = case_study + "_" + str(time_stamp) + "_" + config["reporting"]["case_name"]["value"]
+            folder_name = case_study + "_" + config["reporting"]["case_name"]["value"]
         if self.info_pareto["pareto_point"]:
             folder_name = folder_name + str(self.info_pareto["pareto_point"])
 
