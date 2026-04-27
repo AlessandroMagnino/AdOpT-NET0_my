@@ -7,6 +7,8 @@ from adopt_net0.modelhub import ModelHub
 from adopt_net0.result_management.read_results import add_values_to_summary
 import time
 
+from setup_case_study import setup_case_study
+
 def run_path(pathway: str, year: str):
     """
     Case study is the year
@@ -89,4 +91,10 @@ for year in years:
     if not Path(f'case_studies/{pathway}/{year}').exists():
         raise ValueError(f"Year {year} does not exist in the pathway folder.")
     
-    
+    if year == 'current_layout':
+        print(f"Running case study for {year}...")
+        run_path(pathway, year)
+    else:
+        print(f"Setting up case study for {year}...")
+        setup_case_study(pathway, year)
+        run_path(pathway, year)
