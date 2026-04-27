@@ -31,19 +31,19 @@ def run_path(pathway: str, year: str):
     dp.create_optimization_templates(str(input_path), str(output_path))
 
     # Topology definition
-    model.topology_definition(year, str(input_path))
+    model.topology_definition(f"{pathway}/{year}", str(input_path))
 
     # Create folder structure (comment these lines if already defined)
     dp.create_input_data_folder_template(str(input_path))
 
     # Define nodes locations (comment these lines if already defined)
-    model.nodes_location_definition(year, str(input_path))
+    model.nodes_location_definition(f"{pathway}/{year}", str(input_path))
 
     # Define networks (comment these lines if already defined)
-    model.networks_definition(year, str(input_path))
+    model.networks_definition(f"{pathway}/{year}", str(input_path))
 
     # Define technologies on each node (comment these lines if already defined)
-    model.technologies_definition(year, str(input_path))
+    model.technologies_definition(f"{pathway}/{year}", str(input_path))
 
     # Copy technology and network data into folder (comment these lines if already defined)
     dp.copy_technology_data(str(input_path))
@@ -62,13 +62,13 @@ def run_path(pathway: str, year: str):
     dp.fill_carrier_pressure_data(str(input_path), pressure_value_bar=0)
 
     # Impose carriers data (comment these lines if already defined)
-    model.carrier_data_definition(year, str(input_path))
-    model.carbon_costs_definition(year, str(input_path))
+    model.carrier_data_definition(f"{pathway}/{year}", str(input_path))
+    model.carbon_costs_definition(f"{pathway}/{year}", str(input_path))
 
     # Solver options definition
     # model.solver_options_definition(input_path)
     # Optimization options definition
-    model.optimization_options_definition(year, str(input_path))
+    model.optimization_options_definition(f"{pathway}/{year}", str(input_path))
 
     # Construct and solve the model
     pyhub = ModelHub()
@@ -101,6 +101,11 @@ for index, year in enumerate(years):
     if index > 0:
         print(f"Setting up case study for {year}...")
         setup_case_study(pathway, year)
+    else:
+        # on first year, check if output path already exists and if it does, raise an error to avoid overwriting results if it is not empty
+        output_dir = Path("output") / pathway
+        if output_dir.exists() and any(output_dir.iterdir()):
+            raise FileExistsError(f"Output directory already exists for the pathway: {output_dir}. Please remove or rename it before running the first year.")
 
     print(f"Running case study for {year}...")
     run_path(pathway, year)

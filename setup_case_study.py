@@ -18,7 +18,7 @@ def setup_case_study(pathway: str, year: str):
     ### Carriers check
     carriers = pd.read_excel(case_study_path / "carriers_list.xlsx", sheet_name="carriers")
 
-    for carrier in carriers["carrier"]:
+    for carrier in carriers["CARRIERS"]:
         # Check if carrier file exists
         carrier_file = case_study_path / "carriers" / f"{carrier}.xlsx"
         if not os.path.exists(carrier_file):

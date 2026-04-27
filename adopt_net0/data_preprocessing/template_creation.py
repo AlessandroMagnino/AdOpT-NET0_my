@@ -517,6 +517,9 @@ def create_optimization_templates(input_path: Path | str, output_path: Path | st
     if isinstance(output_path, str):
         output_path = Path(output_path)
 
+    if not output_path.exists():
+        output_path.mkdir(parents=True, exist_ok=True)
+
     topology_file = input_path / "Topology.json"
     config_file = input_path / "ConfigModel.json"
     # Check if the files already exist

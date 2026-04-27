@@ -66,7 +66,7 @@ def periods_list():
     '''
     Define periods list
     '''
-    periods = "2022"
+    periods = ["2022"]
     
     return periods
 
