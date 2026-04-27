@@ -23,7 +23,7 @@ def topology_definition(case_study: Path |str,
     topology['carriers'] = carriers
 
     # Get periods list
-    periods = periods_list(case_study)
+    periods = periods_list()
     # Write periods to topology
     topology['investment_periods'] = periods
     topology['start_date'] = f'{periods[0]}-01-01 00:00'
@@ -62,23 +62,11 @@ def carriers_list(case_study: Path | str):
     return carriers
 
 
-def periods_list(case_study: Path | str):
+def periods_list():
     '''
     Define periods list
     '''
-    # Determine period from case study name
-    map = {
-        "current_layout": "2020",
-        "current_layout_optimal": "2025",
-        "2030": "2030",
-        "2040": "2040",
-        "2050": "2050"
-    }
-
-    if case_study not in map:
-        raise ValueError(f"Unexpected case study name: {case_study}. Cannot determine period.")
-    
-    periods = [map[case_study]]
+    periods = "2022"
     
     return periods
 
