@@ -13,31 +13,38 @@ def setup_case_study(pathway: str, year: str):
     Define technologies.xlsx
     """
 
+    case_study_path = Path("case_studies") / pathway / year
+
     ### Carriers check
-    carriers = pd.read_excel(f"case_studies\{year}\carriers_list.xlsx", sheet_name="carriers")
+    carriers = pd.read_excel(case_study_path / "carriers_list.xlsx", sheet_name="carriers")
 
     for carrier in carriers["carrier"]:
         # Check if carrier file exists
-        carrier_file = f"case_studies\{year}\carriers\{carrier}.xlsx"
+        carrier_file = case_study_path / "carriers" / f"{carrier}.xlsx"
         if not os.path.exists(carrier_file):
             raise FileNotFoundError(f"Carrier file {carrier_file} not found for carrier {carrier} in year {year}. Please check the file path and ensure it exists.")
         
     ### Technologies definition
     couples = {
-        "current_layout_optimal": "current_layout",
-        "2030": "current_layout_optimal",
+        "2025": "2020",
+        "2030": "2025",
         "2040": "2030",
-        "2050": "2040"
+        "2050": "2040",
     }
+
+    if year not in couples:
+        raise ValueError(f"No previous year configured for {year}. Update the couples map in setup_case_study.py.")
 
     previous_year = couples[year]
 
-    xlxs_ref = f"data\technologies_fac_simile.xlsx" # just to have a reference file to copy
-    output_path  = f"case_studies\{year}\technologies.xlsx"
-    data = f"output\{previous_year}\optimization_results.h5"
-    year      = "2022"
+    xlxs_ref = Path("data") / "technologies_fac_simile.xlsx" # just to have a reference file to copy
+    output_path  = case_study_path / "technologies.xlsx"
+    data = Path("output") / pathway / previous_year / "optimization_results.h5"
 
-    base = f"design/nodes/{year}"
+    if not data.exists():
+        raise FileNotFoundError(f"Previous year results not found: {data}")
+
+    base = "design/nodes/2022"
     rows = []
     with h5py.File(data, "r") as f:
         for node in f[base].keys():
@@ -125,6 +132,7 @@ def setup_case_study(pathway: str, year: str):
 
     ws_existing = H2_network_connection_correction(ws_existing)
 
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)
 
     return
