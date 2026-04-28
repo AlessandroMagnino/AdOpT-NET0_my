@@ -6,6 +6,7 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from pathlib import Path
 import os
+import json
 
 def setup_case_study(pathway: str, year: str):
     """
@@ -30,6 +31,11 @@ def setup_case_study(pathway: str, year: str):
         "2030": "2025",
         "2040": "2030",
         "2050": "2040",
+    }
+
+    em_limits = {
+        "2040": 0.5,
+        "2050": 0.0
     }
 
     if year not in couples:
@@ -134,6 +140,26 @@ def setup_case_study(pathway: str, year: str):
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)
+
+    # Set limits on emissions
+    if year in em_limits:
+        # Check emissions in previous year results
+        with h5py.File(data, "r") as f:
+            # Go in /summary/emissions_net and take value
+            em_prev_year = _to_scalar(f["summary/emissions_net"][()])
+            em_limit = em_prev_year * em_limits[year]
+    
+        # Save value in config file
+        config_path = case_study_path / "config_specs.json"
+        if not config_path.exists():
+            raise FileNotFoundError(f"Config file not found: {config_path}")
+        
+        config_specs = json.loads(config_path.read_text())
+        config_specs["optimization"]["objective"]["value"] = "costs_emissionlimit"
+        config_specs["optimization"]["emission_limit"]["value"] = em_limit
+
+        with open(config_path, "w") as f:
+            json.dump(config_specs, f)
 
     return
 
