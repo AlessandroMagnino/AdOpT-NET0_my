@@ -29,6 +29,7 @@
     "main_input_carrier": "feedgas",
     "output_carrier": [
       "syngas",
+      "hydrogen",
       "nitrogen"
     ],
     "emission_factor": 0.938,
@@ -46,6 +47,10 @@
         "nitrogen": [
           0,
           2.117
+        ],
+        "hydrogen": [
+          0,
+          0.125
         ]
       }
     },
@@ -78,7 +83,8 @@
     },
     "output_carrier": {
       "syngas": "tonne/hr",
-      "nitrogen": "tonne/hr"
+      "nitrogen": "tonne/hr",
+      "hydrogen": "tonne/hr"
     }
   }
 }
