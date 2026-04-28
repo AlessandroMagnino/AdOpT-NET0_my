@@ -279,6 +279,6 @@ def setup_emissions_limits(pathway: str, year: str):
 
     # Save updated config file
     with open(config_path, "w") as f:
-        json.dump(config_specs, f)
+        json.dump(config_specs, f, indent=2)
 
     return
