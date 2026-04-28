@@ -6,7 +6,7 @@ import adopt_net0.data_preprocessing as dp
 import adopt_net0.data_preprocessing.model_definition as model
 from adopt_net0.modelhub import ModelHub
 
-from setup_case_study import setup_case_study
+from setup_case_study import setup_brownfield, setup_emissions_limits
 
 def _copy_results_to_canonical_path(result_folder: Path, pathway: str, year: str):
     canonical_folder = Path("output") / pathway / year
@@ -100,7 +100,8 @@ for index, year in enumerate(years):
 
     if index > 0:
         print(f"Setting up case study for {year}...")
-        setup_case_study(pathway, year)
+        setup_brownfield(pathway, year)
+        setup_emissions_limits(pathway, year)
     else:
         # on first year, check if output path already exists and if it does, raise an error to avoid overwriting results if it is not empty
         output_dir = Path("output") / pathway

@@ -1,3 +1,4 @@
+import re
 import h5py
 import numpy as np
 import pandas as pd
@@ -8,7 +9,7 @@ from pathlib import Path
 import os
 import json
 
-def setup_case_study(pathway: str, year: str):
+def setup_brownfield(pathway: str, year: str):
     """
     Check if carriers files are ok
     Define technologies.xlsx
@@ -33,11 +34,6 @@ def setup_case_study(pathway: str, year: str):
         "2050": "2040",
     }
 
-    em_limits = {
-        "2040": 0.5,
-        "2050": 0.0
-    }
-
     if year not in couples:
         raise ValueError(f"No previous year configured for {year}. Update the couples map in setup_case_study.py.")
 
@@ -50,16 +46,41 @@ def setup_case_study(pathway: str, year: str):
     if not data.exists():
         raise FileNotFoundError(f"Previous year results not found: {data}")
 
+    def base_component_name(component: str) -> str:
+        """
+        Merge new and existing versions of the same technology.
+
+        Example:
+            CrackerFurnace          -> CrackerFurnace
+            CrackerFurnace_existing -> CrackerFurnace
+        """
+        return re.sub(r"_existing$", "", component)
+
+
     base = "design/nodes/2022"
     rows = []
+
     with h5py.File(data, "r") as f:
         for node in f[base].keys():
             for comp in f[f"{base}/{node}"].keys():
                 ds_path = f"{base}/{node}/{comp}/size"
                 size = _to_scalar(f[ds_path][()]) if ds_path in f else 0.0
-                rows.append({"node": node, "component": comp, "size": size})
 
-    pivot = pd.DataFrame(rows).pivot(index="node", columns="component", values="size").fillna(0)
+                rows.append({
+                    "node": node,
+                    "component": base_component_name(comp),
+                    "size": size,
+                })
+
+    sizes_df = pd.DataFrame(rows)
+
+    pivot = (
+        sizes_df
+        .groupby(["node", "component"], as_index=False)["size"]
+        .sum()
+        .pivot(index="node", columns="component", values="size")
+        .fillna(0)
+    )
 
     # Read reference technologies and create output table
     wb_ref    = load_workbook(xlxs_ref, read_only=True)
@@ -141,26 +162,6 @@ def setup_case_study(pathway: str, year: str):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     wb.save(output_path)
 
-    # Set limits on emissions
-    if year in em_limits:
-        # Check emissions in previous year results
-        with h5py.File(data, "r") as f:
-            # Go in /summary/emissions_net and take value
-            em_prev_year = _to_scalar(f["summary/emissions_net"][()])
-            em_limit = em_prev_year * em_limits[year]
-    
-        # Save value in config file
-        config_path = case_study_path / "config_specs.json"
-        if not config_path.exists():
-            raise FileNotFoundError(f"Config file not found: {config_path}")
-        
-        config_specs = json.loads(config_path.read_text())
-        config_specs["optimization"]["objective"]["value"] = "costs_emissionlimit"
-        config_specs["optimization"]["emission_limit"]["value"] = em_limit
-
-        with open(config_path, "w") as f:
-            json.dump(config_specs, f)
-
     return
 
 
@@ -227,3 +228,57 @@ def H2_network_connection_correction(ws_existing):
                 cell.value = 0
 
     return ws_existing
+
+
+def setup_emissions_limits(pathway: str, year: str):
+    """
+    Set emissions limits in config_specs.json according to limits and previous year emissions
+    """
+
+    couples = {
+        "2025": "2020",
+        "2030": "2025",
+        "2040": "2030",
+        "2050": "2030",
+    }
+    previous_year = couples[year]
+    
+    # Get limits from json file in case study folder
+    limits_path = Path("case_studies") / pathway / "emissions_limits.json"
+    with open(limits_path, "r") as f:
+        limits = json.load(f).get("emissions_limits", {})
+
+    if year not in limits:
+        raise ValueError(f"No emissions limit configured for {year}. Update the emissions_limits.json file in the case study folder.")
+    
+    em_limit = limits[year]
+
+    # Get config file path
+    config_path = Path("case_studies") / pathway / year / "config_specs.json"
+    if not config_path.exists():
+        raise FileNotFoundError(f"Config file not found: {config_path}")
+    
+    # Load config file
+    config_specs = json.loads(config_path.read_text())
+    
+    if em_limit is not None:
+        # Get emissions in previous year results
+        data = Path("output") / pathway / previous_year / "optimization_results.h5"
+        if not data.exists():
+            raise FileNotFoundError(f"Results file not found: {data}")
+        with h5py.File(data, "r") as f:
+            em_prev_year = _to_scalar(f["summary/emissions_net"][()])
+            em_limit_value = em_prev_year * em_limit
+
+        # Update config file with new emissions limit
+        config_specs["optimization"]["objective"]["value"] = "costs_emissionlimit"
+        config_specs["optimization"]["emission_limit"]["value"] = em_limit_value
+    else:
+        # If no limit, set objective to costs only
+        config_specs["optimization"]["objective"]["value"] = "costs"
+
+    # Save updated config file
+    with open(config_path, "w") as f:
+        json.dump(config_specs, f)
+
+    return
