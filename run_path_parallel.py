@@ -230,19 +230,14 @@ def run_multiple_pathways(
 
 if __name__ == "__main__":
 
-    # ======================================================================
-    # CONFIGURATION FOR VS CODE RUN BUTTON
-    # ======================================================================
-
     PATHWAYS = [
-        "Free_MPW",
-        "Free_MPW_anti_cracker"
+        "High_feedstock_availability",
+        "Low_el_prices",
+        "base_case_10_dd"
     ]
 
     YEARS = ["2020", "2025", "2030", "2040", "2050"]
 
-    # Number of pathways running in parallel.
-    # For a 32-core VM, I would start with 3 or 4.
     WORKERS = 4
 
     # False = if output/pathway already exists and is not empty, stop.
