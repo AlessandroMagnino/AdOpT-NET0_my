@@ -51,6 +51,12 @@
     "timelim": {
       "description": "Time limit for the solver in seconds.",
       "value": 36000
-    }
+    },
+    "method":{
+      "value": 1
+    },
+    "NodeMethod":{
+      "value": 1
+     }
   }
 }

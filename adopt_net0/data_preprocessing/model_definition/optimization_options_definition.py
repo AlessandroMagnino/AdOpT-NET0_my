@@ -14,9 +14,6 @@ def optimization_options_definition(case_study: str, input_path: Path |str):
     config_path = Path(input_path) / "ConfigModel.json"
     config = json.loads(config_path.read_text())
 
-    typical_days = 5
-    typical_days_method = 1
-
     # Set objective function
     config['optimization']['objective']['value'] = config_specs['optimization']['objective']['value']
     # Set emission limit if objective is costs_emissionlimit
@@ -28,9 +25,10 @@ def optimization_options_definition(case_study: str, input_path: Path |str):
     config['optimization']['typicaldays']['method']['value'] = config_specs['optimization']['typicaldays']['method']['value']
 
     config['solveroptions']['solver']['value'] = config_specs['solveroptions']['solver']['value']
-    config['solveroptions']['mipgap']['value'] = config_specs['solveroptions']['mipgap']['value']  # Convert percentage to fraction
+    config['solveroptions']['mipgap']['value'] = config_specs['solveroptions']['mipgap']['value']
     config['solveroptions']['timelim']['value'] = config_specs['solveroptions']['timelim']['value']
-
+    config['solveroptions']['method']['value'] = config_specs['solveroptions']['method']['value']
+    config['solveroptions']['NodeMethod']['value'] = config_specs['solveroptions']['NodeMethod']['value']
 
     # Save config file
     config_path.write_text(json.dumps(config, indent=2))

@@ -15,6 +15,7 @@ def get_gurobi_parameters(solveroptions: dict):
     solver.options["Threads"] = solveroptions["threads"]["value"]
     solver.options["NodefileStart"] = solveroptions["nodefilestart"]["value"]
     solver.options["Method"] = solveroptions["method"]["value"]
+    solver.options["NodeMethod"] = solveroptions["NodeMethod"]["value"]
     solver.options["Heuristics"] = solveroptions["heuristics"]["value"]
     solver.options["Presolve"] = solveroptions["presolve"]["value"]
     solver.options["BranchDir"] = solveroptions["branchdir"]["value"]
