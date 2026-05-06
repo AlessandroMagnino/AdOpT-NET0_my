@@ -28,7 +28,7 @@ def optimization_options_definition(case_study: str, input_path: Path |str):
     config['solveroptions']['mipgap']['value'] = config_specs['solveroptions']['mipgap']['value']
     config['solveroptions']['timelim']['value'] = config_specs['solveroptions']['timelim']['value']
     config['solveroptions']['method']['value'] = config_specs['solveroptions']['method']['value']
-    config['solveroptions']['NodeMethod']['value'] = config_specs['solveroptions']['NodeMethod']['value']
+    # config['solveroptions']['NodeMethod']['value'] = config_specs['solveroptions']['NodeMethod']['value']
 
     # Save config file
     config_path.write_text(json.dumps(config, indent=2))
