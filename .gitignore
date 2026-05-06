@@ -4,7 +4,7 @@ input/
 results
 /adopt_net0/test/test_data
 data/carriers_data/electricity/*.nc
-.vscode/settings.json
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
