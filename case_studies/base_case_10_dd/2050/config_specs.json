@@ -63,7 +63,7 @@
     "scaling_on": {
       "value": 1
     },
-    "scaling_factor": {
+    "scaling_factors": {
       "objective": {
         "value": 1000000000
       }
