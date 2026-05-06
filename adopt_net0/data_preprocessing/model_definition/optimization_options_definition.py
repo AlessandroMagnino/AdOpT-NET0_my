@@ -30,6 +30,9 @@ def optimization_options_definition(case_study: str, input_path: Path |str):
     config['solveroptions']['method']['value'] = config_specs['solveroptions']['method']['value']
     # config['solveroptions']['NodeMethod']['value'] = config_specs['solveroptions']['NodeMethod']['value']
 
+    config['scaling']['scaling_on']['value'] = config_specs['scaling']['scaling_on']['value']
+    config['scaling']['scaling_factor']['objective']['value'] = config_specs['scaling']['scaling_factor']['objective']['value']
+
     # Save config file
     config_path.write_text(json.dumps(config, indent=2))
 

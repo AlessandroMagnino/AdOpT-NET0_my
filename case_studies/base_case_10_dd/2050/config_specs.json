@@ -58,5 +58,15 @@
     "NodeMethod":{
       "value": 1
      }
+  },
+  "scaling": {
+    "scaling_on": {
+      "value": 1
+    },
+    "scaling_factor": {
+      "objective": {
+        "value": 1000000000
+      }
+     }
   }
 }
