@@ -5,7 +5,6 @@ results
 /adopt_net0/test/test_data
 data/carriers_data/electricity/*.nc
 .vscode/
-case_studies/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
