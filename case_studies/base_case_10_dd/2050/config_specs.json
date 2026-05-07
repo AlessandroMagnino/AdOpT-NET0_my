@@ -64,8 +64,14 @@
       "value": 1
     },
     "scaling_factors": {
+      "energy_vars": {
+        "value": 0.001
+      },
+      "cost_vars": {
+        "value": 1
+      },
       "objective": {
-        "value": 1000000000
+        "value": 0.0000000001
       }
      }
   }
