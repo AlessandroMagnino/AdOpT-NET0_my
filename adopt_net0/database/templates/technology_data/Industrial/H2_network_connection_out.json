@@ -39,7 +39,7 @@
       "out": {
         "hydrogen_transported": [
           0,
-          1
+          0.99
         ]
       }
     },
