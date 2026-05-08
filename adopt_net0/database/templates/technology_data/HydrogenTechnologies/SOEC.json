@@ -1,7 +1,7 @@
 {
   "tec_type": "CONV1",
   "size_min": 0,
-  "size_max": 2000,
+  "size_max": 5000,
   "size_is_int": 0,
   "size_based_on": "input",
   "decommission": 0,
@@ -11,16 +11,8 @@
     "unit_capex": 2250000,
     "fix_capex": 0,
     "piecewise_capex": {
-      "bp_x": [
-        1,
-        20,
-        100000
-      ],
-      "bp_y": [
-        1.003E+7,
-        1.98E+7,
-        2.4015E+10
-      ]
+      "bp_x": "not defined",
+      "bp_y": "not defined"
     },
     "opex_variable": 0,
     "opex_fixed": 0.07,
