@@ -20,7 +20,7 @@
   },
   "Performance": {
     "carrier": "MPW",
-    "loss": 1e-6,
+    "loss": 1e-3,
     "bidirectional_network_precise": 0,
     "min_transport": 0,
     "loss2emissions": 0,

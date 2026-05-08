@@ -48,7 +48,7 @@
       "feedgas": 1,
       "electricity": 3.808
     },
-    "ramping_time": 2.5,
+    "ramping_time": -1,
     "ref_size": -1,
     "ramping_const_int": -1,
     "standby_power": 0.05,

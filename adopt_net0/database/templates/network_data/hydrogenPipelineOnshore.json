@@ -22,7 +22,7 @@
     "carrier": "hydrogen_transported",
     "bidirectional_network": 0,
     "bidirectional_network_precise": 0,
-    "loss": 1.25E-7,
+    "loss": 1.25E-3,
     "min_transport": 0,
     "loss2emissions": 0,
     "emissionfactor": 0,

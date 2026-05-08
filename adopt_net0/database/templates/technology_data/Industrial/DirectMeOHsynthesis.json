@@ -51,7 +51,7 @@
       "hydrogen": 4.580,
       "electricity": 0.188
     },
-    "ramping_time": 5,
+    "ramping_time": -1,
     "ref_size": -1,
     "ramping_const_int": -1,
     "standby_power": -1,
