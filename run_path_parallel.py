@@ -231,9 +231,9 @@ def run_multiple_pathways(
 if __name__ == "__main__":
 
     PATHWAYS = [
-        "High_feedstock_availability",
-        "Low_el_prices",
-        "base_case_10_dd"
+        "high_feedstock_availability_5_dd",
+        "low_el_prices_5_dd",
+        "base_case_5_dd"
     ]
 
     YEARS = ["2020", "2025", "2030", "2040", "2050"]
