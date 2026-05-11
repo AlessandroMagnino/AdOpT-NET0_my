@@ -14,7 +14,7 @@
     },
     "emission_limit": {
       "description": "emission limit to be enforced if objective function is costs_emissionlimit",
-      "value": 51681598.82665553
+      "value": 52446458.020901054
     },
     "pareto_points": {
       "description": "Number of Pareto points.",
@@ -36,40 +36,40 @@
     }
   },
   "solveroptions": {
-      "solver": {
-        "description": "String specifying the solver to be used.",
-        "value": "gurobi"
-      },
-      "mipgap": {
-        "description": "MIP gap to be used by the solver.",
-        "value": 0.01
-      },
-      "threads": {
-        "description": "Number of threads to be used by the solver (0 = all available cores).",
-        "value": 0
-      },
-      "timelim": {
-        "description": "Time limit for the solver in seconds.",
-        "value": 36000
-      },
-      "method":{
-        "value": 1
-      }
+    "solver": {
+      "description": "String specifying the solver to be used.",
+      "value": "gurobi"
     },
-    "scaling": {
-      "scaling_on": {
+    "mipgap": {
+      "description": "MIP gap to be used by the solver.",
+      "value": 0.01
+    },
+    "threads": {
+      "description": "Number of threads to be used by the solver (0 = all available cores).",
+      "value": 0
+    },
+    "timelim": {
+      "description": "Time limit for the solver in seconds.",
+      "value": 36000
+    },
+    "method": {
+      "value": 1
+    }
+  },
+  "scaling": {
+    "scaling_on": {
+      "value": 1
+    },
+    "scaling_factors": {
+      "energy_vars": {
+        "value": 0.001
+      },
+      "cost_vars": {
         "value": 1
       },
-      "scaling_factors": {
-        "energy_vars": {
-          "value": 0.001
-        },
-        "cost_vars": {
-          "value": 1
-        },
-        "objective": {
-          "value": 1
-        }
+      "objective": {
+        "value": 1
       }
     }
+  }
 }
