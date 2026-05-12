@@ -14,7 +14,7 @@
     },
     "emission_limit": {
       "description": "emission limit to be enforced if objective function is costs_emissionlimit",
-      "value": 51681598.82665553
+      "value": 52458074.310239576
     },
     "pareto_points": {
       "description": "Number of Pareto points.",
@@ -51,6 +51,25 @@
     "timelim": {
       "description": "Time limit for the solver in seconds.",
       "value": 36000
+    },
+    "method": {
+      "value": 1
+    }
+  },
+  "scaling": {
+    "scaling_on": {
+      "value": 1
+    },
+    "scaling_factors": {
+      "energy_vars": {
+        "value": 0.001
+      },
+      "cost_vars": {
+        "value": 0.001
+      },
+      "objective": {
+        "value": 1
+      }
     }
   }
 }
