@@ -5,7 +5,7 @@
   "size_max_defined_per_arc": 0,
   "decommission": "impossible",
   "size_min": 0,
-  "size_max": 500,
+  "size_max": 1000,
   "Economics": {
     "comment": "CAPEX coefficients are in EUR, EUR/t/h or EUR/t/h/km, opex_variable in EUR/t total output, opex_fixed in % of up-front CAPEX",
     "gamma1": 1000,
@@ -21,7 +21,7 @@
   "Performance": {
     "carrier": "CO2",
     "bidirectional_network": 0,
-    "loss": 1.25E-7,
+    "loss": 1.25E-3,
     "min_transport": 0,
     "loss2emissions": 1,
     "emissionfactor": 0,

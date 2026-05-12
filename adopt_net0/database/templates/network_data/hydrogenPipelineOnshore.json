@@ -5,7 +5,7 @@
   "size_max_defined_per_arc": 0,
   "decommission": "impossible",
   "size_min": 0,
-  "size_max": 10000,
+  "size_max": 1000,
   "Economics": {
     "comment": "CAPEX coefficients are in EUR, EUR/(t/h) or EUR/(t/h)/km, opex_variable in EUR/t/km total output, opex_fixed in % of up-front CAPEX",
     "gamma1": 0,
