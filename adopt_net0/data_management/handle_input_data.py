@@ -683,6 +683,7 @@ class DataHandle:
         """
         nr_clusters = self.model_config["optimization"]["typicaldays"]["N"]["value"]
         hours_per_day = self.topology["hours_per_day"]["full"]
+        resolution_in_h = self.topology["resolution_in_h"]["full"]
 
         self.topology["time_index"]["clustered"] = range(0, nr_clusters * hours_per_day)
 
@@ -698,8 +699,9 @@ class DataHandle:
             aggregation = tsam.TimeSeriesAggregation(
                 full_res_data_matrix,
                 noTypicalPeriods=nr_clusters,
-                hoursPerPeriod=hours_per_day,
+                hoursPerPeriod=24,
                 noSegments=hours_per_day,
+                resolution=resolution_in_h,
                 clusterMethod="k_means",
             )
 
