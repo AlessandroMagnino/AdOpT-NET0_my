@@ -65,7 +65,7 @@
         "value": 0.001
       },
       "cost_vars": {
-        "value": 0.001
+        "value": 1
       },
       "objective": {
         "value": 1
