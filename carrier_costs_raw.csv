@@ -1,0 +1,841 @@
+h5_file,scenario_year,scenario_label,node,carrier,carrier_class,annual_import,annual_export,import_cost,export_revenue,net_cost
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,cracking_byproducts,Chemical products,0.0,3251548.0557593536,0.0,1921664900.9537778,-1921664900.9537778
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,electricity_grid,Electricity,1374805.2795008034,0.0,123742148.4246966,0.0,123742148.4246966
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,ethylene,Chemical products,0.0,327887.01393983746,0.0,3278.8701393983756,-3278.8701393983756
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,feedgas,Fossil feedstock,0.0,1401100.5135730002,0.0,482013604.1819514,-482013604.1819514
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,naphtha,Fossil feedstock,8290535.58327219,0.0,6068672046.955244,0.0,6068672046.955244
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,electricity_grid,Electricity,332407.58987114293,0.0,29919021.941977203,0.0,29919021.941977203
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,methane,Fossil feedstock,155504.74247662013,0.0,106995038.0610385,0.0,106995038.0610385
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,BEL2,syngas,Chemical products,0.0,37098.192327038734,0.0,370.9819232703873,-370.9819232703873
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,cracking_byproducts,Chemical products,0.0,4704673.5143066775,0.0,2780462046.955246,-2780462046.955246
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,electricity_grid,Electricity,2388775.5409528622,0.0,246124411.22280407,0.0,246124411.22280407
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,ethylene,Chemical products,0.0,73668.37857666971,0.0,736.6837857666972,-736.6837857666972
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,feedgas,Fossil feedstock,0.0,1798362.2475149243,0.0,879902680.464102,-879902680.464102
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,naphtha,Fossil feedstock,11995597.945708001,0.0,8780777696.258255,0.0,8780777696.258255
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,nitrogen,Other carriers,0.0,196515.0884955651,0.0,1965.1508849556508,-1965.1508849556508
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,DE,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,cracking_byproducts,Chemical products,0.0,2560953.778429933,0.0,1513523683.0520902,-1513523683.0520902
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,electricity_grid,Electricity,2661747.2897248603,0.0,244219212.6387527,0.0,244219212.6387527
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,ethylene,Chemical products,0.0,150238.44460748322,0.0,1502.3844460748323,-1502.3844460748323
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,feedgas,Fossil feedstock,0.0,364874.116669649,0.0,187654758.20320058,-187654758.20320058
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,naphtha,Fossil feedstock,6529713.866471017,0.0,4779750550.2567835,0.0,4779750550.2567835
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL1,syngas,Chemical products,0.0,176216.4135534367,0.0,1762.1641355343668,-1762.1641355343668
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,cracking_byproducts,Chemical products,0.0,1942296.4049889948,0.0,1147897175.348496,-1147897175.348496
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,electricity_grid,Electricity,1278293.6782525082,0.0,117285317.36616981,0.0,117285317.36616981
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,ethylene,Chemical products,0.0,248074.10124724812,0.0,2480.7410124724815,-2480.7410124724815
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,feedgas,Fossil feedstock,0.0,623121.5513617038,0.0,320471413.8653244,-320471413.8653244
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,naphtha,Fossil feedstock,4952311.078503301,0.0,3625091709.4644165,0.0,3625091709.4644165
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL2,syngas,Chemical products,0.0,51010.01444967882,0.0,510.1001444967882,-510.1001444967882
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,electricity_grid,Electricity,618894.4444444345,0.0,56784471.806240365,0.0,56784471.806240365
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,hydrogen,Hydrogen,0.0,53124.99999999914,0.0,531.2499999999914,-531.2499999999914
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,methane,Fossil feedstock,424999.99999999313,0.0,437154999.99999285,0.0,437154999.99999285
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,nitrogen,Other carriers,0.0,899724.9999999853,0.0,8997.249999999854,-8997.249999999854
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL3,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,cracking_byproducts,Chemical products,0.0,2244431.4013206162,0.0,1326458958.1804843,-1326458958.1804843
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,electricity_grid,Electricity,948980.6354076348,0.0,87070363.32236944,0.0,87070363.32236944
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,ethylene,Chemical products,0.0,760107.850330154,0.0,7601.078503301539,-7601.078503301539
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,feedgas,Fossil feedstock,0.0,967131.3279530446,0.0,497395641.9662509,-497395641.9662509
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,naphtha,Fossil feedstock,5722670.579603815,0.0,4188994864.269992,0.0,4188994864.269992
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2020\optimization_results.h5,2020,Today,NL4,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,MPW,MPW,98000.00000000003,0.0,30478000.00000001,0.0,30478000.00000001
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,biomass,Bio feedstock,215331.77419354836,0.0,7118874.176203949,0.0,7118874.176203949
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,cracking_byproducts,Chemical products,0.0,2485413.639711724,0.0,1468879461.0696292,-1468879461.0696292
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,electricity_grid,Electricity,2089219.5259270498,0.0,188044457.29427978,0.0,188044457.29427978
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,feedgas,Fossil feedstock,0.0,593750.0499002151,0.0,204264860.9169215,-204264860.9169215
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,naphtha,Fossil feedstock,6337107.69941796,0.0,4638762835.973948,0.0,4638762835.973948
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,nitrogen,Other carriers,0.0,1010277.177305107,0.0,10102.771773051067,-10102.771773051067
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,MPW,MPW,98000.00000000003,0.0,30478000.000000007,0.0,30478000.000000007
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,biomass,Bio feedstock,215331.77419354836,0.0,7118874.176203949,0.0,7118874.176203949
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,electricity_grid,Electricity,323803.6170690035,0.0,29144603.85135787,0.0,29144603.85135787
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,methane,Fossil feedstock,141592.92035398225,0.0,97423008.8495575,0.0,97423008.8495575
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,BEL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,MPW,MPW,379500.00000000006,0.0,118024500.0,0.0,118024500.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,cracking_byproducts,Chemical products,0.0,4491261.553999506,0.0,2654335578.413708,-2654335578.413708
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,electricity_grid,Electricity,2325883.315002932,0.0,239644391.7245118,0.0,239644391.7245118
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,feedgas,Fossil feedstock,0.0,1706397.4841048361,0.0,834906161.0228142,-834906161.0228142
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,naphtha,Fossil feedstock,11451457.302395478,0.0,8382466745.353489,0.0,8382466745.353489
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,nitrogen,Other carriers,0.0,196525.6622548672,0.0,1965.256622548672,-1965.256622548672
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,propylene,Chemical products,0.0,17883.55298021998,0.0,178.8355298021998,-178.8355298021998
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,DE,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,MPW,MPW,113750.0,0.0,35376250.0,0.0,35376250.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,biomass,Bio feedstock,3133.814516129032,0.0,135362.95071724686,0.0,135362.95071724686
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,cracking_byproducts,Chemical products,0.0,2209909.5524198785,0.0,1306056545.4801483,-1306056545.4801483
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,electricity_grid,Electricity,2808844.976692892,0.0,257715640.88007832,0.0,257715640.88007832
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,feedgas,Fossil feedstock,0.0,2422.8865401069975,0.0,1246090.547577029,-1246090.547577029
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,naphtha,Fossil feedstock,5634649.547220496,0.0,4124563468.565403,0.0,4124563468.565403
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,nitrogen,Other carriers,0.0,447079.4074930202,0.0,4470.7940749302015,-4470.7940749302015
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,MPW,MPW,113750.0,0.0,35376250.0,0.0,35376250.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,biomass,Bio feedstock,3133.814516129032,0.0,135362.95071724686,0.0,135362.95071724686
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,cracking_byproducts,Chemical products,0.0,1379927.9808982937,0.0,815537436.7108915,-815537436.7108915
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,electricity_grid,Electricity,1534891.079094686,0.0,140828504.74565423,0.0,140828504.74565423
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,ethylene,Chemical products,0.0,7394.007197421617,0.0,73.94007197421618,-73.94007197421618
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,naphtha,Fossil feedstock,3518429.324065002,0.0,2575490265.2155814,0.0,2575490265.2155814
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,nitrogen,Other carriers,0.0,806144.1473020709,0.0,8061.441473020708,-8061.441473020708
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,MPW,MPW,113750.0,0.0,35376250.0,0.0,35376250.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,biomass,Bio feedstock,3133.814516129032,0.0,135362.95071724686,0.0,135362.95071724686
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,electricity_grid,Electricity,571538.2644925069,0.0,52439472.9304702,0.0,52439472.9304702
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,hydrogen,Hydrogen,0.0,396.6399951774863,0.0,3.966399951774864,-3.966399951774864
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,methane,Fossil feedstock,255021.12,0.0,262314724.032,0.0,262314724.032
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,nitrogen,Other carriers,0.0,539879.71104,0.0,5398.797110400001,-5398.797110400001
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL3,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,MPW,MPW,113750.0,0.0,35376250.0,0.0,35376250.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,biomass,Bio feedstock,3133.814516129032,0.0,135362.95071724686,0.0,135362.95071724686
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,cracking_byproducts,Chemical products,0.0,1377574.6729036805,0.0,814146631.6860751,-814146631.6860751
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,electricity_grid,Electricity,2018613.91942216,0.0,185210783.88093907,0.0,185210783.88093907
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,ethylene,Chemical products,0.0,389114.1209783376,0.0,3891.1412097833763,-3891.1412097833763
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,naphtha,Fossil feedstock,3512429.0487090275,0.0,2571098063.6550083,0.0,2571098063.6550083
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,nitrogen,Other carriers,0.0,1256652.2780437754,0.0,12566.522780437754,-12566.522780437754
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2025\optimization_results.h5,2025,Today opt.,NL4,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,CO2,CO2,0.0,89086.25148129032,0.0,-8730452.645166451,8730452.645166451
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,MPW,MPW,97999.99999685303,0.0,45275999.9985461,0.0,45275999.9985461
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,biomass,Bio feedstock,172289.8387096774,0.0,5246809.911075979,0.0,5246809.911075979
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,cracking_byproducts,Chemical products,0.0,2346360.347931196,0.0,1386698965.6273365,-1386698965.6273365
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,electricity_grid,Electricity,2595573.7790682027,0.0,163469921.67884195,0.0,163469921.67884195
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,naphtha,Fossil feedstock,5982560.80553594,0.0,4379234509.652308,0.0,4379234509.652308
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,nitrogen,Other carriers,0.0,2140398.7270783978,0.0,21403.987270783982,-21403.987270783982
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,propylene,Chemical products,0.0,60241.65002575988,0.0,602.416500257599,-602.416500257599
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,MPW,MPW,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,biomass,Bio feedstock,172289.8387096774,0.0,5246809.911075979,0.0,5246809.911075979
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,electricity_grid,Electricity,323803.6170690035,0.0,20393237.267408952,0.0,20393237.267408952
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,methane,Fossil feedstock,141592.9203539822,0.0,97423008.84955744,0.0,97423008.84955744
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,BEL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,MPW,MPW,379483.19999999995,0.0,175321238.4,0.0,175321238.4
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,biomass,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,cracking_byproducts,Chemical products,0.0,4340979.167486658,0.0,2565518687.9846144,-2565518687.9846144
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,electricity_grid,Electricity,2598578.9274125295,0.0,182186630.46923923,0.0,182186630.46923923
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,feedgas,Fossil feedstock,0.0,1374963.9916760167,0.0,672742381.8472416,-672742381.8472416
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,naphtha,Fossil feedstock,11068279.36636068,0.0,8101980496.176017,0.0,8101980496.176017
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,nitrogen,Other carriers,0.0,761079.6460176985,0.0,7610.796460176984,-7610.796460176984
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,propylene,Chemical products,0.0,82989.9508038112,0.0,829.8995080381118,-829.8995080381118
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,DE,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,CO2,CO2,0.0,852857.223797587,0.0,-83580007.93216352,83580007.93216352
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,MPW,MPW,161249.99999999994,0.0,74497500.0,0.0,74497500.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,biomass,Bio feedstock,4794.370967741934,0.0,189931.95828710776,0.0,189931.95828710776
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,cracking_byproducts,Chemical products,0.0,2112594.1002992806,0.0,1248543113.2768745,-1248543113.2768745
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,electricity_grid,Electricity,2468236.072795028,0.0,132774520.16872725,0.0,132774520.16872725
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,feedgas,Fossil feedstock,0.0,263.05994287176554,0.0,135291.72861894904,-135291.72861894904
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,naphtha,Fossil feedstock,5386522.438294953,0.0,3942934424.8319054,0.0,3942934424.8319054
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,nitrogen,Other carriers,0.0,362878.5802560551,0.0,3628.785802560551,-3628.785802560551
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,propylene,Chemical products,0.0,42159.68808563368,0.0,421.59688085633684,-421.59688085633684
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,MPW,MPW,161249.99999999994,0.0,74497500.0,0.0,74497500.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,biomass,Bio feedstock,4794.370967741934,0.0,189931.95828710776,0.0,189931.95828710776
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,cracking_byproducts,Chemical products,0.0,1363305.7628363883,0.0,805713705.8363056,-805713705.8363056
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,electricity_grid,Electricity,2268152.1681414265,0.0,120485811.12971753,0.0,120485811.12971753
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,ethylene,Chemical products,0.0,280.0995968619702,0.0,2.800995968619702,-2.800995968619702
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,feedgas,Fossil feedstock,0.0,115.97979996142004,0.0,59648.41112015833,-59648.41112015833
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,methane,Fossil feedstock,7292.781025917369,0.0,7501354.563258605,0.0,7501354.563258605
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,naphtha,Fossil feedstock,3476047.3300264897,0.0,2544466645.5793905,0.0,2544466645.5793905
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,nitrogen,Other carriers,0.0,806174.3023442783,0.0,8061.743023442783,-8061.743023442783
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,MPW,MPW,161249.99999999994,0.0,74497500.0,0.0,74497500.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,biomass,Bio feedstock,4794.370967741934,0.0,189931.95828710776,0.0,189931.95828710776
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,electricity_grid,Electricity,572078.5449606958,0.0,30795384.19823049,0.0,30795384.19823049
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,methane,Fossil feedstock,255543.81482464823,0.0,262852367.9286331,0.0,262852367.9286331
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,nitrogen,Other carriers,0.0,540986.2559837804,0.0,5409.862559837802,-5409.862559837802
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL3,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,MPW,MPW,161249.99999999994,0.0,74497500.0,0.0,74497500.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,biomass,Bio feedstock,4794.370967741934,0.0,189931.95828710776,0.0,189931.95828710776
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,cracking_byproducts,Chemical products,0.0,468378.1900373759,0.0,276811510.31208915,-276811510.31208915
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,electricity_grid,Electricity,3180613.1122762356,0.0,171214606.1783406,0.0,171214606.1783406
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,methane,Fossil feedstock,996804.1894986252,0.0,1025312789.3182855,0.0,1025312789.3182855
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,naphtha,Fossil feedstock,1194233.018963262,0.0,874178569.8811078,0.0,874178569.8811078
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,nitrogen,Other carriers,0.0,2537498.799062076,0.0,25374.987990620764,-25374.987990620764
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2030\optimization_results.h5,2030,2030,NL4,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,CO2,CO2,0.0,2141284.1099122046,0.0,-209845842.77139607,209845842.77139607
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,MPW,MPW,98000.00000000003,0.0,10584000.000000004,0.0,10584000.000000004
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,biomass,Bio feedstock,172307.25806451615,0.0,4843117.109289901,0.0,4843117.109289901
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,cracking_byproducts,Chemical products,0.0,2318945.087273389,0.0,1370496546.5785728,-1370496546.5785728
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,electricity_grid,Electricity,4868091.737015704,0.0,345929660.9057661,0.0,345929660.9057661
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,methane_bio,Bio feedstock,11771.263462070634,0.0,21576725.92597547,0.0,21576725.92597547
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,naphtha,Fossil feedstock,5852659.579993343,0.0,4284146812.555127,0.0,4284146812.555127
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,naphtha_bio,Bio feedstock,60000.000000000015,0.0,109800000.00000003,0.0,109800000.00000003
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,nitrogen,Other carriers,0.0,2140309.2860697065,0.0,21403.092860697066,-21403.092860697066
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,propylene,Chemical products,0.0,72118.6830450091,0.0,721.186830450091,-721.186830450091
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,MPW,MPW,98000.00000000003,0.0,10584000.000000004,0.0,10584000.000000004
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,biomass,Bio feedstock,172307.25806451615,0.0,4843117.109289901,0.0,4843117.109289901
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,electricity_grid,Electricity,53456.93771915177,0.0,3876641.743538078,0.0,3876641.743538078
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,methane_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,BEL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,MPW,MPW,379500.0,0.0,40986000.0,0.0,40986000.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,biomass,Bio feedstock,96774.19354838712,0.0,5781000.000000001,0.0,5781000.000000001
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,cracking_byproducts,Chemical products,0.0,2500833.78172475,0.0,1477992764.9993274,-1477992764.9993274
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,electricity_grid,Electricity,10025781.175315322,0.0,787176742.5310122,0.0,787176742.5310122
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,methane_bio,Bio feedstock,2842582.1882847897,0.0,5210453151.1260195,0.0,5210453151.1260195
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,naphtha,Fossil feedstock,6256424.7366770785,0.0,4579702907.2476225,0.0,4579702907.2476225
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,naphtha_bio,Bio feedstock,120000.0,0.0,219599999.99999997,0.0,219599999.99999997
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,nitrogen,Other carriers,0.0,8011003.257535422,0.0,80110.03257535424,-80110.03257535424
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,propylene,Chemical products,0.0,880190.7427170944,0.0,8801.907427170943,-8801.907427170943
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,DE,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,CO2,CO2,0.0,7270359.139535844,0.0,-712495195.6745127,712495195.6745127
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,MPW,MPW,124999.99999999994,0.0,13499999.999999996,0.0,13499999.999999996
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,biomass,Bio feedstock,4794.370967741936,0.0,174434.01688542427,0.0,174434.01688542427
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,cracking_byproducts,Chemical products,0.0,1721713.2149557201,0.0,1017532510.0388308,-1017532510.0388308
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,electricity_grid,Electricity,14660197.771013992,0.0,761309298.628814,0.0,761309298.628814
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,methane_bio,Bio feedstock,1072717.8748703878,0.0,1966291864.6374211,0.0,1966291864.6374211
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,naphtha,Fossil feedstock,4269885.81069791,0.0,3125556413.4308705,0.0,3125556413.4308705
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,naphtha_bio,Bio feedstock,120000.0,0.0,219599999.99999997,0.0,219599999.99999997
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,nitrogen,Other carriers,0.0,444812.0690425563,0.0,4448.120690425562,-4448.120690425562
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,propylene,Chemical products,0.0,211499.86835113447,0.0,2114.998683511344,-2114.998683511344
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,MPW,MPW,124999.99999999994,0.0,13499999.999999996,0.0,13499999.999999996
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,biomass,Bio feedstock,4794.370967741936,0.0,174434.01688542427,0.0,174434.01688542427
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,cracking_byproducts,Chemical products,0.0,615200.6803744796,0.0,363583602.10131747,-363583602.10131747
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,electricity_grid,Electricity,8490084.518434962,0.0,500189599.77793145,0.0,500189599.77793145
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,methane_bio,Bio feedstock,1749999.9992004617,0.0,3207749998.5344467,0.0,3207749998.5344467
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,naphtha,Fossil feedstock,1448589.190144007,0.0,1060367287.1854131,0.0,1060367287.1854131
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,naphtha_bio,Bio feedstock,120000.0,0.0,219599999.99999997,0.0,219599999.99999997
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,nitrogen,Other carriers,0.0,806174.3028669681,0.0,8061.743028669681,-8061.743028669681
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,propylene,Chemical products,0.0,323815.835738943,0.0,3238.158357389431,-3238.158357389431
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,MPW,MPW,124999.99999999994,0.0,13499999.999999996,0.0,13499999.999999996
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,biomass,Bio feedstock,4794.370967741936,0.0,174434.01688542427,0.0,174434.01688542427
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,electricity_grid,Electricity,577724.3466681789,0.0,34908435.46073873,0.0,34908435.46073873
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,methane_bio,Bio feedstock,273831.2785468343,0.0,501932733.57634723,0.0,501932733.57634723
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,nitrogen,Other carriers,0.0,579700.816671401,0.0,5797.008166714011,-5797.008166714011
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL3,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,CO2,CO2,0.0,7216569.458386164,0.0,-707223806.921844,707223806.921844
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,MPW,MPW,124999.99999999994,0.0,13499999.999999996,0.0,13499999.999999996
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,biomass,Bio feedstock,4794.370967741936,0.0,174434.01688542427,0.0,174434.01688542427
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,cracking_byproducts,Chemical products,0.0,380814.5404805918,0.0,225061393.42402977,-225061393.42402977
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,electricity_grid,Electricity,15593341.508501172,0.0,796251031.6667278,0.0,796251031.6667278
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,methane_bio,Bio feedstock,1733669.8177116122,0.0,3177816775.865386,0.0,3177816775.865386
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,naphtha,Fossil feedstock,850970.2714956446,0.0,622910238.7348119,0.0,622910238.7348119
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,naphtha_bio,Bio feedstock,120000.0,0.0,219599999.99999997,0.0,219599999.99999997
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,nitrogen,Other carriers,0.0,2537501.404405954,0.0,25375.01404405954,-25375.01404405954
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,propylene,Chemical products,0.0,37934.94324395852,0.0,379.34943243958526,-379.34943243958526
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2040\optimization_results.h5,2040,2040,NL4,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,CO2,CO2,0.0,2500000.0000000005,0.0,-245000000.00000003,245000000.00000003
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,MPW,MPW,98000.00000000003,0.0,4116000.000000002,0.0,4116000.000000002
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,biomass,Bio feedstock,172307.25806451615,0.0,4479325.012273125,0.0,4479325.012273125
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,cracking_byproducts,Chemical products,0.0,1319464.4823299947,0.0,779803509.0570269,-779803509.0570269
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,electricity_grid,Electricity,38844696.84841648,0.0,1993813606.0013957,0.0,1993813606.0013957
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,methane_bio,Bio feedstock,1049999.9999999995,0.0,1924649999.999999,0.0,1924649999.999999
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,naphtha,Fossil feedstock,3274264.3608617876,0.0,2396761512.150829,0.0,2396761512.150829
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,naphtha_bio,Bio feedstock,90000.00000000006,0.0,164700000.0000001,0.0,164700000.0000001
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,propylene,Chemical products,0.0,505120.73599580524,0.0,5051.207359958053,-5051.207359958053
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,MPW,MPW,98000.00000000003,0.0,4116000.000000002,0.0,4116000.000000002
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,biomass,Bio feedstock,172307.25806451615,0.0,4479325.012273125,0.0,4479325.012273125
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,electricity_grid,Electricity,20766762.74502532,0.0,1033067765.4082717,0.0,1033067765.4082717
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,methane_bio,Bio feedstock,1049999.9999999995,0.0,1924649999.999999,0.0,1924649999.999999
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,BEL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,MPW,MPW,379500.00000000006,0.0,15939000.0,0.0,15939000.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,biomass,Bio feedstock,96774.19354838712,0.0,5262000.0,0.0,5262000.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,cracking_byproducts,Chemical products,0.0,504560.39173889824,0.0,298195191.5176888,-298195191.5176888
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,electricity_grid,Electricity,21900000.0,0.0,1336851643.2990441,0.0,1336851643.2990441
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,methane_bio,Bio feedstock,7298931.088436228,0.0,13378940685.103605,0.0,13378940685.103605
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,naphtha,Fossil feedstock,1106487.485310806,0.0,809948839.2475102,0.0,809948839.2475102
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,naphtha_bio,Bio feedstock,180000.0,0.0,329400000.0,0.0,329400000.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,nitrogen,Other carriers,0.0,8760000.0,0.0,87600.0,-87600.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,propylene,Chemical products,0.0,1745030.3980203464,0.0,17450.303980203462,-17450.303980203462
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,DE,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,CO2,CO2,0.0,11000000.000000004,0.0,-1078000000.0000002,1078000000.0000002
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,MPW,MPW,124999.99999999997,0.0,5249999.999999999,0.0,5249999.999999999
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,biomass,Bio feedstock,4794.370967741936,0.0,160495.34855701023,0.0,160495.34855701023
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,cracking_byproducts,Chemical products,0.0,569087.544669604,0.0,336330738.899736,-336330738.899736
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,electricity_grid,Electricity,39927339.99114971,0.0,1841064660.984149,0.0,1841064660.984149
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,methane_bio,Bio feedstock,2449999.999999999,0.0,4490849999.999998,0.0,4490849999.999998
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,naphtha,Fossil feedstock,1271013.6274084751,0.0,930381975.263004,0.0,930381975.263004
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,naphtha_bio,Bio feedstock,180000.0,0.0,329400000.0,0.0,329400000.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,propylene,Chemical products,0.0,710848.50908433,0.0,7108.485090843301,-7108.485090843301
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL1,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,MPW,MPW,124999.99999999997,0.0,5249999.999999999,0.0,5249999.999999999
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,biomass,Bio feedstock,4794.370967741936,0.0,160495.34855701023,0.0,160495.34855701023
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,cracking_byproducts,Chemical products,0.0,127963.05943019984,0.0,75626168.1232481,-75626168.1232481
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,electricity_grid,Electricity,21644374.14106501,0.0,992080806.382673,0.0,992080806.382673
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,methane_bio,Bio feedstock,2449999.999999999,0.0,4490849999.999998,0.0,4490849999.999998
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,naphtha,Fossil feedstock,146269.91185670532,0.0,107069575.4791083,0.0,107069575.4791083
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,naphtha_bio,Bio feedstock,180000.0,0.0,329400000.0,0.0,329400000.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,propylene,Chemical products,0.0,534900.3621422178,0.0,5349.003621422178,-5349.003621422178
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL2,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,CO2,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,MPW,MPW,124999.99999999997,0.0,5249999.999999999,0.0,5249999.999999999
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,biomass,Bio feedstock,4794.370967741936,0.0,160495.34855701023,0.0,160495.34855701023
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,cracking_byproducts,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,electricity_grid,Electricity,39237740.81601687,0.0,1734667524.612453,0.0,1734667524.612453
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,methane_bio,Bio feedstock,949723.4133865905,0.0,1740843016.7376206,0.0,1740843016.7376206
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,naphtha,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,naphtha_bio,Bio feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,propylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL3,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,CO2,CO2,0.0,11000000.000000004,0.0,-1078000000.0000002,1078000000.0000002
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,CO2captured,CO2,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,HBfeed,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,MPW,MPW,124999.99999999997,0.0,5249999.999999999,0.0,5249999.999999999
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,ammonia,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,biomass,Bio feedstock,4794.370967741936,0.0,160495.34855701023,0.0,160495.34855701023
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,crackergas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,cracking_byproducts,Chemical products,0.0,71038.0971681384,0.0,41983515.426369786,-41983515.426369786
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,electricity,Electricity,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,electricity_grid,Electricity,39943393.28650342,0.0,1843648641.8749514,0.0,1843648641.8749514
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,ethylene,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,feedgas,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,hydrogen,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,hydrogen_transported,Hydrogen,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,methane,Fossil feedstock,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,methane_bio,Bio feedstock,2449999.999850171,0.0,4490849999.725364,0.0,4490849999.725364
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,methanol,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,naphtha,Fossil feedstock,1127.2237841366782,0.0,825127.8099880484,0.0,825127.8099880484
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,naphtha_bio,Bio feedstock,180000.0,0.0,329400000.0,0.0,329400000.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,nitrogen,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,olefins,Chemical products,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,propylene,Chemical products,0.0,172138.48380959558,0.0,1721.3848380959562,-1721.3848380959562
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,steam,Other carriers,0.0,0.0,0.0,0.0,0.0
+output\base_case_5_dd\2050\optimization_results.h5,2050,2050,NL4,syngas,Chemical products,0.0,0.0,0.0,0.0,0.0
