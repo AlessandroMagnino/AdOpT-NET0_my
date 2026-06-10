@@ -231,6 +231,7 @@ def run_multiple_pathways(
 if __name__ == "__main__":
 
     PATHWAYS = [
+        "base_case_5_dd",
         "base_case_90_5_dd",
         "base_case_80_5_dd",
         "base_case_70_5_dd",
