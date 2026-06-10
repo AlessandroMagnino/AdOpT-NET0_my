@@ -21,7 +21,7 @@
   "Performance": {
     "carrier": "CO2",
     "bidirectional_network": 0,
-    "loss": 1.25E-3,
+    "loss": 1.25E-7,
     "min_transport": 0,
     "loss2emissions": 1,
     "emissionfactor": 0,
