@@ -10,7 +10,7 @@
         "costs_emissionlimit",
         "pareto"
       ],
-      "value": "costs_emissionlimit"
+      "value": "costs"
     },
     "emission_limit": {
       "description": "emission limit to be enforced if objective function is costs_emissionlimit",
