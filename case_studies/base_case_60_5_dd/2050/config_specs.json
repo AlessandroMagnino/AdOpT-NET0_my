@@ -14,7 +14,7 @@
     },
     "emission_limit": {
       "description": "emission limit to be enforced if objective function is costs_emissionlimit",
-      "value": 42649958.72549149
+      "value": 42620272.0588147
     },
     "pareto_points": {
       "description": "Number of Pareto points.",
