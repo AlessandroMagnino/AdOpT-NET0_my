@@ -237,7 +237,8 @@ if __name__ == "__main__":
         "base_case_70_5_dd",
         "base_case_60_5_dd",
         "base_case_50_5_dd",
-        "base_case_00_5_dd"
+        "base_case_00_5_dd",
+        # 'high_feedstock_availability_5_dd'
     ]
 
     YEARS = ["2020", "2025", "2030", "2040", "2050"]
