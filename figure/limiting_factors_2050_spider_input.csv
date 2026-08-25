@@ -1,0 +1,39 @@
+factor,region,utilisation,resolution
+Grid connection capacity,BEL1,1.0000000333342196,Cluster-level capacity
+Grid connection capacity,BEL2,0.27942982259631655,Cluster-level capacity
+Grid connection capacity,DE,1.0000000033607142,Cluster-level capacity
+Grid connection capacity,NL1,1.000000002693539,Cluster-level capacity
+Grid connection capacity,NL2,1.0,Cluster-level capacity
+Grid connection capacity,NL3,0.2012857984956215,Cluster-level capacity
+Grid connection capacity,NL4,1.0000000071691748,Cluster-level capacity
+Biomass,BEL1,0.9999999999999998,Country-level availability repeated across clusters
+Biomass,BEL2,0.9999999999999998,Country-level availability repeated across clusters
+Biomass,DE,1.0,Country-level availability repeated across clusters
+Biomass,NL1,1.0,Country-level availability repeated across clusters
+Biomass,NL2,1.0,Country-level availability repeated across clusters
+Biomass,NL3,1.0,Country-level availability repeated across clusters
+Biomass,NL4,1.0,Country-level availability repeated across clusters
+MPW,BEL1,0.9999999999999999,Country-level availability repeated across clusters
+MPW,BEL2,0.9999999999999999,Country-level availability repeated across clusters
+MPW,DE,1.0,Country-level availability repeated across clusters
+MPW,NL1,1.0000000000000002,Country-level availability repeated across clusters
+MPW,NL2,1.0000000000000002,Country-level availability repeated across clusters
+MPW,NL3,1.0000000000000002,Country-level availability repeated across clusters
+MPW,NL4,1.0000000000000002,Country-level availability repeated across clusters
+Bionaphtha,BEL1,0.49999999999999983,Country-level availability repeated across clusters
+Bionaphtha,BEL2,0.49999999999999983,Country-level availability repeated across clusters
+Bionaphtha,DE,1.0,Country-level availability repeated across clusters
+Bionaphtha,NL1,0.7499999999880309,Country-level availability repeated across clusters
+Bionaphtha,NL2,0.7499999999880309,Country-level availability repeated across clusters
+Bionaphtha,NL3,0.7499999999880309,Country-level availability repeated across clusters
+Bionaphtha,NL4,0.7499999999880309,Country-level availability repeated across clusters
+Biomethane,BEL1,0.6099400105361387,Country-level availability repeated across clusters
+Biomethane,BEL2,0.6099400105361387,Country-level availability repeated across clusters
+Biomethane,DE,0.4599926866212651,Country-level availability repeated across clusters
+Biomethane,NL1,0.7853374985154774,Country-level availability repeated across clusters
+Biomethane,NL2,0.7853374985154774,Country-level availability repeated across clusters
+Biomethane,NL3,0.7853374985154774,Country-level availability repeated across clusters
+Biomethane,NL4,0.7853374985154774,Country-level availability repeated across clusters
+CO$_2$ export capacity,BEL1,0.9999999999999997,Export-node capacity
+CO$_2$ export capacity,NL1,1.0,Export-node capacity
+CO$_2$ export capacity,NL4,1.0,Export-node capacity

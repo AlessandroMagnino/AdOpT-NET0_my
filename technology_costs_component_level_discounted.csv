@@ -1,0 +1,1171 @@
+node,component,capex_tot,opex_fixed,opex_variable,annual_cost_undiscounted,scenario_year,intertemporal_discount_factor,annual_cost,scenario_label,h5_file
+BEL1,Boiler_El,1128713.0096816253,120487.58759499567,0.0,1249200.597276621,2020,1.0,1249200.597276621,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,CO2toEmissions,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,CrackerFurnace,232308314.24991116,198387140.9092884,-0.0,430695455.1591996,2020,1.0,430695455.1591996,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,HaberBosch,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,MeOHsynthesis,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,OlefinSeparation,110346413.80536301,94233861.6468505,0.0,204580275.45221353,2020,1.0,204580275.45221353,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,SteamReformer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,WGS_syngas,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,electricity_grid_connection_BE,169.49654130831803,1890671.1417975093,0.0,1890840.6383388175,2020,1.0,1890840.6383388175,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,feedgas_mixer,149.83263178151157,0.0,0.0,149.83263178151157,2020,1.0,149.83263178151157,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,Boiler_El,509559.1589309311,54394.29976433128,0.0,563953.4586952624,2020,1.0,563953.4586952624,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,CO2toEmissions,4.027631707754823,0.0,0.0,4.027631707754823,2020,1.0,4.027631707754823,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,HBfeed_mixer,7.570920034910393,0.0,0.0,7.570920034910393,2020,1.0,7.570920034910393,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,HaberBosch,14543737.387063365,5899543.378995361,0.0,20443280.766058728,2020,1.0,20443280.766058728,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,MeOHsynthesis,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,OlefinSeparation,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,SteamReformer,35919849.23506778,15337454.05248773,0.0,51257303.28755551,2020,1.0,51257303.28755551,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,WGS_syngas,2.9291866965489626,1.219468083609801,0.0,4.148654780158764,2020,1.0,4.148654780158764,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,electricity_grid_connection_BE,40.981757655346335,457136.32821662776,0.0,457177.3099742831,2020,1.0,457177.3099742831,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,feedgas_mixer,16.629559831049583,0.0,0.0,16.629559831049583,2020,1.0,16.629559831049583,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL2,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,Boiler_El,2203840.2151306225,235255.0105193031,0.0,2439095.2256499254,2020,1.0,2439095.2256499254,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,CO2toEmissions,2.61421502892957,0.0,0.0,2.61421502892957,2020,1.0,2.61421502892957,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,CrackerFurnace,336127516.63593364,287046880.87317413,-0.0,623174397.5091078,2020,1.0,623174397.5091078,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,HBfeed_mixer,6.62455503054688,0.0,0.0,6.62455503054688,2020,1.0,6.62455503054688,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,HaberBosch,12725770.213680428,5162100.4566209335,0.0,17887870.670301363,2020,1.0,17887870.670301363,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,MeOHsynthesis,10522295.615434125,2808078.7671231553,0.0,13330374.38255728,2020,1.0,13330374.38255728,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,OlefinSeparation,159660519.09006074,136347224.59522185,0.0,296007743.6852826,2020,1.0,296007743.6852826,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,SteamReformer,52871898.60979941,22575827.373014253,0.0,75447725.98281366,2020,1.0,75447725.98281366,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,WGS_syngas,1.9012472937669604,0.7915201842647591,0.0,2.6927674780317195,2020,1.0,2.6927674780317195,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,electricity_grid_connection_DE,294.5065735421333,19707398.212861113,0.0,19707692.719434656,2020,1.0,19707692.719434656,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,feedgas_mixer,216.79323271041733,0.0,0.0,216.79323271041733,2020,1.0,216.79323271041733,Today,output\base_case_5_dd\2020\optimization_results.h5
+DE,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,Boiler_El,3309392.357680041,353270.2273845992,0.0,3662662.5850646403,2020,1.0,3662662.5850646403,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,CO2toEmissions,19.13125061183559,0.0,0.0,19.13125061183559,2020,1.0,19.13125061183559,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,CrackerFurnace,182968495.29417753,156251818.94625345,-0.0,339220314.24043095,2020,1.0,339220314.24043095,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,HBfeed_mixer,35.96187016582556,0.0,0.0,35.96187016582556,2020,1.0,35.96187016582556,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,HaberBosch,69082752.58855166,28022831.050228234,0.0,97105583.6387799,2020,1.0,97105583.6387799,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,MeOHsynthesis,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,OlefinSeparation,86910007.33342768,74219590.14663461,0.0,161129597.4800623,2020,1.0,161129597.4800623,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,SteamReformer,170619283.8665802,72852906.74932024,0.0,243472190.61590043,2020,1.0,243472190.61590043,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,WGS_syngas,13.913636808607704,5.79247339714661,0.0,19.706110205754314,2020,1.0,19.706110205754314,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,electricity_grid_connection_NL,328.1606247605988,27908845.72616763,0.0,27909173.88679239,2020,1.0,27909173.88679239,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,feedgas_mixer,118.00977193411089,0.0,0.0,118.00977193411089,2020,1.0,118.00977193411089,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL1,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,Boiler_El,1374875.0661274658,146764.83618181624,0.0,1521639.902309282,2020,1.0,1521639.902309282,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,CO2toEmissions,5.537993598162915,0.0,0.0,5.537993598162915,2020,1.0,5.537993598162915,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,CrackerFurnace,138768240.813,118505593.02103508,-0.0,257273833.83403507,2020,1.0,257273833.83403507,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,HBfeed_mixer,10.410015048001974,0.0,0.0,10.410015048001974,2020,1.0,10.410015048001974,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,HaberBosch,19997638.90721225,8111872.146118672,0.0,28109511.05333092,2020,1.0,28109511.05333092,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,MeOHsynthesis,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,OlefinSeparation,65914893.202318765,56290138.59435772,0.0,122205031.79667649,2020,1.0,122205031.79667649,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,SteamReformer,49389792.69821985,21088999.322171338,0.0,70478792.0203912,2020,1.0,70478792.0203912,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,WGS_syngas,4.027631707754848,1.6767686149634866,0.0,5.704400322718334,2020,1.0,5.704400322718334,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,electricity_grid_connection_NL,157.5978507434597,13403113.509987772,0.0,13403271.107838515,2020,1.0,13403271.107838515,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,feedgas_mixer,89.50179332081446,0.0,0.0,89.50179332081446,2020,1.0,89.50179332081446,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL2,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,Boiler_El,853810.3029428114,91142.33891425526,0.0,944952.6418570667,2020,1.0,944952.6418570667,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,CO2toEmissions,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,CrackerFurnace,0.0,0.0,-0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,HBfeed_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,HaberBosch,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,MeOHsynthesis,31942683.118283145,8524524.828766983,0.0,40467207.947050124,2020,1.0,40467207.947050124,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,OlefinSeparation,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,SteamReformer,98170227.36267732,41917808.2191774,0.0,140088035.58185473,2020,1.0,140088035.58185473,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,WGS_syngas,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,electricity_grid_connection_NL,76.30205479451921,6489207.160070925,0.0,6489283.4621257195,2020,1.0,6489283.4621257195,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,feedgas_mixer,45.44917933457283,0.0,0.0,45.44917933457283,2020,1.0,45.44917933457283,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL3,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,Boiler_El,779111.6350014763,83168.42329566077,0.0,862280.058297137,2020,1.0,862280.058297137,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,CO2_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,CO2toEmissions,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,CrackerFurnace,160354411.6061331,136939796.37986255,-0.0,297294207.98599565,2020,1.0,297294207.98599565,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,HBfeed_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,HBfeed_splitter,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,HaberBosch,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,MeOHsynthesis,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,OlefinSeparation,76168321.03379057,65046382.37570226,0.0,141214703.40949285,2020,1.0,141214703.40949285,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,SteamReformer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,WGS_syngas,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,electricity_grid_connection_NL,116.99761258450273,9950213.625820918,0.0,9950330.623433502,2020,1.0,9950330.623433502,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,feedgas_mixer,103.42429450405226,0.0,0.0,103.42429450405226,2020,1.0,103.42429450405226,Today,output\base_case_5_dd\2020\optimization_results.h5
+NL4,naphtha_mixer,0.0,0.0,0.0,0.0,2020,1.0,0.0,Today,output\base_case_5_dd\2020\optimization_results.h5
+BEL1,ASU,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,Biomass2methanol,14088149.238317037,6015513.601218762,-0.0,20103662.8395358,2025,1.0,20103662.8395358,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,Boiler_El,895852.3709117699,95630.23557499588,0.0,991482.6064867658,2025,1.0,991482.6064867658,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,Boiler_El_existing,1128722.1715130967,120488.56560000002,0.0,1249210.7371130968,2025,1.0,1249210.7371130968,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,CO2_mixer,1.5403260888802275,0.0,0.0,1.5403260888802275,2025,1.0,1.5403260888802275,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,CO2toEmissions,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,CrackerFurnace_existing,232308763.0531282,198387524.1792,-0.0,430696287.2323282,2025,1.0,430696287.2323282,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,HaberBosch,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,MeOHsynthesis,42946789.8080337,11461184.230477922,0.0,54407974.03851162,2025,1.0,54407974.03851162,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,MethanolToOlefins,48683434.461985156,12992119.174337797,0.0,61675553.63632295,2025,1.0,61675553.63632295,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,OlefinSeparation_existing,110346626.9868226,94234043.69999999,0.0,204580670.6868226,2025,1.0,204580670.6868226,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,Plastic2methanol,8907099.046477646,3803251.552429585,-0.0,12710350.59890723,2025,1.0,12710350.59890723,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,SteamReformer,104286517.98589307,44529409.55946505,0.0,148815927.54535812,2025,1.0,148815927.54535812,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,WGS_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,electricity_grid_connection_BE,243.04749118629852,2711104.7465938353,0.0,2711347.7940850216,2025,1.0,2711347.7940850216,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,feedgas_mixer_existing,149.8298392157178,0.0,0.0,149.8298392157178,2025,1.0,149.8298392157178,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,rWGS,3057853.418746296,816047.5215656788,0.0,3873900.940311975,2025,1.0,3873900.940311975,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,ASU,410920.96998535265,87729.78771582732,0.0,498650.75770117994,2025,1.0,498650.75770117994,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,Biomass2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,Boiler_El,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,Boiler_El_existing,509573.6401307372,54395.8456,0.0,563969.4857307372,2025,1.0,563969.4857307372,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,CO2_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,CO2toEmissions,0.13675530775679962,0.0,0.0,0.13675530775679962,2025,1.0,0.13675530775679962,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,CO2toEmissions_existing,4.027250711444109,0.0,0.0,4.027250711444109,2025,1.0,4.027250711444109,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,HBfeed_mixer,0.0016746875117198445,0.0,0.0,0.0016746875117198445,2025,1.0,0.0016746875117198445,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,HBfeed_mixer_existing,7.569245347399024,0.0,0.0,7.569245347399024,2025,1.0,7.569245347399024,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,HaberBosch,669.011919802161,271.37899543266946,0.0,940.3909152348303,2025,1.0,940.3909152348303,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,HaberBosch_existing,14543068.375143738,5899271.999999999,0.0,20442340.375143737,2025,1.0,20442340.375143737,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,MeOHsynthesis,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,MethanolToOlefins,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,Plastic2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,SteamReformer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,SteamReformer_existing,35916443.88852458,15336000.0,0.0,51252443.88852458,2025,1.0,51252443.88852458,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,WGS_syngas,0.09903259300925446,0.04122887986422557,0.0,0.14026147287348004,2025,1.0,0.14026147287348004,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,WGS_syngas_existing,2.929335420955043,1.21953,0.0,4.148865420955043,2025,1.0,4.148865420955043,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,electricity_grid_connection_BE,39.920993885218536,445303.9012363226,0.0,445343.8222302078,2025,1.0,445343.8222302078,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,feedgas_mixer_existing,16.62798328172434,0.0,0.0,16.62798328172434,2025,1.0,16.62798328172434,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL2,rWGS,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,ASU,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,Biomass2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,Boiler_El,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,Boiler_El_existing,2203880.7956600916,235259.34240000002,0.0,2439140.1380600915,2025,1.0,2439140.1380600915,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,CO2_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,CO2toEmissions,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,CO2toEmissions_existing,2.61457472334043,0.0,0.0,2.61457472334043,2025,1.0,2.61457472334043,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,CrackerFurnace_existing,336127394.865261,287046776.8832,-0.0,623174171.748461,2025,1.0,623174171.748461,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,HBfeed_mixer,0.001465351572756302,0.0,0.0,0.001465351572756302,2025,1.0,0.001465351572756302,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,HBfeed_mixer_existing,6.623089678974146,0.0,0.0,6.623089678974146,2025,1.0,6.623089678974146,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,HaberBosch,1381.6550517705211,560.456621004357,0.0,1942.1116727748781,2025,1.0,1942.1116727748781,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,HaberBosch_existing,12724388.55862883,5161540.0,0.0,17885928.558628827,2025,1.0,17885928.558628827,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,MeOHsynthesis,1642.9502618757117,438.45315836265553,0.0,2081.4034202383673,2025,1.0,2081.4034202383673,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,MeOHsynthesis_existing,10521153.194767801,2807773.89,0.0,13328927.084767802,2025,1.0,13328927.084767802,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,MethanolToOlefins,16831057.287137188,4491694.23893756,0.0,21322751.52607475,2025,1.0,21322751.52607475,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,OlefinSeparation_existing,159660461.24900982,136347175.2,0.0,296007636.4490098,2025,1.0,296007636.4490098,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,Plastic2methanol,18144285.435903475,7747447.44520548,-0.0,25891732.881108955,2025,1.0,25891732.881108955,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,SteamReformer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,SteamReformer_existing,52873052.32716322,22576320.0,0.0,75449372.32716322,2025,1.0,75449372.32716322,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,WGS_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,WGS_syngas_existing,1.9016792147549528,0.7917000000000001,0.0,2.6933792147549527,2025,1.0,2.6933792147549527,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,electricity_grid_connection_DE,286.7527374661146,19188537.34877419,0.0,19188824.101511657,2025,1.0,19188824.101511657,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,feedgas_mixer_existing,216.79143048206458,0.0,0.0,216.79143048206458,2025,1.0,216.79143048206458,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+DE,rWGS,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,ASU,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,Biomass2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,Boiler_El,162124.6382667814,17306.44228153775,0.0,179431.08054831915,2025,1.0,179431.08054831915,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,Boiler_El_existing,3309420.894253988,353273.27359999996,0.0,3662694.167853988,2025,1.0,3662694.167853988,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,CO2_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,CO2toEmissions,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,CO2toEmissions_existing,19.131080257992927,0.0,0.0,19.131080257992927,2025,1.0,19.131080257992927,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,CrackerFurnace_existing,182968218.82672602,156251582.848,-0.0,339219801.674726,2025,1.0,339219801.674726,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,HBfeed_mixer_existing,35.963283278050554,0.0,0.0,35.963283278050554,2025,1.0,35.963283278050554,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,HaberBosch,1585.2673751951043,643.0502283126026,0.0,2228.3176035077067,2025,1.0,2228.3176035077067,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,HaberBosch_existing,69081167.32117663,28022187.999999993,0.0,97103355.32117662,2025,1.0,97103355.32117662,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,MeOHsynthesis,27785526.07441748,7415106.803164972,0.0,35200632.87758245,2025,1.0,35200632.87758245,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,MethanolToOlefins,22306840.95668691,5953013.367176849,0.0,28259854.32386376,2025,1.0,28259854.32386376,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,OlefinSeparation_existing,86909876.0114301,74219477.99999999,0.0,161129354.01143008,2025,1.0,161129354.01143008,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,Plastic2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,SteamReformer,48782446.07898204,20829667.753000956,0.0,69612113.831983,2025,1.0,69612113.831983,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,SteamReformer_existing,170618284.43269813,72852479.99999999,0.0,243470764.43269813,2025,1.0,243470764.43269813,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,WGS_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,WGS_syngas_existing,13.913172264798305,5.792280000000001,0.0,19.705452264798307,2025,1.0,19.705452264798307,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,electricity_grid_connection_NL,346.2959560306297,29451188.48279017,0.0,29451534.7787462,2025,1.0,29451534.7787462,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,feedgas_mixer_existing,118.00715797176424,0.0,0.0,118.00715797176424,2025,1.0,118.00715797176424,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL1,rWGS,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,ASU,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,Biomass2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,Boiler_El,315903.24173910514,33721.96402814542,0.0,349625.20576725056,2025,1.0,349625.20576725056,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,Boiler_El_existing,1374941.7037604998,146771.94959999996,0.0,1521713.6533604998,2025,1.0,1521713.6533604998,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,CO2_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,CO2toEmissions,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,CO2toEmissions_existing,5.538289417552354,0.0,0.0,5.538289417552354,2025,1.0,5.538289417552354,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,CrackerFurnace_existing,138767672.59097537,118505107.7696,-0.0,257272780.36057538,2025,1.0,257272780.36057538,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,HBfeed_mixer,0.002302695328616224,0.0,0.0,0.002302695328616224,2025,1.0,0.002302695328616224,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,HBfeed_mixer_existing,10.407712352673657,0.0,0.0,10.407712352673657,2025,1.0,10.407712352673657,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,HaberBosch,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,HaberBosch_existing,19999107.824688464,8112467.999999999,0.0,28111575.824688464,2025,1.0,28111575.824688464,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,MeOHsynthesis,40034221.59424645,10683908.885073518,0.0,50718130.47931997,2025,1.0,50718130.47931997,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,MethanolToOlefins,35798741.68760396,9553588.883706704,0.0,45352330.57131066,2025,1.0,45352330.57131066,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,OlefinSeparation_existing,65914623.29694363,56289908.1,0.0,122204531.39694363,2025,1.0,122204531.39694363,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,Plastic2methanol,3943909.9170233095,1684014.2268871516,-0.0,5627924.143910461,2025,1.0,5627924.143910461,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,SteamReformer,87857179.1627611,37514228.96492812,0.0,125371408.12768923,2025,1.0,125371408.12768923,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,SteamReformer_existing,49392698.3278245,21090240.0,0.0,70482938.3278245,2025,1.0,70482938.3278245,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,WGS_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,WGS_syngas_existing,4.027250711444109,1.6766100000000002,0.0,5.7038607114441096,2025,1.0,5.7038607114441096,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,electricity_grid_connection_NL,189.13382781708734,16085131.560184719,0.0,16085320.694012536,2025,1.0,16085320.694012536,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,feedgas_mixer_existing,89.50070550625034,0.0,0.0,89.50070550625034,2025,1.0,89.50070550625034,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL2,rWGS,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,ASU,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,Biomass2methanol,348865.1150872651,148962.2809425101,-0.0,497827.39602977515,2025,1.0,497827.39602977515,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,Boiler_El,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,Boiler_El_existing,853849.0211854398,91146.47199999998,0.0,944995.4931854397,2025,1.0,944995.4931854397,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,CO2_mixer,1.8174579822081414,0.0,0.0,1.8174579822081414,2025,1.0,1.8174579822081414,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,CO2toEmissions,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,HBfeed_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,HaberBosch,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,MeOHsynthesis,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,MeOHsynthesis_existing,31942036.74869586,8524352.3325,0.0,40466389.08119586,2025,1.0,40466389.08119586,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,MethanolToOlefins,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,Plastic2methanol,6523580.215376418,2785510.34989791,-0.0,9309090.565274328,2025,1.0,9309090.565274328,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,SteamReformer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,SteamReformer_existing,98178358.16739225,41921280.00000001,0.0,140099638.16739225,2025,1.0,140099638.16739225,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,WGS_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,electricity_grid_connection_NL,70.40857507230811,5987988.537399545,0.0,5988058.945974617,2025,1.0,5988058.945974617,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,feedgas_mixer_existing,45.45294359601493,0.0,0.0,45.45294359601493,2025,1.0,45.45294359601493,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL3,rWGS,1714721.5508336015,457606.71952245536,0.0,2172328.2703560567,2025,1.0,2172328.2703560567,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,ASU,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,Biomass2methanol,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,Boiler_El,1617918.9949100702,172709.23161931187,0.0,1790628.2265293822,2025,1.0,1790628.2265293822,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,Boiler_El_existing,779119.2333278946,83169.23439999999,0.0,862288.4677278945,2025,1.0,862288.4677278945,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,CO2_mixer,4.364630815565099,0.0,0.0,4.364630815565099,2025,1.0,4.364630815565099,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,CO2toEmissions,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,CrackerFurnace,0.0,0.0,-0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,CrackerFurnace_existing,160353700.44665322,136939189.06239998,-0.0,297292889.50905323,2025,1.0,297292889.50905323,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,DAC_Adsorption,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,H2_network_connection_in,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,H2_network_connection_out,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,HBfeed_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,HBfeed_splitter,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,HaberBosch,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,MeOHsynthesis,56466084.17584283,15069070.270578139,0.0,71535154.44642097,2025,1.0,71535154.44642097,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,MethanolToOlefins,55083757.943586215,14700169.691854281,0.0,69783927.6354405,2025,1.0,69783927.6354405,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,OlefinSeparation,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,OlefinSeparation_existing,76167983.2331459,65046093.9,0.0,141214077.1331459,2025,1.0,141214077.1331459,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,PEMEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,Plastic2methanol,10512629.252413763,4488798.576925048,-0.0,15001427.829338811,2025,1.0,15001427.829338811,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,SOEC,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,SteamReformer,137115051.6562102,58546899.540672235,0.0,195661951.19688246,2025,1.0,195661951.19688246,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,Storage_Battery,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,Storage_H2,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,WGS_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,eCrackerFurnace,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,eSMR_syngas,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,electricity_grid_connection_NL,248.87020924382276,21165489.554671437,0.0,21165738.42488068,2025,1.0,21165738.42488068,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,feedgas_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,feedgas_mixer_existing,103.4213720733728,0.0,0.0,103.4213720733728,2025,1.0,103.4213720733728,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,naphtha_mixer,0.0,0.0,0.0,0.0,2025,1.0,0.0,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+NL4,rWGS,4020440.394080426,1072932.5346592357,0.0,5093372.928739661,2025,1.0,5093372.928739661,Today opt.,output\base_case_5_dd\2025\optimization_results.h5
+BEL1,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Biomass2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Biomass2methanol_existing,14088162.62216026,6015519.316,-0.0,20103681.93816026,2030,0.7835261664684589,15751760.840907905,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Boiler_El,817183.7579419406,87232.53720979962,0.0,904416.2951517402,2030,0.7835261664684589,708633.8326318492,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Boiler_El_existing,2024615.6976203155,216123.1944,0.0,2240738.8920203154,2030,0.7835261664684589,1755677.5541214596,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,CO2_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,CO2_mixer_existing,1.540079127614356,0.0,0.0,1.540079127614356,2030,0.7835261664684589,1.2066922949177648,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,CO2toEmissions,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,CrackerFurnace_existing,232308763.0531282,198387524.1792,-0.0,430696287.2323282,2030,0.7835261664684589,337461810.84734434,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,H2_network_connection_in,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,H2_network_connection_out,15.560130522215077,11684.505419922632,0.0,11700.065550444848,2030,0.7835261664684589,9167.30750816973,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,HaberBosch,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,MeOHsynthesis,32939654.10469084,8790585.882427447,0.0,41730239.98711829,2030,0.7835261664684589,32696734.96291558,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,MeOHsynthesis_existing,42947110.318817504,11461269.765,0.0,54408380.083817504,2030,0.7835261664684589,42630389.47083238,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,MethanolToOlefins,20305088.04831312,5418806.760133186,0.0,25723894.808446303,2030,0.7835261664684589,20155344.685899824,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,MethanolToOlefins_existing,48684332.868314125,12992358.9315,0.0,61676691.79981413,2030,0.7835261664684589,48325301.886365,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,OlefinSeparation,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,OlefinSeparation_existing,110346626.9868226,94234043.69999999,0.0,204580670.6868226,2030,0.7835261664684589,160294308.63679233,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,PEMEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Plastic2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Plastic2methanol_existing,8908399.50646061,3803806.8371999995,-0.0,12712206.34366061,2030,0.7835261664684589,9960346.303804422,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,SOEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,SteamReformer,128935432.30001281,55054275.30326208,0.0,183989707.60327488,2030,0.7835261664684589,144160750.26804662,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,SteamReformer_existing,104289212.28251024,44530560.0,0.0,148819772.28251022,2030,0.7835261664684589,116604185.67122424,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Storage_Battery,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,Storage_H2,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,WGS_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,electricity_grid_connection_BE,319.6773592482335,3565882.543392106,0.0,3566202.220751354,2030,0.7835261664684589,2794212.754876613,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,feedgas_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,feedgas_mixer_existing,149.8298392157178,0.0,0.0,149.8298392157178,2030,0.7835261664684589,117.39559954327694,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,rWGS,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,rWGS_existing,3058165.9477692856,816130.9259999999,0.0,3874296.8737692856,2030,0.7835261664684589,3035612.977265183,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,ASU_existing,414584.8045723901,88512.0,0.0,503096.8045723901,2030,0.7835261664684589,394189.5106491362,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,Biomass2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,Boiler_El,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,Boiler_El_existing,509573.6401307372,54395.8456,0.0,563969.4857307372,2030,0.7835261664684589,441884.84915979276,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,CO2_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,CO2toEmissions,-1.570965907395561e-05,0.0,0.0,-1.570965907395561e-05,2030,0.7835261664684589,-1.2308928950742879e-05,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,CO2toEmissions_existing,4.164021728859983,0.0,0.0,4.164021728859983,2030,0.7835261664684589,3.262619982305027,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,H2_network_connection_in,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,H2_network_connection_out,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,HBfeed_mixer,0.0016746875117198445,0.0,0.0,0.0016746875117198445,2030,0.7835261664684589,0.001312161486090452,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,HBfeed_mixer_existing,7.569245347399024,0.0,0.0,7.569245347399024,2030,0.7835261664684589,5.930701790106776,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,HaberBosch,669.011919802161,271.37899543266946,0.0,940.3909152348303,2030,0.7835261664684589,736.8208887957121,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,HaberBosch_existing,14543068.375143738,5899271.999999999,0.0,20442340.375143737,2030,0.7835261664684589,16017108.58777977,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,MeOHsynthesis,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,MethanolToOlefins,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,OlefinSeparation,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,PEMEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,Plastic2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,SOEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,SteamReformer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,SteamReformer_existing,35916443.88852458,15336000.0,0.0,51252443.88852458,2030,0.7835261664684589,40157630.88211545,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,Storage_Battery,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,Storage_H2,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,WGS_syngas,-0.00026691278525633045,-0.00011112013553488122,0.0,-0.00037803292079121166,2030,0.7835261664684589,-0.0002961986852264126,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,WGS_syngas_existing,3.028634926750129,1.2608700000000002,0.0,4.289504926750129,2030,0.7835261664684589,3.360939351304096,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,electricity_grid_connection_BE,39.92099388522697,445303.9012364166,0.0,445343.8222303018,2030,0.7835261664684589,348938.5377925192,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,feedgas_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,feedgas_mixer_existing,16.62798328172434,0.0,0.0,16.62798328172434,2030,0.7835261664684589,13.028459996831096,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL2,rWGS,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Biomass2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Boiler_El,232354.91764720285,24803.367422018215,0.0,257158.28506922105,2030,0.7835261664684589,201490.2452758899,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Boiler_El_existing,2203880.7956600916,235259.34240000002,0.0,2439140.1380600915,2030,0.7835261664684589,1911130.121853571,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,CO2_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,CO2toEmissions,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,CO2toEmissions_existing,2.61457472334043,0.0,0.0,2.61457472334043,2030,0.7835261664684589,2.0485877099242584,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,CrackerFurnace,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,CrackerFurnace_existing,336127394.865261,287046776.8832,-0.0,623174171.748461,2030,0.7835261664684589,488273269.8322286,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,H2_network_connection_in,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,H2_network_connection_out,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,HBfeed_mixer,0.001465351572756302,0.0,0.0,0.001465351572756302,2030,0.7835261664684589,0.0011481413003302722,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,HBfeed_mixer_existing,6.623089678974146,0.0,0.0,6.623089678974146,2030,0.7835261664684589,5.189364066343428,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,HaberBosch,1381.6550517705211,560.456621004357,0.0,1942.1116727748781,2030,0.7835261664684589,1521.6953138229462,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,HaberBosch_existing,12724388.55862883,5161540.0,0.0,17885928.558628827,2030,0.7835261664684589,14014093.037271174,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,MeOHsynthesis,26725910.930664405,7132327.940524892,0.0,33858238.871189296,2030,0.7835261664684589,26528816.10611631,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,MeOHsynthesis_existing,10521153.194767801,2807773.89,0.0,13328927.084767802,2030,0.7835261664684589,10443563.141865727,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,MethanolToOlefins,21455346.805489596,5725775.629928761,0.0,27181122.435418356,2030,0.7835261664684589,21297120.662133165,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,MethanolToOlefins_existing,16829804.663450647,4491359.952,0.0,21321164.615450647,2030,0.7835261664684589,16705690.375786997,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,OlefinSeparation,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,OlefinSeparation_existing,159660461.24900982,136347175.2,0.0,296007636.4490098,2030,0.7835261664684589,231929728.63228187,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,PEMEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Plastic2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Plastic2methanol_existing,18143482.210619353,7747104.475199998,-0.0,25890586.68581935,2030,0.7835261664684589,20285952.133559357,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,SOEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,SteamReformer,61599258.60068703,26302331.957812965,0.0,87901590.55849999,2030,0.7835261664684589,68873196.27678157,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,SteamReformer_existing,52873052.32716322,22576320.0,0.0,75449372.32716322,2030,0.7835261664684589,59116557.46195362,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Storage_Battery,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,Storage_H2,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,WGS_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,WGS_syngas_existing,1.9016792147549528,0.7917000000000001,0.0,2.6933792147549527,2030,0.7835261664684589,2.110333090982776,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,electricity_grid_connection_DE,320.37274447551647,21438276.15115334,0.0,21438596.523897815,2030,0.7835261664684589,16797701.348833684,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,feedgas_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,feedgas_mixer_existing,216.79143048206458,0.0,0.0,216.79143048206458,2030,0.7835261664684589,169.86175844882547,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+DE,rWGS,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,Biomass2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,Boiler_El,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,Boiler_El_existing,3471551.416657834,370580.34400000004,0.0,3842131.760657834,2030,0.7835261664684589,3010410.769494943,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,CO2_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,CO2toEmissions,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,CO2toEmissions_existing,19.131080257992927,0.0,0.0,19.131080257992927,2030,0.7835261664684589,14.989701974945612,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,CrackerFurnace_existing,182968218.82672602,156251582.848,-0.0,339219801.674726,2030,0.7835261664684589,265787590.79638895,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,H2_network_connection_in,14.76909238679197,11090.494375637316,0.0,11105.263468024108,2030,0.7835261664684589,8701.264512723152,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,H2_network_connection_out,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,HBfeed_mixer_existing,35.963283278050554,0.0,0.0,35.963283278050554,2030,0.7835261664684589,28.178173480470182,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,HaberBosch,1585.2673751951043,643.0502283126026,0.0,2228.3176035077067,2030,0.7835261664684589,1745.9451495505766,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,HaberBosch_existing,69081167.32117663,28022187.999999993,0.0,97103355.32117662,2030,0.7835261664684589,76083019.74602614,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,MeOHsynthesis,17188930.74247463,4587199.714926661,0.0,21776130.45740129,2030,0.7835261664684589,17062168.017804682,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,MeOHsynthesis_existing,27784271.891063906,7414772.1,0.0,35199043.99106391,2030,0.7835261664684589,27579372.001672946,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,MethanolToOlefins,13799657.536120195,3682706.391931321,0.0,17482363.928051516,2030,0.7835261664684589,13697889.589352673,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,MethanolToOlefins_existing,22305834.070276923,5952744.66,0.0,28258578.730276924,2030,0.7835261664684589,22141335.862381008,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,OlefinSeparation,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,OlefinSeparation_existing,86909876.0114301,74219477.99999999,0.0,161129354.01143008,2030,0.7835261664684589,126249065.05411501,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,PEMEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,Plastic2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,SOEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,SteamReformer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,SteamReformer_existing,219403944.2722659,93683520.0,0.0,313087464.2722659,2030,0.7835261664684589,245312220.6505791,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,Storage_Battery,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,Storage_H2,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,WGS_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,WGS_syngas_existing,13.913172264798305,5.792280000000001,0.0,19.705452264798307,2030,0.7835261664684589,15.439737471564628,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,electricity_grid_connection_NL,304.67042695030256,25911091.403134562,0.0,25911396.073561512,2030,0.7835261664684589,20302256.83336353,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,feedgas_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,feedgas_mixer_existing,118.00715797176424,0.0,0.0,118.00715797176424,2030,0.7835261664684589,92.46169610145427,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL1,rWGS,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Biomass2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Boiler_El,4448.577059151484,474.87564464131674,0.0,4923.4527037928,2030,0.7835261664684589,3857.654022791541,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Boiler_El_existing,1690851.4427960576,180494.60720000003,0.0,1871346.0499960575,2030,0.7835261664684589,1466248.5966893039,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,CO2_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,CO2toEmissions,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,CO2toEmissions_existing,5.538289417552354,0.0,0.0,5.538289417552354,2030,0.7835261664684589,4.33939467612763,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,CrackerFurnace_existing,138767672.59097537,118505107.7696,-0.0,257272780.36057538,2030,0.7835261664684589,201579955.33260342,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,H2_network_connection_in,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,H2_network_connection_out,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,HBfeed_mixer,0.002302695328616224,0.0,0.0,0.002302695328616224,2030,0.7835261664684589,0.0018042220433754981,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,HBfeed_mixer_existing,10.407712352673657,0.0,0.0,10.407712352673657,2030,0.7835261664684589,8.154714961396815,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,HaberBosch,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,HaberBosch_existing,19999107.824688464,8112467.999999999,0.0,28111575.824688464,2030,0.7835261664684589,22026155.239305556,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,MeOHsynthesis,4022407.0968791237,1073457.387464375,0.0,5095864.484343499,2030,0.7835261664684589,3992743.1642604317,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,MeOHsynthesis_existing,40033712.14066684,10683772.9275,0.0,50717485.068166845,2030,0.7835261664684589,39738476.64838207,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,MethanolToOlefins,1035420.1958653623,276321.9713001824,0.0,1311742.1671655448,2030,0.7835261664684589,1027784.3116342477,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,MethanolToOlefins_existing,35797692.23719205,9553308.817499999,0.0,45351001.054692045,2030,0.7835261664684589,35533696.00188989,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,OlefinSeparation,-0.0006155091953063225,-0.00052563383215306,0.0,-0.0011411430274593825,2030,0.7835261664684589,-0.0008941154216974613,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,OlefinSeparation_existing,65914623.29694363,56289908.1,0.0,122204531.39694363,2030,0.7835261664684589,95750448.01052167,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,PEMEC,0.0030566495995769933,0.0008323599221119535,0.0,0.003889009521688947,2030,0.7835261664684589,0.0030471407218882756,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Plastic2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Plastic2methanol_existing,3945327.8491235995,1684619.6711999995,-0.0,5629947.520323599,2030,0.7835261664684589,4411211.1980177555,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,SOEC,22709236.71498704,14429285.531176658,0.0,37138522.246163696,2030,0.7835261664684589,29099003.96384022,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,SteamReformer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,SteamReformer_existing,137251402.19485193,58605119.999999985,0.0,195856522.19485193,2030,0.7835261664684589,153458710.01317698,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Storage_Battery,0.000135511723792851,3.330643521819566e-05,0.0,0.00016881815901104668,2030,0.7835261664684589,0.0001322734449601881,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,Storage_H2,0.0003129963296002661,3.341165766332543e-05,0.0,0.00034640798726359154,2030,0.7835261664684589,0.0002714197222946966,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,WGS_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,WGS_syngas_existing,4.027250711444109,1.6766100000000002,0.0,5.7038607114441096,2030,0.7835261664684589,4.469124117307859,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,electricity_grid_connection_NL,280.985075109073,23896739.95256333,0.0,23897020.93763844,2030,0.7835261664684589,18723941.205284342,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,feedgas_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,feedgas_mixer_existing,89.50070550625034,0.0,0.0,89.50070550625034,2030,0.7835261664684589,70.12614468153481,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL2,rWGS,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Biomass2methanol,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Biomass2methanol_existing,349026.51204836386,149031.196,-0.0,498057.70804836386,2030,0.7835261664684589,390241.2466672014,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Boiler_El,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Boiler_El_existing,853849.0211854398,91146.47199999998,0.0,944995.4931854397,2030,0.7835261664684589,740428.6961055582,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,CO2_mixer,0.00899245908797276,0.0,0.0,0.00899245908797276,2030,0.7835261664684589,0.007045826996323751,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,CO2_mixer_existing,1.8173683136081813,0.0,0.0,1.8173683136081813,2030,0.7835261664684589,1.4239556278226662,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,CO2toEmissions,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,CrackerFurnace,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,H2_network_connection_in,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,H2_network_connection_out,2.3924134172576763,1796.525260551831,0.0,1798.9176739690888,2030,0.7835261664684589,1409.499068877357,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,HBfeed_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,HaberBosch,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,MeOHsynthesis,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,MeOHsynthesis_existing,31942036.74869586,8524352.3325,0.0,40466389.08119586,2030,0.7835261664684589,31706474.707610495,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,MethanolToOlefins,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,OlefinSeparation,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,PEMEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Plastic2methanol,128657.4930945326,54935.59775076066,-0.0,183593.09084529325,2030,0.7835261664684589,143849.99066010813,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Plastic2methanol_existing,6525287.461713978,2786239.3287999993,-0.0,9311526.790513977,2030,0.7835261664684589,7295824.890139769,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,SOEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,SteamReformer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,SteamReformer_existing,98178358.16739225,41921280.00000001,0.0,140099638.16739225,2030,0.7835261664684589,109771732.41691503,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Storage_Battery,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,Storage_H2,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,WGS_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,electricity_grid_connection_NL,70.5119775987854,5996782.53930412,0.0,5996853.051281719,2030,0.7835261664684589,4698691.282145445,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,feedgas_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,feedgas_mixer_existing,45.45294359601493,0.0,0.0,45.45294359601493,2030,0.7835261664684589,35.61357065049267,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,rWGS,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL3,rWGS_existing,1714609.4069462672,457576.79175000003,0.0,2172186.1986962673,2030,0.7835261664684589,1701964.7251201803,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,ASU,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Biomass2methanol,414213.1956635848,176865.3263227527,-0.0,591078.5219863375,2030,0.7835261664684589,463125.4884137977,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Boiler_El,1758830.2664800668,187751.19448390327,0.0,1946581.46096397,2030,0.7835261664684589,1525197.5098276713,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Boiler_El_existing,2396968.744633055,255871.0488,0.0,2652839.793433055,2030,0.7835261664684589,2078569.3936035796,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,CO2_mixer,5.167976637628936,0.0,0.0,5.167976637628936,2030,0.7835261664684589,4.049244923279955,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,CO2_mixer_existing,4.364494316031195,0.0,0.0,4.364494316031195,2030,0.7835261664684589,3.4196955000133005,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,CO2toEmissions,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,CrackerFurnace,33463490.58759152,28577221.800918404,-0.0,62040712.38850993,2030,0.7835261664684589,48610521.54274141,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,CrackerFurnace_existing,0.0,0.0,-0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,DAC_Adsorption,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,H2_network_connection_in,1.6520212749515801,1240.5456055423454,0.0,1242.1976268172969,2030,0.7835261664684589,973.2943445363738,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,H2_network_connection_out,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,HBfeed_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,HBfeed_splitter,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,HaberBosch,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,MeOHsynthesis,59556654.6103656,15893848.962668126,0.0,75450503.57303372,2030,0.7835261664684589,59117443.82269387,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,MeOHsynthesis_existing,56467253.05064207,15069382.207499998,0.0,71536635.25814207,2030,0.7835261664684589,56050825.58586445,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,MethanolToOlefins,57775239.32476109,15418443.725849159,0.0,73193683.05061024,2030,0.7835261664684589,57349165.890352055,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,MethanolToOlefins_existing,55082724.37117436,14699893.863,0.0,69782618.23417436,2030,0.7835261664684589,54676507.35115461,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,OlefinSeparation,15895152.92069232,13574175.992942447,0.0,29469328.91363477,2030,0.7835261664684589,23089990.312098365,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,OlefinSeparation_existing,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,PEMEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Plastic2methanol,10548994.070284413,4504326.028601367,-0.0,15053320.09888578,2030,0.7835261664684589,11794670.189702578,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Plastic2methanol_existing,10512497.772080928,4488742.436,-0.0,15001240.208080929,2030,0.7835261664684589,11753864.232510157,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,SOEC,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,SteamReformer,139482778.43879092,59557897.67986329,0.0,199040676.1186542,2030,0.7835261664684589,155953577.93053925,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,SteamReformer_existing,137109759.88092536,58544639.99999999,0.0,195654399.88092536,2030,0.7835261664684589,153300341.89138833,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Storage_Battery,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,Storage_H2,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,WGS_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,eCrackerFurnace,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,eSMR_syngas,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,electricity_grid_connection_NL,392.04146623327836,33341674.697709873,0.0,33342066.739176106,2030,0.7835261664684589,26124381.734282162,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,feedgas_mixer,24.630729017129994,0.0,0.0,24.630729017129994,2030,0.7835261664684589,19.298820684115295,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,feedgas_mixer_existing,103.4213720733728,0.0,0.0,103.4213720733728,2030,0.7835261664684589,81.03335119155791,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,naphtha_mixer,0.0,0.0,0.0,0.0,2030,0.7835261664684589,0.0,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,rWGS,4808624.161417541,1283274.6674542928,0.0,6091898.828871834,2030,0.7835261664684589,4773162.1358996425,2030,output\base_case_5_dd\2030\optimization_results.h5
+NL4,rWGS_existing,4020314.658763291,1072898.9797500002,0.0,5093213.638513291,2030,0.7835261664684589,3990666.15718919,2030,output\base_case_5_dd\2030\optimization_results.h5
+BEL1,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Biomass2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Biomass2methanol_existing,14088162.62216026,6015519.316,-0.0,20103681.93816026,2040,0.48101709809097,9670214.746837694,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Boiler_El,3665431.4684763174,391276.60560594266,0.0,4056708.07408226,2040,0.48101709809097,1951345.9455972563,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Boiler_El_existing,2841747.7710144757,303350.2144,0.0,3145097.9854144757,2040,0.48101709809097,1512845.906155827,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,CO2_mixer,21.104756373030202,0.0,0.0,21.104756373030202,2040,0.48101709809097,10.151748666471892,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,CO2_mixer_existing,1.540079127614356,0.0,0.0,1.540079127614356,2040,0.48101709809097,0.7408043927955301,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,CrackerFurnace_existing,232308763.0531282,198387524.1792,-0.0,430696287.2323282,2040,0.48101709809097,207172278.24304938,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,DAC_Adsorption,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,H2_network_connection_in,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,H2_network_connection_out,15.560493912151047,11684.778298846773,0.0,11700.338792758925,2040,0.48101709809097,5628.063012774101,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,HaberBosch,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,MeOHsynthesis,30304888.461468626,8087447.543657953,0.0,38392336.00512658,2040,0.48101709809097,18467370.054119453,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,MeOHsynthesis_existing,75886615.59630392,20251815.93,0.0,96138431.52630392,2040,0.48101709809097,46244229.347800136,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,MethanolToOlefins,30103552.39165976,8033717.106560461,0.0,38137269.49822022,2040,0.48101709809097,18344678.703147154,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,MethanolToOlefins_existing,68989513.337738,18411190.356000002,0.0,87400703.69373801,2040,0.48101709809097,42041232.86187058,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,OlefinSeparation,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,OlefinSeparation_existing,110346626.9868226,94234043.69999999,0.0,204580670.6868226,2040,0.48101709809097,98406800.53927977,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Plastic2methanol,879621.4237336721,375590.47316178354,-0.0,1255211.8968954557,2040,0.48101709809097,603778.3841339139,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Plastic2methanol_existing,8908399.50646061,3803806.8371999995,-0.0,12712206.34366061,2040,0.48101709809097,6114788.605761247,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,SteamReformer_existing,233224187.18824464,99584639.99999999,0.0,332808827.18824464,2040,0.48101709809097,160086736.27314854,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Storage_Battery,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,Storage_H2,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,WGS_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,eSMR_syngas,87658120.5506771,36493501.90164102,0.0,124151622.45231813,2040,0.48101709809097,59719053.15529978,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,electricity_grid_connection_BE,774.7499666898904,8642048.933993632,0.0,8642823.683960322,2040,0.48101709809097,4157345.967770501,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,feedgas_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,feedgas_mixer_existing,149.8298392157178,0.0,0.0,149.8298392157178,2040,0.48101709809097,72.0707144669812,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,naphtha_mixer,0.6416354729586857,0.0,0.0,0.6416354729586857,2040,0.48101709809097,0.3086376332348141,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,rWGS_existing,3058165.9477692856,816130.9259999999,0.0,3874296.8737692856,2040,0.48101709809097,1863603.039363419,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,ASU_existing,414584.8045723901,88512.0,0.0,503096.8045723901,2040,0.48101709809097,241998.16499425092,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,Biomass2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,Boiler_El,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,Boiler_El_existing,509573.6401307372,54395.8456,0.0,563969.4857307372,2040,0.48101709809097,271278.9654380559,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,CO2_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,CO2toEmissions_existing,4.164021728859983,0.0,0.0,4.164021728859983,2040,0.48101709809097,2.002965648403973,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,H2_network_connection_in,0.005513717798611951,4.140393643216942,0.0,4.145907361015555,2040,0.48101709809097,1.9942523277496935,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,H2_network_connection_out,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,HBfeed_mixer,0.0016746875117198445,0.0,0.0,0.0016746875117198445,2040,0.48101709809097,0.0008055533270966669,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,HBfeed_mixer_existing,7.569245347399024,0.0,0.0,7.569245347399024,2040,0.48101709809097,3.6409364317444544,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,HaberBosch,669.0119197844801,271.3789954254974,0.0,940.3909152099775,2040,0.48101709809097,452.34410910541476,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,HaberBosch_existing,14543068.375143738,5899271.999999999,0.0,20442340.375143737,2040,0.48101709809097,9833115.24543951,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,MeOHsynthesis,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,MethanolToOlefins,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,OlefinSeparation,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,Plastic2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,SteamReformer_existing,35916443.88852458,15336000.0,0.0,51252443.88852458,2040,0.48101709809097,24653301.829328362,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,Storage_Battery,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,Storage_H2,282.04836802161344,30.108032029873876,0.0,312.1564000514873,2040,0.48101709809097,150.15256570329035,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,WGS_syngas,0.00015768394980092177,6.56463940336416e-05,0.0,0.00022333034383456335,2040,0.48101709809097,0.00010742571390696021,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,WGS_syngas_existing,3.028634926750129,1.2608700000000002,0.0,4.289504926750129,2040,0.48101709809097,2.063325212112266,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,eSMR_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,electricity_grid_connection_BE,39.92643341757377,445364.5772051036,0.0,445404.5036385212,2040,0.48101709809097,214247.18181685035,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,feedgas_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,feedgas_mixer_existing,16.62798328172434,0.0,0.0,16.62798328172434,2040,0.48101709809097,7.998344265280206,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,naphtha_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL2,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Biomass2methanol,2823125.0181647604,1205449.1088525555,-0.0,4028574.127017316,2040,0.48101709809097,1937813.0360222321,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Boiler_El,5142032.651508221,548900.4770926497,0.0,5690933.128600871,2040,0.48101709809097,2737436.138949356,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Boiler_El_existing,2436277.476974307,260067.16799999998,0.0,2696344.644974307,2040,0.48101709809097,1296987.876578668,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,CO2_mixer,31.757422963488388,0.0,0.0,31.757422963488388,2040,0.48101709809097,15.275863436744716,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,CO2toEmissions_existing,2.61457472334043,0.0,0.0,2.61457472334043,2040,0.48101709809097,1.2576551461632144,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,CrackerFurnace,21799968.589505073,18616782.84889822,-0.0,40416751.43840329,2040,0.48101709809097,19441148.49116479,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,CrackerFurnace_existing,336127394.865261,287046776.8832,-0.0,623174171.748461,2040,0.48101709809097,299757431.69968843,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,DAC_Adsorption,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,H2_network_connection_in,0.0038640443500684452,2.9016110813939937,0.0,2.9054751257440623,2040,0.48101709809097,1.397583213560905,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,H2_network_connection_out,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,HBfeed_mixer,0.001465351572756302,0.0,0.0,0.001465351572756302,2040,0.48101709809097,0.0007048591612102752,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,HBfeed_mixer_existing,6.623089678974146,0.0,0.0,6.623089678974146,2040,0.48101709809097,3.1858193777763977,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,HaberBosch,1381.6550517528403,560.4566209971849,0.0,1942.1116727500253,2040,0.48101709809097,934.1889209948167,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,HaberBosch_existing,12724388.55862883,5161540.0,0.0,17885928.558628827,2040,0.48101709809097,8603437.451934043,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,MeOHsynthesis,192845273.60381192,51464503.36869554,0.0,244309776.97250748,2040,0.48101709809097,117517179.95456763,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,MeOHsynthesis_existing,37248701.00087537,9940538.662500001,0.0,47189239.66337537,2040,0.48101709809097,22698831.123996124,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,MethanolToOlefins,157678469.6900342,42079559.342506595,0.0,199758029.0325408,2040,0.48101709809097,96087027.4456045,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,MethanolToOlefins_existing,38284634.16374781,10216997.529000001,0.0,48501631.69274781,2040,0.48101709809097,23330114.129522573,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,OlefinSeparation,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,OlefinSeparation_existing,159660461.24900982,136347175.2,0.0,296007636.4490098,2040,0.48101709809097,142384734.29746953,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Plastic2methanol,1795292.9936701749,766574.0360148116,-0.0,2561867.0296849865,2040,0.48101709809097,1232301.844314005,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Plastic2methanol_existing,18143482.210619353,7747104.475199998,-0.0,25890586.68581935,2040,0.48101709809097,12453814.875485528,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,SteamReformer_existing,114467224.26894847,48876479.99999999,0.0,163343704.26894847,2040,0.48101709809097,78571114.61887918,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Storage_Battery,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,Storage_H2,85.35563262465436,9.111522747035751,0.0,94.46715537169011,2040,0.48101709809097,45.44031694179917,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,WGS_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,WGS_syngas_existing,1.9016792147549528,0.7917000000000001,0.0,2.6933792147549527,2040,0.48101709809097,1.2955614539399627,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,eSMR_syngas,557822307.4820533,232230503.12954548,0.0,790052810.6115987,2040,0.48101709809097,380028910.2990059,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,electricity_grid_connection_DE,1906.0215272985877,127544607.20173067,0.0,127546513.22325797,2040,0.48101709809097,61352053.66227308,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,feedgas_mixer,94.45388846905416,0.0,0.0,94.45388846905416,2040,0.48101709809097,45.433935334792565,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,feedgas_mixer_existing,216.79143048206458,0.0,0.0,216.79143048206458,2040,0.48101709809097,104.28038478147296,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,naphtha_mixer,1.283270945917371,0.0,0.0,1.283270945917371,2040,0.48101709809097,0.6172752664696279,2040,output\base_case_5_dd\2040\optimization_results.h5
+DE,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,Biomass2methanol,128410.93434316508,54830.31937123321,-0.0,183241.25371439828,2040,0.48101709809097,88142.17611225104,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,Boiler_El,1623326.8438216026,173286.507387235,0.0,1796613.3512088377,2040,0.48101709809097,864201.7405899678,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,Boiler_El_existing,3471551.416657834,370580.34400000004,0.0,3842131.760657834,2040,0.48101709809097,1848131.0699947805,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,CO2_mixer,51.97501263653055,0.0,0.0,51.97501263653055,2040,0.48101709809097,25.00086975166542,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,CO2toEmissions_existing,19.131080257992927,0.0,0.0,19.131080257992927,2040,0.48101709809097,9.202376709045204,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,CrackerFurnace_existing,182968218.82672602,156251582.848,-0.0,339219801.674726,2040,0.48101709809097,163170524.61657107,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,DAC_Adsorption,743570187.4667277,269976653.9199118,0.0,1013546841.3866396,2040,0.48101709809097,487533360.42307,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,H2_network_connection_in,27.09242866451057,20344.407080479727,0.0,20371.499509144236,2040,0.48101709809097,9799.03957765018,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,H2_network_connection_out,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,HBfeed_mixer_existing,35.963283278050554,0.0,0.0,35.963283278050554,2040,0.48101709809097,17.298954160231382,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,HaberBosch,1585.2673751862637,643.0502283090166,0.0,2228.3176034952803,2040,0.48101709809097,1071.8588672583244,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,HaberBosch_existing,69081167.32117663,28022187.999999993,0.0,97103355.32117662,2040,0.48101709809097,46708374.19148873,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,MeOHsynthesis,135961348.94633624,36283924.257518336,0.0,172245273.20385456,2040,0.48101709809097,82852921.47640443,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,MeOHsynthesis_existing,44971675.15448152,12001564.177500002,0.0,56973239.331981525,2040,0.48101709809097,27405102.252312068,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,MethanolToOlefins,112316140.17481999,29973741.468308646,0.0,142289881.64312863,2040,0.48101709809097,68443865.95568532,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,MethanolToOlefins_existing,36104265.3120916,9635123.7915,0.0,45739389.1035916,2040,0.48101709809097,22001428.215063363,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,OlefinSeparation,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,OlefinSeparation_existing,86909876.0114301,74219477.99999999,0.0,161129354.01143008,2040,0.48101709809097,77505974.2838507,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,Plastic2methanol,3351837.014042083,1431204.397821051,-0.0,4783041.411863134,2040,0.48101709809097,2300724.6999833407,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,SteamReformer_existing,219403944.2722659,93683520.0,0.0,313087464.2722659,2040,0.48101709809097,150600423.5129056,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,Storage_Battery,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,Storage_H2,8.145784058146791,0.8695442170128982,0.0,9.015328275159689,2040,0.48101709809097,4.336527045254783,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,WGS_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,WGS_syngas_existing,13.913172264798305,5.792280000000001,0.0,19.705452264798307,2040,0.48101709809097,9.478659464983414,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,eSMR_syngas,316858289.96473396,131913261.82602511,0.0,448771551.7907591,2040,0.48101709809097,215866789.54817238,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,electricity_grid_connection_NL,1786.4909410321757,151934437.90167183,0.0,151936224.39261284,2040,0.48101709809097,73083921.75223307,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,feedgas_mixer,130.2623949157357,0.0,0.0,130.2623949157357,2040,0.48101709809097,62.65843919274712,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,feedgas_mixer_existing,118.00715797176424,0.0,0.0,118.00715797176424,2040,0.48101709809097,56.763460681540714,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,naphtha_mixer,1.283270945917371,0.0,0.0,1.283270945917371,2040,0.48101709809097,0.6172752664696279,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL1,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Biomass2methanol,147564.37323565385,63008.66630799823,-0.0,210573.0395436521,2040,0.48101709809097,101289.2324174826,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Boiler_El,819686.8039026475,87499.73176400259,0.0,907186.53566665,2040,0.48101709809097,436372.23481357226,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Boiler_El_existing,1695315.0717432324,180971.0896,0.0,1876286.1613432325,2040,0.48101709809097,902525.7245175672,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,CO2_mixer,7.0963674433965105,0.0,0.0,7.0963674433965105,2040,0.48101709809097,3.4134740746098253,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,CO2toEmissions_existing,5.538289417552354,0.0,0.0,5.538289417552354,2040,0.48101709809097,2.664011904018962,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,CrackerFurnace,48559070.855638765,41468577.064780675,-0.0,90027647.92041944,2040,0.48101709809097,43304837.95063571,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,CrackerFurnace_existing,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,H2_network_connection_in,2.8731259575918138,2157.5047700064483,0.0,2160.3778959640404,2040,0.48101709809097,1039.1787062964981,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,H2_network_connection_out,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,HBfeed_mixer,0.002302695328616224,0.0,0.0,0.002302695328616224,2040,0.48101709809097,0.0011076358247586087,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,HBfeed_mixer_existing,10.407712352673657,0.0,0.0,10.407712352673657,2040,0.48101709809097,5.006287593648625,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,HaberBosch,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,HaberBosch_existing,19999107.824688464,8112467.999999999,0.0,28111575.824688464,2040,0.48101709809097,13522148.625955911,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,MeOHsynthesis,116289184.12434828,31034025.34202466,0.0,147323209.46637294,2040,0.48101709809097,70864982.69896282,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,MeOHsynthesis_existing,44056506.00925454,11757333.5325,0.0,55813839.54175454,2040,0.48101709809097,26847411.1296898,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,MethanolToOlefins,97501342.42819254,26020125.212697282,0.0,123521467.64088982,2040,0.48101709809097,59415937.916558474,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,MethanolToOlefins_existing,36833697.80064567,9829787.0055,0.0,46663484.80614567,2040,0.48101709809097,22445934.048264258,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,OlefinSeparation,23065551.243576754,19697567.77532823,0.0,42763119.018904984,2040,0.48101709809097,20569791.415792443,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,OlefinSeparation_existing,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Plastic2methanol,2031050.752952403,867240.4886172487,-0.0,2898291.2415696518,2040,0.48101709809097,1394127.6424423084,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Plastic2methanol_existing,3945327.8491235995,1684619.6711999995,-0.0,5629947.520323599,2040,0.48101709809097,2708101.0186305097,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,SOEC_existing,22708118.459987566,14428575.000000002,0.0,37136693.459987566,2040,0.48101709809097,17863384.520817123,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,SteamReformer_existing,137251402.19485193,58605119.999999985,0.0,195856522.19485193,2040,0.48101709809097,94210335.94835733,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Storage_Battery,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,Storage_H2,14.00992843854626,1.4955285049962361,0.0,15.505456943542494,2040,0.48101709809097,7.458389903557292,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,WGS_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,WGS_syngas_existing,4.027250711444109,1.6766100000000002,0.0,5.7038607114441096,2040,0.48101709809097,2.743654527333941,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,eSMR_syngas,334628630.0190367,139311343.538142,0.0,473939973.55717874,2040,0.48101709809097,227973230.74978516,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,electricity_grid_connection_NL,1078.609448186515,91731738.71845514,0.0,91732817.32790332,2040,0.48101709809097,44125053.5907771,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,feedgas_mixer,128.96227237054993,0.0,0.0,128.96227237054993,2040,0.48101709809097,62.033058018899204,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,feedgas_mixer_existing,89.50070550625034,0.0,0.0,89.50070550625034,2040,0.48101709809097,43.05136963971104,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,naphtha_mixer,1.283270945917371,0.0,0.0,1.283270945917371,2040,0.48101709809097,0.6172752664696279,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL2,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Biomass2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Biomass2methanol_existing,349026.51204836386,149031.196,-0.0,498057.70804836386,2040,0.48101709809097,239574.27340726354,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Boiler_El,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Boiler_El_existing,853849.0211854398,91146.47199999998,0.0,944995.4931854397,2040,0.48101709809097,454558.98984110524,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,CO2_mixer,2.6788938753893436,0.0,0.0,2.6788938753893436,2040,0.48101709809097,1.2885937580334546,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,CO2_mixer_existing,1.8267361915133782,0.0,0.0,1.8267361915133782,2040,0.48101709809097,0.8786913418195156,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,CrackerFurnace,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,DAC_Adsorption,52694719.605529346,19132483.144350603,0.0,71827202.74987996,2040,0.48101709809097,34550112.630738996,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,H2_network_connection_in,0.15536541605286522,116.66791890636468,0.0,116.82328432241754,2040,0.48101709809097,56.19399721422559,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,H2_network_connection_out,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,HBfeed_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,HaberBosch,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,MeOHsynthesis,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,MeOHsynthesis_existing,31942036.74869586,8524352.3325,0.0,40466389.08119586,2040,0.48101709809097,19465025.046056945,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,MethanolToOlefins,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,OlefinSeparation,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Plastic2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Plastic2methanol_existing,6655123.091568365,2841677.9804,-0.0,9496801.071968365,2040,0.48101709809097,4568123.692785436,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,SteamReformer_existing,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Storage_Battery,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,Storage_H2,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,WGS_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,eSMR_syngas,72197508.4652327,30056997.525363456,0.0,102254505.99059616,2040,0.48101709809097,49186165.73832227,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,electricity_grid_connection_NL,225.46517810549582,19174978.34165724,0.0,19175203.806835346,2040,0.48101709809097,9223600.89046686,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,feedgas_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,feedgas_mixer_existing,45.45294359601493,0.0,0.0,45.45294359601493,2040,0.48101709809097,21.86364302824764,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,naphtha_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL3,rWGS_existing,1714609.4069462672,457576.79175000003,0.0,2172186.1986962673,2040,0.48101709809097,1044858.7018101336,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,ASU,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Biomass2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Biomass2methanol_existing,413586.3293058647,176597.65999999995,-0.0,590183.9893058647,2040,0.48101709809097,283888.5898756591,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Boiler_El,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Boiler_El_existing,4155782.5378506184,443620.48480000003,0.0,4599403.022650618,2040,0.48101709809097,2212391.4949062364,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,CO2_mixer,30.37015684889168,0.0,0.0,30.37015684889168,2040,0.48101709809097,14.608564716021473,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,CO2_mixer_existing,9.532752556328276,0.0,0.0,9.532752556328276,2040,0.48101709809097,4.585416971464303,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,CO2toEmissions,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,CrackerFurnace,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,CrackerFurnace_existing,33463988.828343924,28577647.2896,-0.0,62041636.11794393,2040,0.48101709809097,29843087.7662693,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,DAC_Adsorption,640215618.5950041,232450511.61129266,0.0,872666130.2062967,2040,0.48101709809097,419767329.5541094,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,H2_network_connection_in,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,H2_network_connection_out,17.122698430513765,12857.878173283963,0.0,12875.000871714477,2040,0.48101709809097,6193.095557230807,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,HBfeed_mixer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,HBfeed_splitter,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,HaberBosch,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,MeOHsynthesis,35843458.40076776,9565522.406329526,0.0,45408980.807097286,2040,0.48101709809097,21842496.17509849,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,MeOHsynthesis_existing,116022378.97258961,30962823.21,0.0,146985202.18258962,2040,0.48101709809097,70702395.41618377,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,MethanolToOlefins,16947642.064524505,4522807.14907771,0.0,21470449.213602215,2040,0.48101709809097,10327653.175436486,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,MethanolToOlefins_existing,112858534.63306105,30118489.954499997,0.0,142977024.58756104,2040,0.48101709809097,68774393.46078987,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,OlefinSeparation,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,OlefinSeparation_existing,15895389.584972186,13574378.1,0.0,29469767.684972186,2040,0.48101709809097,14175462.133240363,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,PEMEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Plastic2methanol,0.0,0.0,-0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Plastic2methanol_existing,21062689.75928087,8993579.964399999,-0.0,30056269.72368087,2040,0.48101709809097,14457579.641924452,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,SOEC,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,SteamReformer,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,SteamReformer_existing,276586969.8660521,118100159.99999999,0.0,394687129.8660521,2040,0.48101709809097,189851257.8620222,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Storage_Battery,-3.188303002491961,-0.7836296700852636,0.0,-3.971932672577225,2040,0.48101709809097,-1.9105675279758074,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,Storage_H2,2.420002884288843,0.25832989165522224,0.0,2.678332775944065,2040,0.48101709809097,1.2883238596065463,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,WGS_syngas,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,eCrackerFurnace,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,eSMR_syngas,162446194.58026636,67628994.02345794,0.0,230075188.6037243,2040,0.48101709809097,110670099.56489608,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,electricity_grid_connection_NL,1280.7541986975427,108923401.0651569,0.0,108924681.8193556,2040,0.48101709809097,52394634.35922867,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,feedgas_mixer,75.20657156493819,0.0,0.0,75.20657156493819,2040,0.48101709809097,36.175646811537426,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,feedgas_mixer_existing,128.04952308613522,0.0,0.0,128.04952308613522,2040,0.48101709809097,61.594010006825435,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,naphtha_mixer,1.283270945917371,0.0,0.0,1.283270945917371,2040,0.48101709809097,0.6172752664696279,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,rWGS,0.0,0.0,0.0,0.0,2040,0.48101709809097,0.0,2040,output\base_case_5_dd\2040\optimization_results.h5
+NL4,rWGS_existing,8829332.38644902,2356278.678,0.0,11185611.06444902,2040,0.48101709809097,5380470.174595513,2040,output\base_case_5_dd\2040\optimization_results.h5
+BEL1,ASU,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Biomass2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Biomass2methanol_existing,14088162.62216026,6015519.316,-0.0,20103681.93816026,2050,0.29530277169776187,5936672.997668958,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Boiler_El,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Boiler_El_existing,6507251.064828597,694634.4872,0.0,7201885.552028597,2050,0.29530277169776187,2126736.7649641107,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,CO2_mixer,0.5662498157226861,0.0,0.0,0.5662498157226861,2050,0.29530277169776187,0.1672151400562561,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,CO2_mixer_existing,22.64497126023225,0.0,0.0,22.64497126023225,2050,0.29530277169776187,6.687122778162743,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,CrackerFurnace_existing,232308763.0531282,198387524.1792,-0.0,430696287.2323282,2050,0.29530277169776187,127185807.37964188,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,DAC_Adsorption,101983195.57118326,37028221.89546167,0.0,139011417.46664494,2050,0.29530277169776187,41050456.875534914,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,H2_network_connection_in,7.640929464387967,5737.7720329802305,0.0,5745.412962444619,2050,0.29530277169776187,1696.6363723581449,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,H2_network_connection_out,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,HaberBosch,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,MeOHsynthesis,130828364.49482943,34914087.75253482,0.0,165742452.24736425,2050,0.29530277169776187,48944205.5366306,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,MeOHsynthesis_existing,106192540.59975585,28339540.094999995,0.0,134532080.69475585,2050,0.29530277169776187,39727696.31142836,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,MethanolToOlefins,105034013.27121937,28030364.59648774,0.0,133064377.8677071,2050,0.29530277169776187,39294279.598572224,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,MethanolToOlefins_existing,99091817.84727049,26444574.441,0.0,125536392.28827049,2050,0.29530277169776187,37071244.591663815,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,OlefinSeparation,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,OlefinSeparation_existing,110346626.9868226,94234043.69999999,0.0,204580670.6868226,2050,0.29530277169776187,60413239.08960578,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,PEMEC,264403373.25605,72000000.0,0.0,336403373.25605,2050,0.29530277169776187,99340848.5309883,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Plastic2methanol,89.7376233151122,38.31716178338765,-0.0,128.05478509849985,2050,0.29530277169776187,37.81493296874826,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Plastic2methanol_existing,9787931.192570968,4179358.9931999994,-0.0,13967290.185770966,2050,0.29530277169776187,4124579.5049651135,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,SOEC,353216398.1498324,224431156.67706048,0.0,577647554.8268929,2050,0.29530277169776187,170580924.00481632,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,SteamReformer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,SteamReformer_existing,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Storage_Battery,-0.7275180822397085,-0.17881134707741878,0.0,-0.9063294293171272,2050,0.29530277169776187,-0.26764159254859843,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,Storage_H2,0.6188442822156812,0.06606024208240147,0.0,0.6849045242980827,2050,0.29530277169776187,0.2022542043735609,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,WGS_syngas,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,eSMR_syngas,293887111.68268,122349986.53501049,0.0,416237098.21769047,2050,0.29530277169776187,122915968.78711753,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,eSMR_syngas_existing,87656357.70427519,36492768.0,0.0,124149125.70427519,2050,0.29530277169776187,36661580.924326316,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,electricity_grid_connection_BE,4967.999950419283,55416199.44694554,0.0,55421167.44689596,2050,0.29530277169776187,16366024.357794149,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,feedgas_mixer,26.810655870835554,0.0,0.0,26.810655870835554,2050,0.29530277169776187,7.91726098969261,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,feedgas_mixer_existing,149.8298392157178,0.0,0.0,149.8298392157178,2050,0.29530277169776187,44.24516680343149,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,naphtha_mixer,0.3207535729320475,0.0,0.0,0.3207535729320475,2050,0.29530277169776187,0.09471941911879384,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,naphtha_mixer_existing,0.6416996365059815,0.0,0.0,0.6416996365059815,2050,0.29530277169776187,0.18949568125766264,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,rWGS,32600418.88721181,8700054.381880552,0.0,41300473.269092366,2050,0.29530277169776187,12196144.2287923,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL1,rWGS_existing,3058165.9477692856,816130.9259999999,0.0,3874296.8737692856,2050,0.29530277169776187,1144090.605204044,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,ASU,4178642.383966218,892121.4444197922,0.0,5070763.828386011,2050,0.29530277169776187,1497410.613147143,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,ASU_existing,414584.8045723901,88512.0,0.0,503096.8045723901,2050,0.29530277169776187,148565.88082251404,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Biomass2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Boiler_El,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Boiler_El_existing,509573.6401307372,54395.8456,0.0,563969.4857307372,2050,0.29530277169776187,166541.75228924805,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,CO2_mixer,33.80207405007628,0.0,0.0,33.80207405007628,2050,0.29530277169776187,9.981846156120517,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,CO2toEmissions_existing,4.164021728859983,0.0,0.0,4.164021728859983,2050,0.29530277169776187,1.2296471579420591,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,DAC_Adsorption,622083116.9891068,225866933.90299916,0.0,847950050.8921059,2050,0.29530277169776187,250402000.2896971,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,H2_network_connection_in,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,H2_network_connection_out,8.808121166130487,6614.24654234429,0.0,6623.05466351042,2050,0.29530277169776187,1955.8063992404147,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,HBfeed_mixer,0.0016746875117198445,0.0,0.0,0.0016746875117198445,2050,0.29530277169776187,0.0004945398639384981,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,HBfeed_mixer_existing,7.569245347399024,0.0,0.0,7.569245347399024,2050,0.29530277169776187,2.23521913074732,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,HaberBosch,669.011919802161,271.37899543266946,0.0,940.3909152348303,2050,0.29530277169776187,277.70004374824043,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,HaberBosch_existing,14543068.375143738,5899271.999999999,0.0,20442340.375143737,2050,0.29530277169776187,6036679.772769011,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,MeOHsynthesis,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,MethanolToOlefins,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,OlefinSeparation,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,PEMEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Plastic2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,SOEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,SteamReformer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,SteamReformer_existing,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Storage_Battery,-0.025293026526963684,-0.0062165879520518835,0.0,-0.03150961447901557,2050,0.29530277169776187,-0.009304876490781227,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Storage_H2,179102.5591724349,19118.797339691857,0.0,198221.35651212677,2050,0.29530277169776187,58535.31598772124,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,Storage_H2_existing,440.29026154425014,47.0,0.0,487.29026154425014,2050,0.29530277169776187,143.89816485534436,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,WGS_syngas,3.0465478248303737,1.2683274309379289,0.0,4.314875255768302,2050,0.29530277169776187,1.2741946225584688,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,WGS_syngas_existing,3.028634926750129,1.2608700000000002,0.0,4.289504926750129,2050,0.29530277169776187,1.2667026940805182,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,eSMR_syngas,61752445.85135943,25708548.0038867,0.0,87460993.85524613,2050,0.29530277169776187,25827473.9008951,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,electricity_grid_connection_BE,754.4601622195535,8415723.679869419,0.0,8416478.140031638,2050,0.29530277169776187,2485409.322684966,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,feedgas_mixer,11.961112019830951,0.0,0.0,11.961112019830951,2050,0.29530277169776187,3.5321495320434946,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,feedgas_mixer_existing,16.62798328172434,0.0,0.0,16.62798328172434,2050,0.29530277169776187,4.910289550837244,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,naphtha_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+BEL2,rWGS,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,ASU,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Biomass2methanol,650.5074383959525,277.76085255555466,-0.0,928.2682909515072,2050,0.29530277169776187,274.1201991971245,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Biomass2methanol_existing,2822474.5107263643,1205171.3479999998,-0.0,4027645.858726364,2050,0.29530277169776187,1189374.9854989075,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Boiler_El,3374967.3012189027,360270.2058431661,0.0,3735237.5070620687,2050,0.29530277169776187,1103025.9887848673,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Boiler_El_existing,7578378.024120079,808974.8928,0.0,8387352.916920079,2050,0.29530277169776187,2476808.563573807,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,CO2_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,CO2_mixer_existing,31.75710609861719,0.0,0.0,31.75710609861719,2050,0.29530277169776187,9.377961452021554,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,CO2toEmissions_existing,2.61457472334043,0.0,0.0,2.61457472334043,2050,0.29530277169776187,0.7720911626133379,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,CrackerFurnace,62126483.16373309,53054904.25255738,-0.0,115181387.41629046,2050,0.29530277169776187,34013382.95202428,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,CrackerFurnace_existing,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,DAC_Adsorption,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,H2_network_connection_in,-7.675877834860264e-05,-0.05764015670436742,0.0,-0.05771691548271603,2050,0.29530277169776187,-0.01704396511589151,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,H2_network_connection_out,1.1640011574609571e-05,0.008740786469452198,0.0,0.008752426481026808,2050,0.29530277169776187,0.002584615798928105,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,HBfeed_mixer,0.001465351572756302,0.0,0.0,0.001465351572756302,2050,0.29530277169776187,0.00043272238094661054,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,HBfeed_mixer_existing,6.623089678974146,0.0,0.0,6.623089678974146,2050,0.29530277169776187,1.955816739403905,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,HaberBosch,1381.6550517705211,560.456621004357,0.0,1942.1116727748781,2050,0.29530277169776187,573.5109599169982,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,HaberBosch_existing,12724388.55862883,5161540.0,0.0,17885928.558628827,2050,0.29530277169776187,5281764.277751247,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,MeOHsynthesis,420886542.88574153,112321741.15235202,0.0,533208284.03809357,2050,0.29530277169776187,157457884.1686565,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,MeOHsynthesis_existing,230092616.56705114,61404679.612500004,0.0,291497296.1795511,2050,0.29530277169776187,86079959.50422485,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,MethanolToOlefins,337895507.4689671,90173972.93401963,0.0,428069480.4029867,2050,0.29530277169776187,126410104.04222274,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,MethanolToOlefins_existing,195963623.77285466,52296695.62200001,0.0,248260319.39485466,2050,0.29530277169776187,73311960.41987221,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,OlefinSeparation,29510070.018769614,25201071.420795493,0.0,54711141.43956511,2050,0.29530277169776187,16156351.709851854,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,OlefinSeparation_existing,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,PEMEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Plastic2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Plastic2methanol_existing,19940239.797959086,8514303.8796,-0.0,28454543.677559085,2050,0.29530277169776187,8402705.615378223,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,SOEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,SteamReformer,872778223.4117485,372668487.8877751,0.0,1245446711.2995236,2050,0.29530277169776187,367783865.84861153,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,SteamReformer_existing,114467224.26894847,48876479.99999999,0.0,163343704.26894847,2050,0.29530277169776187,48235848.61000002,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Storage_Battery,0.8830517204793018,0.21703882217172185,0.0,1.1000905426510237,2050,0.29530277169776187,0.32485978636334223,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,Storage_H2,-4.892963881285152,-0.5223129433156671,0.0,-5.415276824600819,2050,0.29530277169776187,-1.5991462558152765,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,WGS_syngas,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,WGS_syngas_existing,1.9016792147549528,0.7917000000000001,0.0,2.6933792147549527,2050,0.29530277169776187,0.7953623473502789,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,eSMR_syngas,177776083.8369569,74011076.35908772,0.0,251787160.19604462,2050,0.29530277169776187,74353446.28380036,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,eSMR_syngas_existing,557827901.4754059,232232832.00000003,0.0,790060733.4754059,2050,0.29530277169776187,233307124.4048541,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,electricity_grid_connection_DE,2700.0,180675000.0,0.0,180677700.0,2050,0.29530277169776187,53354625.593976706,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,feedgas_mixer,486.36774306062904,0.0,0.0,486.36774306062904,2050,0.29530277169776187,143.62574259018865,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,feedgas_mixer_existing,311.24774340016404,0.0,0.0,311.24774340016404,2050,0.29530277169776187,91.91232131074221,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,naphtha_mixer,0.6415071458640939,0.0,0.0,0.6415071458640939,2050,0.29530277169776187,0.18943883823758734,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,naphtha_mixer_existing,1.283399273011963,0.0,0.0,1.283399273011963,2050,0.29530277169776187,0.3789913625153253,2050,output\base_case_5_dd\2050\optimization_results.h5
+DE,rWGS,25591160.74158838,6829497.833066264,0.0,32420658.574654646,2050,0.29530277169776187,9573910.337362327,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,ASU,21817829.145558394,4658008.860994014,0.0,26475838.00655241,2050,0.29530277169776187,7818388.346355873,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Biomass2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Biomass2methanol_existing,129119.63451500166,55132.92799999999,-0.0,184252.56251500166,2050,0.29530277169776187,54410.29240309513,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Boiler_El,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Boiler_El_existing,5094872.473124048,543866.2335999999,0.0,5638738.706724048,2050,0.29530277169776187,1665135.1689750645,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,CO2_mixer,51.27502535576777,0.0,0.0,51.27502535576777,2050,0.29530277169776187,15.14165710643124,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,CO2_mixer_existing,51.974860193612955,0.0,0.0,51.974860193612955,2050,0.29530277169776187,15.348320273777578,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,CO2toEmissions_existing,19.131080257992927,0.0,0.0,19.131080257992927,2050,0.29530277169776187,5.6494610257576445,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,CrackerFurnace,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,CrackerFurnace_existing,182968218.82672602,156251582.848,-0.0,339219801.674726,2050,0.29530277169776187,100172547.64931168,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,DAC_Adsorption,975495741.513965,354184555.3333834,0.0,1329680296.8473485,2050,0.29530277169776187,392658277.13092476,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,DAC_Adsorption_existing,743570237.8710669,269976672.2207999,0.0,1013546910.0918669,2050,0.29530277169776187,299303211.79583055,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,H2_network_connection_in,-3.635210518967722e-06,-0.002729773824891506,0.0,-0.0027334090354104736,2050,0.29530277169776187,-0.0008071832643404185,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,H2_network_connection_out,-7.1076727308753405e-06,-0.005337335726611027,0.0,-0.005344443399341902,2050,0.29530277169776187,-0.001578228949007472,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,HBfeed_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,HBfeed_mixer_existing,35.963283278050554,0.0,0.0,35.963283278050554,2050,0.29530277169776187,10.6200572313601,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,HaberBosch,1585.2673751951043,643.0502283126026,0.0,2228.3176035077067,2050,0.29530277169776187,658.0283645387402,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,HaberBosch_existing,69081167.32117663,28022187.999999993,0.0,97103355.32117662,2050,0.29530277169776187,28674889.967496067,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,MeOHsynthesis,50690766.206122495,13527814.60196068,0.0,64218580.80808318,2050,0.29530277169776187,18963924.90712366,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,MeOHsynthesis_existing,180933548.77685478,48285628.455,0.0,229219177.2318548,2050,0.29530277169776187,67689058.36284724,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,MethanolToOlefins,43130298.75394325,11510157.15363263,0.0,54640455.907575876,2050,0.29530277169776187,16135478.076336503,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,MethanolToOlefins_existing,148421011.3214078,39609026.9385,0.0,188030038.25990778,2050,0.29530277169776187,55525791.46058698,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,OlefinSeparation,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,OlefinSeparation_existing,86909876.0114301,74219477.99999999,0.0,161129354.01143008,2050,0.29530277169776187,47581944.841445185,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,PEMEC,3810811.0511083086,1037726.532384624,0.0,4848537.583492933,2050,0.29530277169776187,1431786.5870862317,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Plastic2methanol,2625781.702608217,1121185.2798173511,-0.0,3746966.982425568,2050,0.29530277169776187,1106489.7353702693,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Plastic2methanol_existing,3350596.8994680247,1430674.88,-0.0,4781271.779468024,2050,0.29530277169776187,1411922.8087171975,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,SOEC,380626736.08993554,241847488.0847459,0.0,622474224.1746814,2050,0.29530277169776187,183818363.7091974,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,SteamReformer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,SteamReformer_existing,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Storage_Battery,-0.01752264091115984,-0.004306761717911518,0.0,-0.02182940262907136,2050,0.29530277169776187,-0.006446283100871182,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,Storage_H2,0.8881634717535376,0.09480946279848829,0.0,0.982972934552026,2050,0.29530277169776187,0.2902746320770959,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,WGS_syngas,5.266487831674303,2.192524577218886,0.0,7.459012408893189,2050,0.29530277169776187,2.202667038474158,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,WGS_syngas_existing,13.913172264798305,5.792280000000001,0.0,19.705452264798307,2050,0.29530277169776187,5.819074671352879,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,eSMR_syngas,351028922.15624106,146139052.00983495,0.0,497167974.166076,2050,0.29530277169776187,146815080.7706035,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,eSMR_syngas_existing,316853856.25375,131911416.0,0.0,448765272.25375,2050,0.29530277169776187,132521628.73823309,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,electricity_grid_connection_NL,4967.999999999994,422510000.0,0.0,422514968.0,2050,0.29530277169776187,124769841.13419116,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,feedgas_mixer,60.93748976109965,0.0,0.0,60.93748976109965,2050,0.29530277169776187,17.995009626756712,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,feedgas_mixer_existing,248.2675002435259,0.0,0.0,248.2675002435259,2050,0.29530277169776187,73.31408094438797,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,naphtha_mixer,0.6415071458640939,0.0,0.0,0.6415071458640939,2050,0.29530277169776187,0.18943883823758734,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,naphtha_mixer_existing,1.283399273011963,0.0,0.0,1.283399273011963,2050,0.29530277169776187,0.3789913625153253,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL1,rWGS,246281.00356721054,65724.86481452397,0.0,312005.86838173453,2050,0.29530277169776187,92136.1977190933,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,ASU,6315685.071839194,1348370.4923898678,0.0,7664055.564229062,2050,0.29530277169776187,2263216.850562496,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Biomass2methanol,301.34082903913855,128.66983625906153,-0.0,430.0106652982001,2050,0.29530277169776187,126.98334132215707,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Biomass2methanol_existing,147277.08311867376,62885.996,-0.0,210163.07911867375,2050,0.29530277169776187,62061.73977228038,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Boiler_El,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Boiler_El_existing,2515038.9296873654,268474.7768,0.0,2783513.7064873655,2050,0.29530277169776187,821979.3125844294,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,CO2_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,CO2_mixer_existing,7.096167513186584,0.0,0.0,7.096167513186584,2050,0.29530277169776187,2.0955179350756126,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,CO2toEmissions_existing,5.538289417552354,0.0,0.0,5.538289417552354,2050,0.29530277169776187,1.6354722154675934,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,CrackerFurnace,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,CrackerFurnace_existing,48559971.46564423,41469346.1696,-0.0,90029317.63524424,2050,0.29530277169776187,26585907.031745814,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,DAC_Adsorption,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,H2_network_connection_in,-9.106226284488616e-05,-0.06838101404370626,0.0,-0.06847207630655115,2050,0.29530277169776187,-0.020219993917225204,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,H2_network_connection_out,-2.0630184785112624e-05,-0.015491740611783666,0.0,-0.015512370796568779,2050,0.29530277169776187,-0.004580846091830178,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,HBfeed_mixer,0.002302695328616224,0.0,0.0,0.002302695328616224,2050,0.29530277169776187,0.0006799923129158596,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,HBfeed_mixer_existing,10.407712352673657,0.0,0.0,10.407712352673657,2050,0.29530277169776187,3.073426304777565,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,HaberBosch,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,HaberBosch_existing,19999107.824688464,8112467.999999999,0.0,28111575.824688464,2050,0.29530277169776187,8301426.257822299,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,MeOHsynthesis,65041839.399352536,17357676.962055277,0.0,82399516.36140782,2050,0.29530277169776187,24332805.568078805,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,MeOHsynthesis_existing,160345534.9845901,42791317.46999999,0.0,203136852.4545901,2050,0.29530277169776187,59986875.56379976,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,MethanolToOlefins,52217452.26341954,13935240.401257794,0.0,66152692.66467734,2050,0.29530277169776187,19535073.49914942,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,MethanolToOlefins_existing,134334507.10404095,35849769.943500005,0.0,170184277.04754096,2050,0.29530277169776187,50255888.711518645,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,OlefinSeparation,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,OlefinSeparation_existing,23065979.03319187,19697933.1,0.0,42763912.13319187,2050,0.29530277169776187,12628301.781571107,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,PEMEC,99404236.25442937,27068886.913889434,0.0,126473123.16831881,2050,0.29530277169776187,37347863.81687696,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Plastic2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Plastic2methanol_existing,5976627.219426089,2551966.3171999995,-0.0,8528593.53662609,2050,0.29530277169776187,2518517.3100493015,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,SOEC,87473672.98985343,55580142.118928574,0.0,143053815.108782,2050,0.29530277169776187,42244188.10356249,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,SOEC_existing,22708118.459987566,14428575.000000002,0.0,37136693.459987566,2050,0.29530277169776187,10966568.510424474,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,SteamReformer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,SteamReformer_existing,18.083388005386222,7.721444787556208,0.0,25.80483279294243,2050,0.29530277169776187,7.620238646953197,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Storage_Battery,0.23936507696029527,0.058831791125788034,0.0,0.2981968680860833,2050,0.29530277169776187,0.08805836165741227,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,Storage_H2,9.404267612808718,1.0038845198432527,0.0,10.40815213265197,2050,0.29530277169776187,3.073556173024098,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,WGS_syngas,1.5250105407779286,0.6348867021136704,0.0,2.1598972428915992,2050,0.29530277169776187,0.6378236424082432,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,WGS_syngas_existing,4.027250711444109,1.6766100000000002,0.0,5.7038607114441096,2050,0.29530277169776187,1.6843658774674135,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,eSMR_syngas,262545787.98319945,109302083.51311408,0.0,371847871.4963135,2050,0.29530277169776187,109807707.10277456,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,eSMR_syngas_existing,334619849.3433977,139307688.00000003,0.0,473927537.34339774,2050,0.29530277169776187,139952115.3613999,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,electricity_grid_connection_NL,2699.9999352608543,229624994.49417573,0.0,229627694.494111,2050,0.29530277169776187,67809694.64267787,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,feedgas_mixer,58.00666845913683,0.0,0.0,58.00666845913683,2050,0.29530277169776187,17.129529972936247,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,feedgas_mixer_existing,218.45891274918964,0.0,0.0,218.45891274918964,2050,0.29530277169776187,64.51152243691523,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,naphtha_mixer,0.6415071458640939,0.0,0.0,0.6415071458640939,2050,0.29530277169776187,0.18943883823758734,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,naphtha_mixer_existing,1.283399273011963,0.0,0.0,1.283399273011963,2050,0.29530277169776187,0.3789913625153253,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL2,rWGS,6424133.20902003,1714404.6052992044,0.0,8138537.814319234,2050,0.29530277169776187,2403332.7741355146,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,ASU,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Biomass2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Biomass2methanol_existing,349026.51204836386,149031.196,-0.0,498057.70804836386,2050,0.29530277169776187,147077.82165211652,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Boiler_El,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Boiler_El_existing,853849.0211854398,91146.47199999998,0.0,944995.4931854397,2050,0.29530277169776187,279059.78837955376,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,CO2_mixer,43.17606823660723,0.0,0.0,43.17606823660723,2050,0.29530277169776187,12.750012621281812,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,CO2_mixer_existing,4.505949272399667,0.0,0.0,4.505949272399667,2050,0.29530277169776187,1.330619309269135,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,CrackerFurnace,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,DAC_Adsorption,810776663.2048074,294378088.71026015,0.0,1105154751.9150677,2050,0.29530277169776187,326355261.3954719,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,DAC_Adsorption_existing,52694755.50613507,19132496.179199997,0.0,71827251.68533507,2050,0.29530277169776187,21210786.506112184,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,H2_network_connection_in,0.0003181376867631341,0.23889783700453893,0.0,0.23921597469130207,2050,0.29530277169776187,0.07064114036072315,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,H2_network_connection_out,-0.0001640805686479659,-0.12321235293842638,0.0,-0.12337643350707433,2050,0.29530277169776187,-0.03643340277682367,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,HBfeed_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,HaberBosch,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,MeOHsynthesis,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,MeOHsynthesis_existing,31942036.74869586,8524352.3325,0.0,40466389.08119586,2050,0.29530277169776187,11949836.856277185,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,MethanolToOlefins,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,OlefinSeparation,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,PEMEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Plastic2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Plastic2methanol_existing,6655123.091568365,2841677.9804,-0.0,9496801.071968365,2050,0.29530277169776187,2804431.6788145346,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,SOEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,SteamReformer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Storage_Battery,0.3821101367703187,0.09391605508620875,0.0,0.47602619185652745,2050,0.29530277169776187,0.1405718538559631,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,Storage_H2,0.10382584890890759,0.011083176996928023,0.0,0.11490902590583561,2050,0.29530277169776187,0.03393295384308318,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,WGS_syngas,-2.1050256249648484e-06,0.0,0.0,-2.1050256249648484e-06,2050,0.29530277169776187,-6.216199015469331e-07,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,eSMR_syngas,10798258.735832227,4495490.81402774,0.0,15293749.549859967,2050,0.29530277169776187,4516286.631725046,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,eSMR_syngas_existing,72197110.87000321,30056832.0,0.0,102253942.87000321,2050,0.29530277169776187,30195872.74653654,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,electricity_grid_connection_NL,999.9876996050818,85045250.19326565,0.0,85046250.18096524,2050,0.29530277169776187,25114393.400940318,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,feedgas_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,feedgas_mixer_existing,45.45294359601493,0.0,0.0,45.45294359601493,2050,0.29530277169776187,13.422380225725245,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,naphtha_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,rWGS,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL3,rWGS_existing,1714609.4069462672,457576.79175000003,0.0,2172186.1986962673,2050,0.29530277169776187,641452.605118633,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,ASU,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Biomass2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Biomass2methanol_existing,413586.3293058647,176597.65999999995,-0.0,590183.9893058647,2050,0.29530277169776187,174282.9678536641,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Boiler_El,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Boiler_El_existing,4155782.5378506184,443620.48480000003,0.0,4599403.022650618,2050,0.29530277169776187,1358216.4607437914,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,CO2_mixer,165.92397404067026,0.0,0.0,165.92397404067026,2050,0.29530277169776187,48.99780942531741,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,CO2_mixer_existing,39.90247593718582,0.0,0.0,39.90247593718582,2050,0.29530277169776187,11.78331174185422,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,CO2toEmissions,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,CrackerFurnace,5043762.94868005,4307283.25003641,-0.0,9351046.19871646,2050,0.29530277169776187,2761389.8607547907,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,CrackerFurnace_existing,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,DAC_Adsorption,3095119777.6174088,1123781043.305855,0.0,4218900820.9232635,2050,0.29530277169776187,1245853105.9366026,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,DAC_Adsorption_existing,640215638.755506,232450518.93119997,0.0,872666157.6867061,2050,0.29530277169776187,257700735.13172042,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,H2_network_connection_in,-4.453677936474417e-05,-0.03344382228222923,0.0,-0.033488359061593975,2050,0.29530277169776187,-0.009889205250498561,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,H2_network_connection_out,1.2953252336370108e-06,0.0009726933004440897,0.0,0.0009739886256777267,2050,0.29530277169776187,0.00028762154076472657,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,HBfeed_mixer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,HBfeed_splitter,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,HaberBosch,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,MeOHsynthesis,49623597.60965027,13243019.953889899,0.0,62866617.56354017,2050,0.29530277169776187,18564686.41377661,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,MeOHsynthesis_existing,151865406.50219905,40528230.629999995,0.0,192393637.13219905,2050,0.29530277169776187,56814374.302151814,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,MethanolToOlefins,39837500.217943035,10631409.968484769,0.0,50468910.1864278,2050,0.29530277169776187,14903609.062617537,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,MethanolToOlefins_existing,129807268.50660205,34641588.474,0.0,164448856.98060206,2050,0.29530277169776187,48562203.268900625,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,OlefinSeparation,2395786.6515936125,2045958.9041095888,0.0,4441745.555703201,2050,0.29530277169776187,1311659.7737753708,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,OlefinSeparation_existing,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,PEMEC,17904090.175952155,4875484.290513145,0.0,22779574.4664653,2050,0.29530277169776187,6726871.478042768,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Plastic2methanol,0.0,0.0,-0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Plastic2methanol_existing,21062689.75928087,8993579.964399999,-0.0,30056269.72368087,2050,0.29530277169776187,8875699.756298484,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,SOEC,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,SteamReformer,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,SteamReformer_existing,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Storage_Battery,-0.034649469274627295,-0.008516239565400003,0.0,-0.043165708840027295,2050,0.29530277169776187,-0.012746953462758642,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,Storage_H2,-0.05869463575861351,-0.006265521001939273,0.0,-0.06496015676055278,2050,0.29530277169776187,-0.01918291434131234,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,WGS_syngas,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,eCrackerFurnace,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,eSMR_syngas,410505666.0835185,170900188.2739725,0.0,581405854.357491,2050,0.29530277169776187,171690760.27307236,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,eSMR_syngas_existing,162443499.4575072,67627872.0,0.0,230071371.4575072,2050,0.29530277169776187,67940713.67970721,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,electricity_grid_connection_NL,4967.999972050101,422509997.62296516,0.0,422514965.6229372,2050,0.29530277169776187,124769840.43223792,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,feedgas_mixer,61.999396368551395,0.0,0.0,61.999396368551395,2050,0.29530277169776187,18.308593591221378,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,feedgas_mixer_existing,203.2548469090552,0.0,0.0,203.2548469090552,2050,0.29530277169776187,60.02171965324827,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,naphtha_mixer,0.6415071458640939,0.0,0.0,0.6415071458640939,2050,0.29530277169776187,0.18943883823758734,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,naphtha_mixer_existing,1.283399273011963,0.0,0.0,1.283399273011963,2050,0.29530277169776187,0.3789913625153253,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,rWGS,0.0,0.0,0.0,0.0,2050,0.29530277169776187,0.0,2050,output\base_case_5_dd\2050\optimization_results.h5
+NL4,rWGS_existing,8829332.38644902,2356278.678,0.0,11185611.06444902,2050,0.29530277169776187,3303141.950464948,2050,output\base_case_5_dd\2050\optimization_results.h5
