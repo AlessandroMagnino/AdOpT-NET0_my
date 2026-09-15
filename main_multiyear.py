@@ -74,14 +74,14 @@ for i, interval in enumerate(intervals):
     adopthub[interval].quick_solve()
 
 # Add values of (part of) the parameters and variables to the summary file
-add_values_to_summary(Path("Results"))
+add_values_to_summary(Path("results", "Summary.xlsx"))
 
 # Add annualized capex of carried-over carry_overs to the summary file
 add_carry_over_annualization_to_summary(
-    Path("Results"), casestudy_path, intervals
+    Path("results") / "Summary.xlsx", casestudy_path, intervals
 )
 
 # Discount each interval's cost to the first interval (present value)
 add_discounted_cost_to_summary(
-    Path("Results"), casestudy_path, intervals, intervals_between_years
+    Path("results") / "Summary.xlsx", casestudy_path, intervals, intervals_between_years
 )

@@ -12,12 +12,12 @@
     },
     "carry_over_sizes": {
         "electricitySimple": {
-            "Interval_1": 30.0
+            "Interval_1": 9.720101781170483
         }
     },
     "carry_over_capex": {
         "electricitySimple": {
-            "Interval_1": 0.000136986301369863
+            "Interval_1": 0.19440203562340966
         }
     },
     "remaining_econ_lifetime": {
