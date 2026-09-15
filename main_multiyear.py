@@ -10,8 +10,9 @@ from adopt_net0.result_management.read_results import (
 from adopt_net0.utilities import installed_capacities_existing
 
 # Specify the path to your input data
-path = "specify path to input data"
-casestudy_path = "specify path to case study"
+path = Path("tests") / "case_study_multiyear"
+casestudy_path = Path("tests") / "case_study_multiyear"
+compressor_data_path = Path("tests") / "compressor_data"
 
 # Create template files (comment these lines if already defined)
 dp.create_optimization_templates(path)
@@ -20,9 +21,9 @@ dp.create_optimization_templates(path)
 dp.create_input_data_folder_template(path)
 
 # Copy technology and network data into folder (comment these lines if already defined)
-dp.copy_technology_data(path, "path to tec data")
-dp.copy_network_data(path, "path to network data")
-dp.copy_compressor_data(path, "path to compressor data")
+dp.copy_technology_data(path, "tests\technology_data")
+dp.copy_network_data(path, "tests\network_data")
+dp.copy_compressor_data(path, compressor_data_path)
 
 # Read climate data and fill carried data (comment these lines if already defined)
 dp.load_climate_data_from_api(path)
@@ -31,7 +32,7 @@ dp.fill_carrier_pressure_data(path, pressure_value_bar=0)
 
 # Build the model with investment intervals
 adopthub = {}
-intervals = ["Interval_1", "Interval_2", "Interval_n"]
+intervals = ["Interval_1", "Interval_2"]
 intervals_between_years = [10, 10]
 
 # Check correctness of interval and intervals between years:
@@ -73,14 +74,14 @@ for i, interval in enumerate(intervals):
     adopthub[interval].quick_solve()
 
 # Add values of (part of) the parameters and variables to the summary file
-add_values_to_summary(Path("path to summary file"))
+add_values_to_summary(Path("Results"))
 
 # Add annualized capex of carried-over carry_overs to the summary file
 add_carry_over_annualization_to_summary(
-    Path("path to summary file"), casestudy_path, intervals
+    Path("Results"), casestudy_path, intervals
 )
 
 # Discount each interval's cost to the first interval (present value)
 add_discounted_cost_to_summary(
-    Path("path to summary file"), casestudy_path, intervals, intervals_between_years
+    Path("Results"), casestudy_path, intervals, intervals_between_years
 )
