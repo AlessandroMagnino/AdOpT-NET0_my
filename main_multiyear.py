@@ -26,14 +26,14 @@ dp.copy_network_data(path, "tests\network_data")
 dp.copy_compressor_data(path, compressor_data_path)
 
 # Read climate data and fill carried data (comment these lines if already defined)
-dp.load_climate_data_from_api(path)
+# dp.load_climate_data_from_api(path)
 dp.fill_carrier_data(path, value_or_data=0)
 dp.fill_carrier_pressure_data(path, pressure_value_bar=0)
 
 # Build the model with investment intervals
 adopthub = {}
 intervals = ["Interval_1", "Interval_2"]
-intervals_between_years = [10, 10]
+intervals_between_years = [10]
 
 # Check correctness of interval and intervals between years:
 # If intervals between years is not defined, no life timecheck, but warning

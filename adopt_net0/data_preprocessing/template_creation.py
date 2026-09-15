@@ -137,7 +137,9 @@ def create_input_data_folder_template(base_path: Path | str):
     )
 
     # Make folder structure
-    node_locations.to_csv(base_path / "NodeLocations.csv", sep=";")
+    node_locations_path = base_path / "NodeLocations.csv"
+    if not node_locations_path.exists():
+        node_locations.to_csv(node_locations_path, sep=";")
     for investment_period in topology["investment_periods"]:
         (base_path / investment_period).mkdir(parents=True, exist_ok=True)
 
