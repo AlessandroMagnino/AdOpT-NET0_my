@@ -1,0 +1,28 @@
+{
+    "existing": {
+        "TestTec_Electrolyzer": 15.267175572519083
+    },
+    "new": [
+        "TestTec_Electrolyzer"
+    ],
+    "remaining_lifetime": {
+        "TestTec_Electrolyzer": {
+            "Interval_1": 15
+        }
+    },
+    "carry_over_sizes": {
+        "TestTec_Electrolyzer": {
+            "Interval_1": 15.267175572519083
+        }
+    },
+    "carry_over_capex": {
+        "TestTec_Electrolyzer": {
+            "Interval_1": 91603053.4351145
+        }
+    },
+    "remaining_econ_lifetime": {
+        "TestTec_Electrolyzer": {
+            "Interval_1": 15
+        }
+    }
+}

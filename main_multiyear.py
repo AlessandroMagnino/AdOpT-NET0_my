@@ -10,8 +10,8 @@ from adopt_net0.result_management.read_results import (
 from adopt_net0.utilities import installed_capacities_existing
 
 # Specify the path to your input data
-path = Path("tests") / "case_study_multiyear"
-casestudy_path = Path("tests") / "case_study_multiyear"
+path = Path("tests") / "case_study_multiyear_ale"
+casestudy_path = Path("tests") / "case_study_multiyear_ale"
 compressor_data_path = Path("tests") / "compressor_data"
 
 # Create template files (comment these lines if already defined)
