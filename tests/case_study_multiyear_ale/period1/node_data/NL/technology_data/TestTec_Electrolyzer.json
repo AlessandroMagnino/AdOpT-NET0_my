@@ -1,20 +1,29 @@
 {
-  "tec_type": "CONV3",
+  "tec_type": "CONV1",
   "size_min": 0,
-  "size_max": 1000,
+  "size_max": 100000,
   "size_is_int": 0,
-  "decommission": "impossible",
+  "size_based_on": "input",
+  "decommission": 0,
   "Economics": {
-    "comment": "capex in EUR/tonne/hr or as a piecewise function, opex_variable in EUR/tonne total output, opex_fixed in % of capex_annual",
-    "capex_model": 3,
-    "unit_capex": 265160,
-    "fix_capex": 6.92E+07,
+    "comment": "capex in EUR/MW or as a piecewise function, opex_variable in EUR/MWh, opex_fixed in % of capex_annual",
+    "capex_model": 1,
+    "unit_capex": 1200000,
+    "fix_capex": 0,
     "piecewise_capex": {
-      "bp_x": "not defined",
-      "bp_y": "not defined"
+      "bp_x": [
+        1,
+        20,
+        100000
+      ],
+      "bp_y": [
+        1.003E+7,
+        1.98E+7,
+        2.4015E+10
+      ]
     },
     "opex_variable": 0,
-    "opex_fixed": 0.01,
+    "opex_fixed": 0.08,
     "discount_rate": 0.1,
     "lifetime": 25,
     "decommission_cost": 0
@@ -23,12 +32,11 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "performance_function_type": "linear_through_origin",
     "input_carrier": [
-      "crackedgas",
-      "steam"
+      "electricity"
     ],
-    "main_input_carrier": "crackedgas",
+    "main_input_carrier": "electricity",
     "output_carrier": [
-      "crackedgas"
+      "hydrogen"
     ],
     "emission_factor": 0,
     "min_part_load": 0,
@@ -37,16 +45,15 @@
         0,
         1
       ],
-      "out": {
-        "crackedgas": [
-          0,
-          1
-        ]
-      }
+      "out": [
+        0,
+        0.655
+      ]
     },
-    "input_ratios": {
-      "crackedgas": 1,
-      "steam": 0.431
+    "pressure": {
+      "hydrogen": {
+        "outlet": 10
+      }
     },
     "ramping_time": -1,
     "ref_size": -1,
@@ -60,15 +67,14 @@
     "SD_load": -1,
     "max_startups": -1
   },
-  "DOI": "Data is published in: https://doi.org/10.1021/acs.iecr.3c02226",
   "Units": {
-    "size": "tonne/hr",
+    "size": "MW",
     "input_carrier": {
-      "crackedgas": "tonne/hr",
-      "steam": "MW"
+      "gas": "MW"
     },
     "output_carrier": {
-      "crackedgas": "tonne/hr"
+      "hydrogen": "MW",
+      "electricity": "MW"
     }
   }
 }

@@ -1,36 +1,35 @@
 {
   "tec_type": "CONV3",
   "size_min": 0,
-  "size_max": 266,
+  "size_max": 2000,
   "size_is_int": 0,
-  "decommission": "impossible",
+  "decommission": "only_complete",
   "Economics": {
-    "comment": "capex in EUR/unit or as a piecewise function, opex_variable in EUR/unit total output, opex_fixed in % of capex_annual",
-    "capex_model": 3,
-    "unit_capex": 9675651,
-    "fix_capex": 1033528088,
+    "comment": "capex in EUR/(tHBfeed/h), opex_fixed in % of capex_annual",
+    "capex_model": 1,
+    "unit_capex": 3400000,
+    "fix_capex": 0,
     "piecewise_capex": {
       "bp_x": "not defined",
       "bp_y": "not defined"
     },
     "opex_variable": 0,
-    "opex_fixed": 0.045,
+    "opex_fixed": 0.038,
     "discount_rate": 0.08,
     "lifetime": 25,
     "decommission_cost": 0
   },
   "Performance": {
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
-    "performance_function_type": "linear_with_intercept",
+    "performance_function_type": 1,
     "input_carrier": [
-      "propane",
-      "electricity",
-      "steam"
+      "HBfeed",
+      "electricity"
     ],
-    "main_input_carrier": "propane",
+    "main_input_carrier": "HBfeed",
     "output_carrier": [
-      "propylene",
-      "hydrogen"
+      "ammonia",
+      "steam"
     ],
     "emission_factor": 0,
     "min_part_load": 0.4,
@@ -40,22 +39,21 @@
         1
       ],
       "out": {
-        "propylene": [
+        "ammonia": [
           0,
-          0.859
+          1
         ],
-        "hydrogen": [
+        "steam": [
           0,
-          0.776
+          0.114
         ]
       }
     },
     "input_ratios": {
-      "propane": 1,
-      "electricity": 0.171,
-      "steam": 2.440
+      "HBfeed":  1,
+      "electricity": 0.056
     },
-    "ramping_time": 5,
+    "ramping_time": -1,
     "ref_size": -1,
     "ramping_const_int": -1,
     "standby_power": -1,
@@ -68,15 +66,14 @@
     "max_startups": -1
   },
   "Units": {
-    "size": "MW",
+    "size": "tonne/hr",
     "input_carrier": {
-      "propane": "tonne/hr",
-      "steam": "MW",
+      "HBfeed": "tonne/hr",
       "electricity": "MW"
     },
     "output_carrier": {
-      "propylene": "tonne/hr",
-      "hydrogen": "MW"
+      "ammonia": "tonne/hr",
+      "steam": "MW"
     }
   }
 }
