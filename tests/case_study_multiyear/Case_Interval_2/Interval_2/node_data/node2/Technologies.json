@@ -1,41 +1,41 @@
 {
     "existing": {
-        "TestTec_Electrolyzer": 1.5267175572519083,
-        "TestTec_BoilerEl": 3.3333333333333335
+        "TestTec_BoilerEl": 3.3333333333333335,
+        "TestTec_Electrolyzer": 1.5267175572519083
     },
     "new": [
         "TestTec_BoilerEl",
         "TestTec_Electrolyzer"
     ],
     "remaining_lifetime": {
-        "TestTec_Electrolyzer": {
+        "TestTec_BoilerEl": {
             "Interval_1": 15
         },
-        "TestTec_BoilerEl": {
+        "TestTec_Electrolyzer": {
             "Interval_1": 15
         }
     },
     "carry_over_sizes": {
-        "TestTec_Electrolyzer": {
-            "Interval_1": 1.5267175572519083
-        },
         "TestTec_BoilerEl": {
             "Interval_1": 3.3333333333333335
+        },
+        "TestTec_Electrolyzer": {
+            "Interval_1": 1.5267175572519083
         }
     },
     "carry_over_capex": {
-        "TestTec_Electrolyzer": {
-            "Interval_1": 7.633587786259541
-        },
         "TestTec_BoilerEl": {
             "Interval_1": 16.666666666666668
+        },
+        "TestTec_Electrolyzer": {
+            "Interval_1": 7.633587786259541
         }
     },
     "remaining_econ_lifetime": {
-        "TestTec_Electrolyzer": {
+        "TestTec_BoilerEl": {
             "Interval_1": 15
         },
-        "TestTec_BoilerEl": {
+        "TestTec_Electrolyzer": {
             "Interval_1": 15
         }
     }

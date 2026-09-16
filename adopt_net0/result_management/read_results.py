@@ -128,20 +128,28 @@ def add_values_to_summary(summary_path: Path, component_set: list = None):
                     data = extract_datasets_from_h5group(hdf_file["design/networks"])
                     df = pd.DataFrame(data)
 
-                    parameters = [
-                        "para_capex_gamma1",
-                        "para_capex_gamma2",
-                        "para_capex_gamma3",
-                        "para_capex_gamma4",
-                        "size",
-                        "capex",
-                    ]
+                    # If df is not empty:
+                    if not df.empty:
 
-                    df_filtered = df.loc[
-                        :, df.columns.get_level_values(3).isin(parameters)
-                    ].T
-                    for _, row in df_filtered.iterrows():
-                        output_dict[case]["/".join(row.name)] = row.values[0]
+                        parameters = [
+                            "para_capex_gamma1",
+                            "para_capex_gamma2",
+                            "para_capex_gamma3",
+                            "para_capex_gamma4",
+                            "size",
+                            "capex",
+                        ]
+
+                        # print entire df for debugging, make sure it is printed ENTIRELY, not truncated
+                        pd.set_option("display.max_rows", None)
+                        pd.set_option("display.max_columns", None)
+                        print(df)
+
+                        df_filtered = df.loc[
+                            :, df.columns.get_level_values(3).isin(parameters)
+                        ].T
+                        for _, row in df_filtered.iterrows():
+                            output_dict[case]["/".join(row.name)] = row.values[0]
                     #
                     # if not df.empty:
                     #     for period in df.columns.levels[0]:
