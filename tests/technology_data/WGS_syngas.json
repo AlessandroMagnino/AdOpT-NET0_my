@@ -1,30 +1,21 @@
 {
-  "tec_type": "CONV1",
+  "tec_type": "CONV3",
   "size_min": 0,
-  "size_max": 100000,
+  "size_max": 673,
   "size_is_int": 0,
-  "size_based_on": "input",
-  "decommission": 0,
+  "decommission": "impossible",
   "Economics": {
-    "comment": "capex in EUR/MW or as a piecewise function, opex_variable in EUR/MWh, opex_fixed in % of capex_annual",
-    "capex_model": 1,
-    "unit_capex": 1200000,
-    "fix_capex": 0,
-    "piecewise_capex": {
-      "bp_x": [
-        1,
-        20,
-        100000
-      ],
-      "bp_y": [
-        1.003E+7,
-        1.98E+7,
-        2.4015E+10
-      ]
+    "comment": "CAPEX in EUR/unit or as a piecewise function, OPEX_variable in EUR/unit total output, OPEX_fixed in % of CAPEX_annual",
+    "CAPEX_model": 1,
+    "unit_CAPEX": 1,
+    "fix_CAPEX": 0,
+    "piecewise_CAPEX": {
+      "bp_x": "not defined",
+      "bp_y": "not defined"
     },
-    "opex_variable": 0,
-    "opex_fixed": 0,
-    "discount_rate": 0.1,
+    "OPEX_variable": 0,
+    "OPEX_fixed": 0.039,
+    "discount_rate": 0.08,
     "lifetime": 25,
     "decommission_cost": 0
   },
@@ -32,33 +23,39 @@
     "comment": "contains fitting data on unit of input, technology types and input/output carriers",
     "performance_function_type": "linear_through_origin",
     "input_carrier": [
-      "electricity"
+      "syngas"
     ],
-    "main_input_carrier": "electricity",
+    "main_input_carrier": "syngas",
     "output_carrier": [
-      "hydrogen"
+      "hydrogen",
+      "CO2"
     ],
-    "emission_factor": 0,
+    "emission_factor": 0.015,
     "min_part_load": 0,
     "performance": {
       "in": [
         0,
         1
       ],
-      "out": [
-        0,
-        0.655
-      ]
-    },
-    "pressure": {
-      "hydrogen": {
-        "outlet": 10
+      "out": {
+        "hydrogen": [
+          0,
+          4.966
+        ],
+        "CO2": [
+          0,
+          1.077
+        ]
       }
+    },
+    "input_ratios": {
+      "syngas": 1
     },
     "ramping_time": -1,
     "ref_size": -1,
     "ramping_const_int": -1,
     "standby_power": -1,
+    "standby_power_carrier": "electricity",
     "min_uptime": -1,
     "min_downtime": -1,
     "SU_time": -1,
@@ -70,11 +67,11 @@
   "Units": {
     "size": "MW",
     "input_carrier": {
-      "gas": "MW"
+      "syngas": "tonne/hr"
     },
     "output_carrier": {
       "hydrogen": "MW",
-      "electricity": "MW"
+      "CO2": "tonne/hr"
     }
   }
 }
