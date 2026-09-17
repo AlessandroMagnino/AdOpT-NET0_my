@@ -4,7 +4,15 @@
     ],
     "carriers": [
         "electricity",
-        "hydrogen"
+        "hydrogen",
+        "steam",
+        "nitrogen",
+        "CO2",
+        "crackergas",
+        "feedgas",
+        "methane_bio",
+        "methane",
+        "syngas"
     ],
     "investment_periods": [
         "Interval_2"

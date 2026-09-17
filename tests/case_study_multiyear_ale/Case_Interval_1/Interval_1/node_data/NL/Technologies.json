@@ -1,4 +1,4 @@
 {
     "existing": {},
-    "new": ["TestTec_Electrolyzer"]
+    "new": ["TestTec_Electrolyzer", "TestTec_SteamReformer", "TestTec_WGS_syngas", "TestTec_feedgas_mixer", "TestTec_BoilerEl", "TestTec_CO2emissions"]
 }

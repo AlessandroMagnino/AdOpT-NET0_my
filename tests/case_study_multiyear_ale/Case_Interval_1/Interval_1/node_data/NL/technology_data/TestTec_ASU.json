@@ -21,7 +21,7 @@
     },
     "Performance": {
         "comment": "SEC = 0.094 kWh/kg N2",
-        "performance_function_type": 1,
+        "performance_function_type": "linear_through_origin",
         "input_carrier": [
             "electricity"
         ],

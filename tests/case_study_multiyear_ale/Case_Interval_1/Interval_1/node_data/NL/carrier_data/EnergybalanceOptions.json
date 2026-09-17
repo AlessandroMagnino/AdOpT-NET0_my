@@ -2,7 +2,28 @@
     "electricity": {
         "curtailment_possible": 0
     },
-    "gas": {
+    "steam": {
+        "curtailment_possible": 0
+    },
+    "nitrogen": {
+        "curtailment_possible": 0
+    },
+    "CO2": {
+        "curtailment_possible": 0
+    },
+    "crackergas": {
+        "curtailment_possible": 0
+    },
+    "feedgas": {
+        "curtailment_possible": 0
+    },
+    "methane_bio": {
+        "curtailment_possible": 0
+    },
+    "methane": {
+        "curtailment_possible": 0
+    },
+    "syngas": {
         "curtailment_possible": 0
     },
     "heat": {
