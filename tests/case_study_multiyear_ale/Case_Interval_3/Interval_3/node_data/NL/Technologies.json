@@ -1,16 +1,22 @@
 {
     "existing": {
-        "TestTec_CrackerFurnace": 73.36757153338223,
+        "TestTec_CrackerFurnace": {
+            "size": 73.36757153338223,
+            "ccs_size": 21.592076302274393
+        },
         "TestTec_MeOHsynthesis": 10.0,
+        "TestTec_naphtha_mixer": 73.36757153338223,
         "TestTec_HBfeed_mixer": 1.7699115044242717,
+        "TestTec_BoilerEl": 92.35374445017078,
         "TestTec_WGS_syngas": 44.57964601769912,
-        "TestTec_BoilerEl": 65.9571618376337,
         "TestTec_SteamReformer": 27.28982300884956,
-        "TestTec_feedgas_mixer": 27.28982300884956,
         "TestTec_HaberBosch": 10.0,
+        "TestTec_Electrolyzer": 303.22025565388407,
         "TestTec_SteamGenerator": 65.29759021925736,
         "TestTec_CO2emissions": 61.29701327433628,
-        "TestTec_OlefinSeparation": 73.36757153338223
+        "TestTec_feedgas_mixer": 27.28982300884956,
+        "TestTec_OlefinSeparation": 73.36757153338223,
+        "TestTec_CO2_mixer": 21.592076302274393
     },
     "new": [
         "TestTec_Electrolyzer",
@@ -32,37 +38,47 @@
     ],
     "remaining_lifetime": {
         "TestTec_CrackerFurnace": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_MeOHsynthesis": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_naphtha_mixer": {
+            "Interval_2": 15
         },
         "TestTec_HBfeed_mixer": {
-            "Interval_1": 15
-        },
-        "TestTec_WGS_syngas": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_BoilerEl": {
-            "Interval_1": 15
+            "Interval_1": 5,
+            "Interval_2": 15
+        },
+        "TestTec_WGS_syngas": {
+            "Interval_1": 5
         },
         "TestTec_SteamReformer": {
-            "Interval_1": 15
-        },
-        "TestTec_feedgas_mixer": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_HaberBosch": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_Electrolyzer": {
+            "Interval_2": 15
         },
         "TestTec_SteamGenerator": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_CO2emissions": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 5
         },
         "TestTec_OlefinSeparation": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_CO2_mixer": {
+            "Interval_2": 15
         }
     },
     "carry_over_sizes": {
@@ -72,23 +88,27 @@
         "TestTec_MeOHsynthesis": {
             "Interval_1": 10.0
         },
+        "TestTec_naphtha_mixer": {
+            "Interval_2": 73.36757153338223
+        },
         "TestTec_HBfeed_mixer": {
             "Interval_1": 1.7699115044242717
+        },
+        "TestTec_BoilerEl": {
+            "Interval_1": 65.9571618376337,
+            "Interval_2": 26.39658261253707
         },
         "TestTec_WGS_syngas": {
             "Interval_1": 44.57964601769912
         },
-        "TestTec_BoilerEl": {
-            "Interval_1": 65.9571618376337
-        },
         "TestTec_SteamReformer": {
-            "Interval_1": 27.28982300884956
-        },
-        "TestTec_feedgas_mixer": {
             "Interval_1": 27.28982300884956
         },
         "TestTec_HaberBosch": {
             "Interval_1": 10.0
+        },
+        "TestTec_Electrolyzer": {
+            "Interval_2": 303.22025565388407
         },
         "TestTec_SteamGenerator": {
             "Interval_1": 65.29759021925736
@@ -96,8 +116,14 @@
         "TestTec_CO2emissions": {
             "Interval_1": 61.29701327433628
         },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 27.28982300884956
+        },
         "TestTec_OlefinSeparation": {
             "Interval_1": 73.36757153338223
+        },
+        "TestTec_CO2_mixer": {
+            "Interval_2": 21.592076302274393
         }
     },
     "carry_over_capex": {
@@ -107,23 +133,27 @@
         "TestTec_MeOHsynthesis": {
             "Interval_1": 2493347.397197957
         },
+        "TestTec_naphtha_mixer": {
+            "Interval_2": 5.205609486370475
+        },
         "TestTec_HBfeed_mixer": {
             "Interval_1": 1.2557957044107835
+        },
+        "TestTec_BoilerEl": {
+            "Interval_1": 719307.4696430911,
+            "Interval_2": 287872.59059129405
         },
         "TestTec_WGS_syngas": {
             "Interval_1": 3.1630354304855675
         },
-        "TestTec_BoilerEl": {
-            "Interval_1": 719307.4696430911
-        },
         "TestTec_SteamReformer": {
             "Interval_1": 41823648.037560925
         },
-        "TestTec_feedgas_mixer": {
-            "Interval_1": 19.36280001738932
-        },
         "TestTec_HaberBosch": {
             "Interval_1": 2412383.548173806
+        },
+        "TestTec_Electrolyzer": {
+            "Interval_2": 25817066.689852428
         },
         "TestTec_SteamGenerator": {
             "Interval_1": 712114.39494666
@@ -131,43 +161,59 @@
         "TestTec_CO2emissions": {
             "Interval_1": 4.3491737169176545
         },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 19.36280001738932
+        },
         "TestTec_OlefinSeparation": {
             "Interval_1": 6479031.7069738535
+        },
+        "TestTec_CO2_mixer": {
+            "Interval_2": 1.5320108718388312
         }
     },
     "remaining_econ_lifetime": {
         "TestTec_CrackerFurnace": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_MeOHsynthesis": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_naphtha_mixer": {
+            "Interval_2": 15
         },
         "TestTec_HBfeed_mixer": {
-            "Interval_1": 15
-        },
-        "TestTec_WGS_syngas": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_BoilerEl": {
-            "Interval_1": 15
+            "Interval_1": 5,
+            "Interval_2": 15
+        },
+        "TestTec_WGS_syngas": {
+            "Interval_1": 5
         },
         "TestTec_SteamReformer": {
-            "Interval_1": 15
-        },
-        "TestTec_feedgas_mixer": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_HaberBosch": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_Electrolyzer": {
+            "Interval_2": 15
         },
         "TestTec_SteamGenerator": {
-            "Interval_1": 15
+            "Interval_1": 5
         },
         "TestTec_CO2emissions": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 5
         },
         "TestTec_OlefinSeparation": {
-            "Interval_1": 15
+            "Interval_1": 5
+        },
+        "TestTec_CO2_mixer": {
+            "Interval_2": 15
         }
     }
 }

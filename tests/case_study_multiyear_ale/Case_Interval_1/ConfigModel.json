@@ -63,7 +63,7 @@
         },
         "mipgap": {
             "description": "Value to define MIP gap.",
-            "value": 0.001
+            "value": 0.01
         },
         "timelim": {
             "description": "Value to define time limit in hours.",
@@ -210,7 +210,7 @@
     "economic": {
         "global_discountrate": {
             "description": "Determines if and which global discount rate is used. This holds for the CAPEX of all technologies and networks.",
-            "value": 5
+            "value": 0.05
         },
         "global_simple_capex_model": {
             "description": "Determines if the CAPEX model of technologies is set to 1 for all technologies.",

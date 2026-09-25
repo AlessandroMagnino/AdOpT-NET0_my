@@ -32,8 +32,8 @@ dp.fill_carrier_pressure_data(path, pressure_value_bar=0)
 
 # Build the model with investment intervals
 adopthub = {}
-intervals = ["Interval_1", "Interval_2"]
-intervals_between_years = [10]
+intervals = ["Interval_1", "Interval_2", "Interval_3"]
+intervals_between_years = [10, 10]
 
 # Check correctness of interval and intervals between years:
 # If intervals between years is not defined, no life timecheck, but warning

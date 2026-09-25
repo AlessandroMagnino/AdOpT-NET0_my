@@ -55,5 +55,11 @@
     },
     "CO2captured": {
         "curtailment_possible": 0
+    },
+    "ammonia": {
+        "curtailment_possible": 0
+    },
+    "HBfeed": {
+        "curtailment_possible": 0
     }
 }

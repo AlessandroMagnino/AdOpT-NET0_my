@@ -21,7 +21,9 @@
         "propylene",
         "cracking_byproducts",
         "heat",
-        "CO2captured"
+        "CO2captured",
+        "ammonia",
+        "HBfeed"
     ],
     "investment_periods": [
         "Interval_2"
