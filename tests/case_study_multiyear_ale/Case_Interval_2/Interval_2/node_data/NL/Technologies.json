@@ -1,6 +1,14 @@
 {
     "existing": {
-        "TestTec_Electrolyzer": 15.267175572519083
+        "TestTec_OlefinSeparation": 73.36757153338223,
+        "TestTec_feedgas_mixer": 23.75,
+        "TestTec_MeOHsynthesis": 10.0,
+        "TestTec_SteamGenerator": 57.831960470441764,
+        "TestTec_BoilerEl": 58.41612168731492,
+        "TestTec_CO2emissions": 51.5625,
+        "TestTec_CrackerFurnace": 73.36757153338223,
+        "TestTec_WGS_syngas": 37.5,
+        "TestTec_SteamReformer": 23.75
     },
     "new": [
         "TestTec_Electrolyzer",
@@ -8,25 +16,129 @@
         "TestTec_WGS_syngas",
         "TestTec_feedgas_mixer",
         "TestTec_BoilerEl",
-        "TestTec_CO2emissions"
+        "TestTec_CO2emissions",
+        "TestTec_eSMR_syngas",
+        "TestTec_MeOHsynthesis",
+        "TestTec_CrackerFurnace",
+        "TestTec_eCrackerFurnace",
+        "TestTec_OlefinSeparation",
+        "TestTec_naphtha_mixer",
+        "TestTec_SteamGenerator",
+        "TestTec_CO2_mixer"
     ],
     "remaining_lifetime": {
-        "TestTec_Electrolyzer": {
+        "TestTec_OlefinSeparation": {
+            "Interval_1": 15
+        },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 15
+        },
+        "TestTec_MeOHsynthesis": {
+            "Interval_1": 15
+        },
+        "TestTec_SteamGenerator": {
+            "Interval_1": 15
+        },
+        "TestTec_BoilerEl": {
+            "Interval_1": 15
+        },
+        "TestTec_CO2emissions": {
+            "Interval_1": 15
+        },
+        "TestTec_CrackerFurnace": {
+            "Interval_1": 15
+        },
+        "TestTec_WGS_syngas": {
+            "Interval_1": 15
+        },
+        "TestTec_SteamReformer": {
             "Interval_1": 15
         }
     },
     "carry_over_sizes": {
-        "TestTec_Electrolyzer": {
-            "Interval_1": 15.267175572519083
+        "TestTec_OlefinSeparation": {
+            "Interval_1": 73.36757153338223
+        },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 23.75
+        },
+        "TestTec_MeOHsynthesis": {
+            "Interval_1": 10.0
+        },
+        "TestTec_SteamGenerator": {
+            "Interval_1": 57.831960470441764
+        },
+        "TestTec_BoilerEl": {
+            "Interval_1": 58.41612168731492
+        },
+        "TestTec_CO2emissions": {
+            "Interval_1": 51.5625
+        },
+        "TestTec_CrackerFurnace": {
+            "Interval_1": 73.36757153338223
+        },
+        "TestTec_WGS_syngas": {
+            "Interval_1": 37.5
+        },
+        "TestTec_SteamReformer": {
+            "Interval_1": 23.75
         }
     },
     "carry_over_capex": {
-        "TestTec_Electrolyzer": {
-            "Interval_1": 91603053.4351145
+        "TestTec_OlefinSeparation": {
+            "Interval_1": 456575568.5986793
+        },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 1187.5
+        },
+        "TestTec_MeOHsynthesis": {
+            "Interval_1": 175705500.0
+        },
+        "TestTec_SteamGenerator": {
+            "Interval_1": 44445018.2607439
+        },
+        "TestTec_BoilerEl": {
+            "Interval_1": 44893957.83913526
+        },
+        "TestTec_CO2emissions": {
+            "Interval_1": 257.8125
+        },
+        "TestTec_CrackerFurnace": {
+            "Interval_1": 961212032.2817314
+        },
+        "TestTec_WGS_syngas": {
+            "Interval_1": 187.5
+        },
+        "TestTec_SteamReformer": {
+            "Interval_1": 2565000000.0
         }
     },
     "remaining_econ_lifetime": {
-        "TestTec_Electrolyzer": {
+        "TestTec_OlefinSeparation": {
+            "Interval_1": 15
+        },
+        "TestTec_feedgas_mixer": {
+            "Interval_1": 15
+        },
+        "TestTec_MeOHsynthesis": {
+            "Interval_1": 15
+        },
+        "TestTec_SteamGenerator": {
+            "Interval_1": 15
+        },
+        "TestTec_BoilerEl": {
+            "Interval_1": 15
+        },
+        "TestTec_CO2emissions": {
+            "Interval_1": 15
+        },
+        "TestTec_CrackerFurnace": {
+            "Interval_1": 15
+        },
+        "TestTec_WGS_syngas": {
+            "Interval_1": 15
+        },
+        "TestTec_SteamReformer": {
             "Interval_1": 15
         }
     }

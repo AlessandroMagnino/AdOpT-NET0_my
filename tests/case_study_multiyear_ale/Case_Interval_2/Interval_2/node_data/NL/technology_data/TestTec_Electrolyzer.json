@@ -1,12 +1,12 @@
 {
   "tec_type": "CONV1",
   "size_min": 0,
-  "size_max": 100000,
+  "size_max": 2000,
   "size_is_int": 0,
   "size_based_on": "input",
   "decommission": 0,
   "Economics": {
-    "comment": "capex in EUR/MW or as a piecewise function, opex_variable in EUR/MWh, opex_fixed in % of capex_annual",
+    "comment": "capex in EUR/MW, opex_fixed in % of capex_annual",
     "capex_model": 1,
     "unit_capex": 1200000,
     "fix_capex": 0,
@@ -23,7 +23,7 @@
       ]
     },
     "opex_variable": 0,
-    "opex_fixed": 0.08,
+    "opex_fixed": 0.03,
     "discount_rate": 0.1,
     "lifetime": 25,
     "decommission_cost": 0
@@ -47,12 +47,15 @@
       ],
       "out": [
         0,
-        0.655
+        0.018
       ]
+    },
+    "input_ratios": {
+      "electricity": 1
     },
     "pressure": {
       "hydrogen": {
-        "outlet": 10
+        "outlet": 30
       }
     },
     "ramping_time": -1,
@@ -70,11 +73,10 @@
   "Units": {
     "size": "MW",
     "input_carrier": {
-      "gas": "MW"
+      "electricity": "MW"
     },
     "output_carrier": {
-      "hydrogen": "MW",
-      "electricity": "MW"
+      "hydrogen": "tonne/hr"
     }
   }
 }

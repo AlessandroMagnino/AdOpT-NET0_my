@@ -27,7 +27,7 @@
     ],
     "main_input_carrier": "electricity",
     "output_carrier": [
-      "steam"
+      "heat"
     ],
     "emission_factor": 0,
     "min_part_load": 0,
@@ -37,7 +37,7 @@
         1
       ],
       "out": {
-        "steam": [
+        "heat": [
           0,
           0.99
         ]
@@ -61,7 +61,7 @@
       "electricity": "MW"
     },
     "output_carrier": {
-      "steam": "MW"
+      "heat": "MW"
     }
   }
 }

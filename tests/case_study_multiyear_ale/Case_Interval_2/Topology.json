@@ -12,7 +12,16 @@
         "feedgas",
         "methane_bio",
         "methane",
-        "syngas"
+        "syngas",
+        "methanol",
+        "olefins",
+        "naphtha",
+        "naphtha_bio",
+        "ethylene",
+        "propylene",
+        "cracking_byproducts",
+        "heat",
+        "CO2captured"
     ],
     "investment_periods": [
         "Interval_2"
