@@ -90,8 +90,8 @@ def run_path(pathway: str, year: str):
     # # Add values of (part of) the parameters and variables to the summary file
     # add_values_to_summary(Path("output/Summary.xlsx"))
 
-pathway = "simplified_case_40_dd"
-years = ["2020", "2025", "2030", "2040", "2050"]
+pathway = "base_case_5_dd"
+years = ["2020", "2030", "2040", "2050"]
 
 for index, year in enumerate(years):
     case_study_dir = Path("case_studies") / pathway / year

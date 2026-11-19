@@ -82,7 +82,7 @@ def run_pathway_sequence(pathway: str, years: list[str], overwrite_first_year: b
     Run one full pathway sequentially.
 
     Example:
-        pathway/2020 -> pathway/2025 -> pathway/2030 -> pathway/2040 -> pathway/2050
+        pathway/2020 -> pathway/2030 -> pathway/2040 -> pathway/2050
 
     This function is intended to run inside one process.
     Different pathways can be run in parallel.

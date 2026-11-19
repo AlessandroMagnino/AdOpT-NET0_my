@@ -29,7 +29,7 @@ def setup_brownfield(pathway: str, year: str):
     ### Technologies definition
     couples = {
         "2025": "2020",
-        "2030": "2025",
+        "2030": "2020",
         "2040": "2030",
         "2050": "2040",
     }
@@ -237,7 +237,7 @@ def setup_emissions_limits(pathway: str, year: str):
 
     couples = {
         "2025": "2020",
-        "2030": "2025",
+        "2030": "2020",
         "2040": "2030",
         "2050": "2030",
     }
