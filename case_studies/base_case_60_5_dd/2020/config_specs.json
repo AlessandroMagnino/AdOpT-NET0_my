@@ -41,7 +41,7 @@
       },
       "mipgap": {
         "description": "MIP gap to be used by the solver.",
-        "value": 0.01
+        "value": 0.001
       },
       "threads": {
         "description": "Number of threads to be used by the solver (0 = all available cores).",
